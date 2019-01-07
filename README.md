@@ -7,7 +7,7 @@ code:https://github.com/RexYing/diffpool</br>
 ### 谱上的图卷积发展
 Convolutional Neural Networks on Graphs with Fast Localized Spectral Filtering
 * 论文链接：https://arxiv.org/abs/1606.09375
-* code: [[PyTorch Code]](https://github.com/xbresson/graph_convnets_pytorch/blob/master/README.md) [[TF Code]](https://github.com/mdeff/cnn_graph)</br>
+* code:</br>
 Pytorch code: https://github.com/xbresson/spectral_graph_convnets/blob/master/README.md</br>
 Tensorflow code：https://github.com/mdeff/cnn_graph</br>
 
