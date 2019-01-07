@@ -10,7 +10,9 @@ https://github.com/sungyongs/graph-based-nn</br>
 
 ### 综述论文
 - [Deep Learning on Graphs: A Survey](https://arxiv.org/abs/1812.04202)
-- [Graph Neural Networks:A Review of Methods and Applications](https://arxiv.org/abs/1812.08434)
+- [Graph Neural Networks: A Review of Methods and Applications](https://arxiv.org/abs/1812.08434)
+- [A Comprehensive Survey on Graph Neural Networks](https://arxiv.org/abs/1901.00596)
+- [Relational inductive biases, deep learning, and graph networks](https://arxiv.org/pdf/1806.01261.pdf)
 
 ### 谱上的图卷积发展
 - [The Emerging Field of Signal Processing on Graphs](https://arxiv.org/pdf/1211.0053.pdf)
