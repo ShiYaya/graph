@@ -1,7 +1,7 @@
 # graph
 
 ### 通过池化，提出了一种graph classification的方法</br>
-Hierarchical Graph Representation Learning with Differentiable Pooling</br>
+[Hierarchical Graph Representation Learning with Differentiable Pooling](https://arxiv.org/pdf/1806.08804.pdf)</br>
 code:https://github.com/RexYing/diffpool</br>
 
 ### 谱上的图卷积发展
@@ -17,8 +17,7 @@ code:https://github.com/RexYing/diffpool</br>
 https://github.com/sungyongs/graph-based-nn</br>
 
 ### 用图卷积网络( GCN)来做语义角色标注</br>
-Encoding Sentences with Graph Convolutional Networks for Semantic Role Labeling</br>
-* 论文链接：https://arxiv.org/abs/1703.04826</br>
+[Encoding Sentences with Graph Convolutional Networks for Semantic Role Labeling](https://arxiv.org/abs/1703.04826)</br>
 * 官方code(theano 0.8.2,lasagne 0.1):https://github.com/diegma/neural-dep-srl</br>
 * 复现pytorch:https://github.com/kervyRivas/Graph-convolutional</br>
 * 专知讲解：https://mp.weixin.qq.com/s/c6ZhSk4r3pvnjHsvpwkkSw</br>
