@@ -1,8 +1,7 @@
 # graph
 
 ### 通过池化，提出了一种graph classification的方法</br>
-[Hierarchical Graph Representation Learning with Differentiable Pooling](https://arxiv.org/pdf/1806.08804.pdf)</br>
-code:https://github.com/RexYing/diffpool</br>
+[Hierarchical Graph Representation Learning with Differentiable Pooling](https://arxiv.org/pdf/1806.08804.pdf),[code](https://github.com/RexYing/diffpool)
 
 ### 谱上的图卷积发展
 - [The Emerging Field of Signal Processing on Graphs](https://arxiv.org/pdf/1211.0053.pdf)
