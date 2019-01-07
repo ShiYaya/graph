@@ -5,6 +5,8 @@ Hierarchical Graph Representation Learning with Differentiable Pooling</br>
 code:https://github.com/RexYing/diffpool</br>
 
 ### 谱上的图卷积发展
+- [The Emerging Field of Signal Processing on Graphs](https://arxiv.org/pdf/1211.0053.pdf)
+- [Spectral Networks and Locally Connected Networks on Graphs](https://arxiv.org/abs/1312.6203)
 - [Convolutional Neural Networks on Graphs with Fast Localized Spectral Filtering](https://arxiv.org/abs/1606.09375), [[PyTorch Code]](https://github.com/xbresson/graph_convnets_pytorch/blob/master/README.md) [[TF Code]](https://github.com/mdeff/cnn_graph)
 - [Semi-Supervised Classification with Graph Convolutional Networks](https://arxiv.org/abs/1609.02907), [[Code]](https://github.com/tkipf/gcn), [[Blog]](http://tkipf.github.io/graph-convolutional-networks/)
 
