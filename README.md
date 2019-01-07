@@ -3,6 +3,15 @@
 ### 通过池化，提出了一种graph classification的方法</br>
 [Hierarchical Graph Representation Learning with Differentiable Pooling](https://arxiv.org/pdf/1806.08804.pdf),[code](https://github.com/RexYing/diffpool)
 
+
+## 总结性质的
+### github上的某篇总结-介绍了相关的论文、博客、以及研究者</br>
+https://github.com/sungyongs/graph-based-nn</br>
+
+### 综述论文
+- [Deep Learning on Graphs: A Survey](https://arxiv.org/abs/1812.04202)
+- [Graph Neural Networks:A Review of Methods and Applications](https://arxiv.org/abs/1812.08434)
+
 ### 谱上的图卷积发展
 - [The Emerging Field of Signal Processing on Graphs](https://arxiv.org/pdf/1211.0053.pdf)
 - [Spectral Networks and Locally Connected Networks on Graphs](https://arxiv.org/abs/1312.6203)
@@ -11,9 +20,6 @@
 
 
 
-
-### github上的某篇总结-介绍了相关的论文、博客、以及研究者</br>
-https://github.com/sungyongs/graph-based-nn</br>
 
 ### 用图卷积网络( GCN)来做语义角色标注</br>
 [Encoding Sentences with Graph Convolutional Networks for Semantic Role Labeling](https://arxiv.org/abs/1703.04826)</br>
