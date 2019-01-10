@@ -1,5 +1,13 @@
 # graph
 
+###近期Graph的学习任务 
+- semantic role labeling 代码
+- Hierarchical Graph Representation Learning with Differentiable Pooling 代码
+- Learning Conditioned Graph Structures for Interpretable Visual Question Answering 代码：github.com/aimbrain/vqa-project.
+- 其他关于视觉问答的论文
+
+
+
 ### 通过池化，提出了一种graph classification的方法</br>
 [Hierarchical Graph Representation Learning with Differentiable Pooling](https://arxiv.org/pdf/1806.08804.pdf),[code](https://github.com/RexYing/diffpool)
 
