@@ -4,6 +4,7 @@
 - semantic role labeling 代码
 - Hierarchical Graph Representation Learning with Differentiable Pooling 代码
 - Learning Conditioned Graph Structures for Interpretable Visual Question Answering 代码：github.com/aimbrain/vqa-project.
+condition 是基于question.那么在视频描述中也可以基于监督学习本身带有的标签，在Inference时，则，直接利用训练好的graph参数（此处可以参考一下few-shot）
 - 其他关于视觉问答的论文
 
 
