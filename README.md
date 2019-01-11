@@ -1,11 +1,17 @@
 # graph
 
-###近期Graph的学习任务 
+### 近期Graph的学习任务 
 - semantic role labeling 代码
 - Hierarchical Graph Representation Learning with Differentiable Pooling 代码
 - Learning Conditioned Graph Structures for Interpretable Visual Question Answering 代码：github.com/aimbrain/vqa-project.
 condition 是基于question.那么在视频描述中也可以基于监督学习本身带有的标签，在Inference时，则，直接利用训练好的graph参数（此处可以参考一下few-shot）
 - 其他关于视觉问答的论文
+- Graph Neural Networks: A Review of Methods and Applications提到了一些关于视觉问答的论文可以找出来，看一看，还有关于源代码的部分
+
+### 问题
+在Graph Neural Networks: A Review of Methods and Applications论文P16中，也提到了语义角色标注这篇文章，说"special variant of the GCN "；
+在语义角色标注的本文中，也提到了More formally....这一处需要再理解一些。
+
 
 
 
@@ -16,6 +22,7 @@ condition 是基于question.那么在视频描述中也可以基于监督学习�
 ## 总结性质的
 ### github上的某篇总结-介绍了相关的论文、博客、以及研究者</br>
 https://github.com/sungyongs/graph-based-nn</br>
+https://github.com/thunlp/GNNPapers</br>
 
 ### 综述论文
 - [Deep Learning on Graphs: A Survey](https://arxiv.org/abs/1812.04202)
