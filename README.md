@@ -66,7 +66,12 @@ https://github.com/thunlp/GNNPapers</br>
 - 谱上的图卷积网络的缺陷：   
 **spectral methods usually handle the whole graph simultaneously and are difficult to parallel or scale to large graphs**
 
-## 空间上的图卷积
+## 空间上的图卷积：spatial-based graph convolutional networks
+
+1. [Inductive representation learning on large graphs]
+1. [Geometric deep learning on graphs and manifolds using mixture model cnns]
+1. [Learning convolutional neural networks for graphs]
+1. [Large-scale learnable graph convolutional networks]
 
 ## GCN的应用
 
