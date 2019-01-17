@@ -73,6 +73,20 @@ https://github.com/thunlp/GNNPapers</br>
 
 - **Together with sampling strategies, the computation can be performed in a batch of nodes instead of the whole graph** (GraphSAGE and LGCN)
 
+## input allow edge features 
+- ( by "A Comprehensive Survey on Graph Neural Networks")
+1. GNN (2009) The graph neural network model
+1. MPNN (2017) Neural message passing for quantum chemistry
+1. DCNN (2016) Diffusion-convolutional neural networks
+1. PATCHY-SAN (2016) Learning convolutional neural networks for graphs
+
+- ( by "Deep Learning on Graphs: A Survey")
+1. Geniepath:Graph neural networks with adaptive receptive paths
+1. Dual graph convolutional networks for graph-based semi-supervised classification
+1. Signed graph convolutional network
+
+
+
 ## 图表达：Graph level representation/Readout Operations
 **Order invariance**  A critical requirement for the graph readout operation is that the operation should be invariant to the order
 of nodes, i.e. if we change the indices of nodes and edges using a bijective function between two vertex sets, representation of the whole graph should not change.   
