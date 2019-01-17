@@ -75,9 +75,11 @@ https://github.com/thunlp/GNNPapers</br>
 
 - **Together with sampling strategies, the computation can be performed in a batch of nodes instead of the whole graph** (GraphSAGE and LGCN)
 
-## GCN的应用
+# GCN的应用
 
-### 语义角色标注</br>
+## 自然语言处理
+
+### 语义角色标注
 [Encoding Sentences with Graph Convolutional Networks for Semantic Role Labeling](https://arxiv.org/abs/1703.04826)</br>
 * [[官方code(theano 0.8.2,lasagne 0.1)]](https://github.com/diegma/neural-dep-srl)  [[复现pytorch]](https://github.com/kervyRivas/Graph-convolutional)
 * [专知讲解](https://mp.weixin.qq.com/s/c6ZhSk4r3pvnjHsvpwkkSw)
@@ -85,8 +87,12 @@ https://github.com/thunlp/GNNPapers</br>
 这两篇文章采用的图卷积公式都是一样的，但是我认为很奇怪，而且b是如何由edge获得的，将进一步阅读代码，稍后解释。</br>
 <img src="https://github.com/ShiYaya/graph/blob/master/images/gcn%2Bformulation.png" width="200" height="100" ></br>
 
+### Neural Machine Translation
+1. **Graph Convolutional Encoders for Syntax-aware Neural Machine Translation.**
+*Joost Bastings, Ivan Titov, Wilker Aziz, Diego Marcheggiani, Khalil Sima'an.* EMNLP 2017. [paper](https://arxiv.org/pdf/1704.04675)
 
-### 视觉问答</br>
+
+### 视觉问答
 1. **A simple neural network module for relational reasoning.**
 *Adam Santoro, David Raposo, David G.T. Barrett, Mateusz Malinowski, Razvan Pascanu, Peter Battaglia, Timothy Lillicrap.* NIPS 2017. [paper](https://arxiv.org/pdf/1706.01427.pdf)
 1. **Graph-Structured Representations for Visual Question Answering.**
