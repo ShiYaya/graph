@@ -12,6 +12,15 @@ condition 是基于question.那么在视频描述中也可以基于监督学习�
 - 其他关于视觉问答的论文
 - Graph Neural Networks: A Review of Methods and Applications提到了一些关于视觉问答的论文可以找出来，看一看，还有关于源代码的部分
 
+### 待学习：
+- 带边信息的图(Edge-informative Graph)
+每条边都有信息，比如权值或边的类型。例如G2S和R-GCN。
+1. **Graph-to-Sequence Learning using Gated Graph Neural Networks.**
+*Daniel Beck, Gholamreza Haffari, Trevor Cohn.* ACL 2018. [paper](https://arxiv.org/pdf/1806.09835.pdf)
+1. **Modeling Relational Data with Graph Convolutional Networks.**
+*Michael Schlichtkrull, Thomas N. Kipf, Peter Bloem, Rianne van den Berg, Ivan Titov, Max Welling.* ESWC 2018. [paper](https://arxiv.org/pdf/1703.06103.pdf)
+
+
 ### 问题
 在Graph Neural Networks: A Review of Methods and Applications论文P16中，也提到了语义角色标注这篇文章，说"special variant of the GCN "；
 在语义角色标注的本文中，也提到了More formally....这一处需要再理解一些。
