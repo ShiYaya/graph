@@ -51,14 +51,14 @@ https://github.com/thunlp/GNNPapers</br>
 - [Relational inductive biases, deep learning, and graph networks](https://arxiv.org/pdf/1806.01261.pdf)
 
 ## 谱上的图卷积发展:spectral-based graph convolutional networks
-- [The Emerging Field of Signal Processing on Graphs](https://arxiv.org/pdf/1211.0053.pdf)
-- [Spectral Networks and Locally Connected Networks on Graphs](https://arxiv.org/abs/1312.6203)
-- [Convolutional Neural Networks on Graphs with Fast Localized Spectral Filtering](https://arxiv.org/abs/1606.09375), [[PyTorch Code]](https://github.com/xbresson/graph_convnets_pytorch/blob/master/README.md) [[TF Code]](https://github.com/mdeff/cnn_graph)
-- [Semi-Supervised Classification with Graph Convolutional Networks](https://arxiv.org/abs/1609.02907), [[Code]](https://github.com/tkipf/gcn), [[Blog]](http://tkipf.github.io/graph-convolutional-networks/)
+1. [The Emerging Field of Signal Processing on Graphs](https://arxiv.org/pdf/1211.0053.pdf)
+1. [Spectral Networks and Locally Connected Networks on Graphs](https://arxiv.org/abs/1312.6203)
+1. [Convolutional Neural Networks on Graphs with Fast Localized Spectral Filtering](https://arxiv.org/abs/1606.09375), [[PyTorch Code]](https://github.com/xbresson/graph_convnets_pytorch/blob/master/README.md) [[TF Code]](https://github.com/mdeff/cnn_graph)
+1. [Semi-Supervised Classification with Graph Convolutional Networks](https://arxiv.org/abs/1609.02907), [[Code]](https://github.com/tkipf/gcn), [[Blog]](http://tkipf.github.io/graph-convolutional-networks/)
 - **spectral methods usually handle the whole graph simultaneously and are difficult to parallel or scale to large graphs**
-- [Deep convolutional networks on graph-structured data](https://arxiv.org/abs/1506.05163)
-- [Adaptive graph convolutional neural networks](https://arxiv.org/abs/1801.03226)
-- [Cayleynets: Graph convolutional neural networks with complex rational spectral filters](https://arxiv.org/abs/1705.07664)
+1. [Deep convolutional networks on graph-structured data](https://arxiv.org/abs/1506.05163)
+1. [Adaptive graph convolutional neural networks](https://arxiv.org/abs/1801.03226)
+1. [Cayleynets: Graph convolutional neural networks with complex rational spectral filters](https://arxiv.org/abs/1705.07664)
 
 ## 空间上的图卷积
 
