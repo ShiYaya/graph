@@ -25,10 +25,10 @@ https://github.com/sungyongs/graph-based-nn</br>
 https://github.com/thunlp/GNNPapers</br>
 
 ### 综述论文
-- [Deep Learning on Graphs: A Survey](https://arxiv.org/abs/1812.04202)
-[新智元](https://mp.weixin.qq.com/s/eelcT5x_kWC0dDt0_Ph4qg)
-- [Graph Neural Networks: A Review of Methods and Applications](https://arxiv.org/abs/1812.08434)</br>
-[新智元](https://mp.weixin.qq.com/s/h4jQWJlQV2Ew3SpuF8k5Hw)
+- [Deep Learning on Graphs: A Survey](https://arxiv.org/abs/1812.04202)  
+[[新智元解读]](https://mp.weixin.qq.com/s/eelcT5x_kWC0dDt0_Ph4qg)
+- [Graph Neural Networks: A Review of Methods and Applications](https://arxiv.org/abs/1812.08434)  
+[[新智元解读]](https://mp.weixin.qq.com/s/h4jQWJlQV2Ew3SpuF8k5Hw)
 - [A Comprehensive Survey on Graph Neural Networks](https://arxiv.org/abs/1901.00596)
 - [Relational inductive biases, deep learning, and graph networks](https://arxiv.org/pdf/1806.01261.pdf)
 
