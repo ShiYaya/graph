@@ -77,10 +77,21 @@ https://github.com/thunlp/GNNPapers</br>
 
 ## GCN的应用
 
-### 用图卷积网络( GCN)来做语义角色标注</br>
+### 语义角色标注</br>
 [Encoding Sentences with Graph Convolutional Networks for Semantic Role Labeling](https://arxiv.org/abs/1703.04826)</br>
 * [[官方code(theano 0.8.2,lasagne 0.1)]](https://github.com/diegma/neural-dep-srl)  [[复现pytorch]](https://github.com/kervyRivas/Graph-convolutional)
 * [专知讲解](https://mp.weixin.qq.com/s/c6ZhSk4r3pvnjHsvpwkkSw)
 * by yaya:阅读该篇文章主要是来源于这篇将图卷积用于图像描述的文章:Exploring Visual Relationship for Image Captioning</br>
 这两篇文章采用的图卷积公式都是一样的，但是我认为很奇怪，而且b是如何由edge获得的，将进一步阅读代码，稍后解释。</br>
 <img src="https://github.com/ShiYaya/graph/blob/master/images/gcn%2Bformulation.png" width="200" height="100" ></br>
+
+
+### 视觉问答</br>
+1. **A simple neural network module for relational reasoning.**
+*Adam Santoro, David Raposo, David G.T. Barrett, Mateusz Malinowski, Razvan Pascanu, Peter Battaglia, Timothy Lillicrap.* NIPS 2017. [paper](https://arxiv.org/pdf/1706.01427.pdf)
+1. **Graph-Structured Representations for Visual Question Answering.**
+*Damien Teney, Lingqiao Liu, Anton van den Hengel.* CVPR 2017. [paper](https://arxiv.org/pdf/1609.05600.pdf)
+1. **Out of the Box: Reasoning with Graph Convolution Nets for Factual Visual Question Answering.**
+*Medhini Narasimhan, Svetlana Lazebnik, Alexander Schwing.* NeurIPS 2018. [paper](http://papers.nips.cc/paper/7531-out-of-the-box-reasoning-with-graph-convolution-nets-for-factual-visual-question-answering.pdf)
+1. **Learning Conditioned Graph Structures for Interpretable Visual Question Answering.**
+*Will Norcliffe-Brown, Efstathios Vafeias, Sarah Parisot.* NeurIPS 2018. [paper](https://arxiv.org/pdf/1806.07243)
