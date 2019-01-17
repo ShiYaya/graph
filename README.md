@@ -63,7 +63,7 @@ https://github.com/thunlp/GNNPapers</br>
 1. [Adaptive graph convolutional neural networks](https://arxiv.org/abs/1801.03226)  可接受任意图结构和规模的图作为输入
 1. [Cayleynets: Graph convolutional neural networks with complex rational spectral filters](https://arxiv.org/abs/1705.07664)
 
-- 谱上的图卷积网络的缺陷：
+- 谱上的图卷积网络的缺陷：   
 **spectral methods usually handle the whole graph simultaneously and are difficult to parallel or scale to large graphs**
 
 ## 空间上的图卷积
