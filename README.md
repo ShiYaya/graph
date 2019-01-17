@@ -78,7 +78,7 @@ https://github.com/thunlp/GNNPapers</br>
 of nodes, i.e. if we change the indices of nodes and edges using a bijective function between two vertex sets, representation of the whole graph should not change.   
 
 **一. Statistics** 
-- The most basic operations that are order invariant are simple statistics like taking sum, average or max-pooling
+- The most basic operations that are order invariant are simple statistics like taking **sum**, **average** or **max-pooling**
 1. Convolutional networks on graphs for learning molecular fingerprints
 1. Diffusion-convolutional neural networks
 - other 
