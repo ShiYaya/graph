@@ -68,10 +68,12 @@ https://github.com/thunlp/GNNPapers</br>
 
 ## 空间上的图卷积：spatial-based graph convolutional networks
 
-1. [Inductive representation learning on large graphs]
-1. [Geometric deep learning on graphs and manifolds using mixture model cnns]
-1. [Learning convolutional neural networks for graphs]
-1. [Large-scale learnable graph convolutional networks]
+1. GraphSAGE[Inductive representation learning on large graphs](http://papers.nips.cc/paper/6703-inductive-representation-learning-on-large-graphs.pdf)
+1. [Geometric deep learning on graphs and manifolds using mixture model cnns](http://openaccess.thecvf.com/content_cvpr_2017/papers/Monti_Geometric_Deep_Learning_CVPR_2017_paper.pdf)
+1. [Learning convolutional neural networks for graphs](http://proceedings.mlr.press/v48/niepert16.pdf)
+1. LGCN[Large-scale learnable graph convolutional networks](https://dl.acm.org/citation.cfm?id=3219947)
+
+- GraphSAGE and LGCN : **Together with sampling strategies, the computation can be performed in a batch of nodes instead of the whole graph
 
 ## GCN的应用
 
