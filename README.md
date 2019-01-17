@@ -58,7 +58,7 @@ https://github.com/thunlp/GNNPapers</br>
 
 - 以下三篇是在"A Comprehensive Survey on Graph Neural Networks"这篇综述中提到的另外三篇
 1. [Deep convolutional networks on graph-structured data](https://arxiv.org/abs/1506.05163)
-1. [Adaptive graph convolutional neural networks](https://arxiv.org/abs/1801.03226)  可接受任意图结构和规模的图作为输入
+1. [Adaptive graph convolutional neural networks](https://arxiv.org/abs/1801.03226) (AAAI 2018) 可接受任意图结构和规模的图作为输入
 1. [Cayleynets: Graph convolutional neural networks with complex rational spectral filters](https://arxiv.org/abs/1705.07664)
 
 - 谱上的图卷积网络的缺陷：   
