@@ -2,7 +2,7 @@
 ### 关于graph可做的方向
 - 图的任务也有很大的不同，可以是node-focused问题，如节点分类和链接预测，也可以是graph-focused问题，如图分类和图生成。不同的结构和任务需要不同的模型架构来处理特定的问题。   
 据此，现在要做的方向是视频描述，后边可以做一些图像生成的，graph与GAN结合的一些工作，但是似乎是有了。。再具体看看。
-
+- 关于视频描述任务：有一篇Spatio-temporal graph convolutional networks: A deep learning framework for traffic forecasting,可以考虑进去，这个时域的问题
 
 ### 近期Graph的学习任务 
 - semantic role labeling 代码
