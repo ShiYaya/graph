@@ -94,4 +94,4 @@ https://github.com/thunlp/GNNPapers</br>
 1. **Out of the Box: Reasoning with Graph Convolution Nets for Factual Visual Question Answering.**
 *Medhini Narasimhan, Svetlana Lazebnik, Alexander Schwing.* NeurIPS 2018. [paper](http://papers.nips.cc/paper/7531-out-of-the-box-reasoning-with-graph-convolution-nets-for-factual-visual-question-answering.pdf)
 1. **Learning Conditioned Graph Structures for Interpretable Visual Question Answering.**
-*Will Norcliffe-Brown, Efstathios Vafeias, Sarah Parisot.* NeurIPS 2018. [paper](https://arxiv.org/pdf/1806.07243)[[code]](https://github.com/aimbrain/vqa-project)
+*Will Norcliffe-Brown, Efstathios Vafeias, Sarah Parisot.* NeurIPS 2018. [paper](https://arxiv.org/pdf/1806.07243)  [[code]](https://github.com/aimbrain/vqa-project)
