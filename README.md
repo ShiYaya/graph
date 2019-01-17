@@ -31,8 +31,6 @@ condition 是基于question.那么在视频描述中也可以基于监督学习�
 在语义角色标注的本文中，也提到了More formally....这一处需要再理解一些。
 
 
-
-
 ### 通过池化，提出了一种graph classification的方法</br>
 [Hierarchical Graph Representation Learning with Differentiable Pooling](https://arxiv.org/pdf/1806.08804.pdf),[code](https://github.com/RexYing/diffpool)
 
@@ -78,8 +76,17 @@ https://github.com/thunlp/GNNPapers</br>
 ## Graph level representation/Readout Operations( by "Deep Learning on Graphs: A Survey")
 - **Order invariance**  A critical requirement for the graph readout operation is that the operation should be invariant to the order
 of nodes, i.e. if we change the indices of nodes and edges using a bijective function between two vertex sets, representation of the whole graph should not change. 
+1. Statistics 
+- The most basic operations that are order invariant are simple statistics like taking sum, average or max-pooling
+1. Convolutional networks on graphs for learning molecular fingerprints
+1. Diffusion-convolutional neural networks
+- other 
+1. Molecular graph convolutions: moving beyond fingerprints
+1. Spectral networks and locally connected networks on graphs
 
-
+1. Hierarchical clustering
+1. Spectral networks and locally connected networks on graphs
+1. Deep convolutional networks on graph-structured data
 
 # GCN的应用
 
