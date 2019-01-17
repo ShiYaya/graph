@@ -73,7 +73,7 @@ https://github.com/thunlp/GNNPapers</br>
 
 - **Together with sampling strategies, the computation can be performed in a batch of nodes instead of the whole graph** (GraphSAGE and LGCN)
 
-## Graph level representation/Readout Operations( by "Deep Learning on Graphs: A Survey")
+## 图表达：Graph level representation/Readout Operations( by "Deep Learning on Graphs: A Survey")
 **Order invariance**  A critical requirement for the graph readout operation is that the operation should be invariant to the order
 of nodes, i.e. if we change the indices of nodes and edges using a bijective function between two vertex sets, representation of the whole graph should not change.   
 
