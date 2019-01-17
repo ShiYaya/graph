@@ -73,11 +73,11 @@ https://github.com/thunlp/GNNPapers</br>
 
 - **Together with sampling strategies, the computation can be performed in a batch of nodes instead of the whole graph** (GraphSAGE and LGCN)
 
-## 图表达：Graph level representation/Readout Operations( by "Deep Learning on Graphs: A Survey")
+## 图表达：Graph level representation/Readout Operations
 **Order invariance**  A critical requirement for the graph readout operation is that the operation should be invariant to the order
 of nodes, i.e. if we change the indices of nodes and edges using a bijective function between two vertex sets, representation of the whole graph should not change.   
 
-**一. Statistics** 
+**一. Statistics** ( by "Deep Learning on Graphs: A Survey")
 - The most basic operations that are order invariant are simple statistics like taking **sum**, **average** or **max-pooling**
 1. Convolutional networks on graphs for learning molecular fingerprints
 1. Diffusion-convolutional neural networks
@@ -85,12 +85,12 @@ of nodes, i.e. if we change the indices of nodes and edges using a bijective fun
 1. Molecular graph convolutions: moving beyond fingerprints
 1. Spectral networks and locally connected networks on graphs
 
-**二. Hierarchical clustering** 
+**二. Hierarchical clustering** ( by "Deep Learning on Graphs: A Survey")
 1. Spectral networks and locally connected networks on graphs
 1. Deep convolutional networks on graph-structured data
 1. [Hierarchical Graph Representation Learning with Differentiable Pooling](https://arxiv.org/pdf/1806.08804.pdf) [code](https://github.com/RexYing/diffpool)
 
-**三. Graph Pooling Modules(by "A Comprehensive Survey on Graph Neural Networks")**
+**三. Graph Pooling Modules** (by "A Comprehensive Survey on Graph Neural Networks")
 1. Convolutional neural networks on graphs with fast localized spectral filtering (NIPS 2016)
 1. Deep convolutional networks on graph-structured data
 1. An end-to-end deep learning architecture for graph classification (AAAI 2018)
