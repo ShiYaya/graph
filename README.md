@@ -89,6 +89,13 @@ of nodes, i.e. if we change the indices of nodes and edges using a bijective fun
 1. Spectral networks and locally connected networks on graphs
 1. Deep convolutional networks on graph-structured data
 1. [Hierarchical Graph Representation Learning with Differentiable Pooling](https://arxiv.org/pdf/1806.08804.pdf) [code](https://github.com/RexYing/diffpool)
+
+**三. Graph Pooling Modules(by "A Comprehensive Survey on Graph Neural Networks")**
+1. Convolutional neural networks on graphs with fast localized spectral filtering (NIPS 2016)
+1. Deep convolutional networks on graph-structured data
+1. An end-to-end deep learning architecture for graph classification (AAAI 2018)
+1. Hierarchical graph representation learning with differentiable pooling (NIPS 2018)
+
 # GCN的应用
 
 ## 自然语言处理( by "Deep Learning on Graphs: A Survey")
