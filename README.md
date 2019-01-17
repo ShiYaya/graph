@@ -58,7 +58,7 @@ https://github.com/thunlp/GNNPapers</br>
 1. [Convolutional Neural Networks on Graphs with Fast Localized Spectral Filtering](https://arxiv.org/abs/1606.09375), [[PyTorch Code]](https://github.com/xbresson/graph_convnets_pytorch/blob/master/README.md) [[TF Code]](https://github.com/mdeff/cnn_graph)
 1. [Semi-Supervised Classification with Graph Convolutional Networks](https://arxiv.org/abs/1609.02907), [[Code]](https://github.com/tkipf/gcn), [[Blog]](http://tkipf.github.io/graph-convolutional-networks/)
 
-- 以下三篇是在<A Comprehensive Survey on Graph Neural Networks>这篇综述中提到的另外三篇
+- 以下三篇是在"A Comprehensive Survey on Graph Neural Networks"这篇综述中提到的另外三篇
 1. [Deep convolutional networks on graph-structured data](https://arxiv.org/abs/1506.05163)
 1. [Adaptive graph convolutional neural networks](https://arxiv.org/abs/1801.03226)  可接受任意图结构和规模的图作为输入
 1. [Cayleynets: Graph convolutional neural networks with complex rational spectral filters](https://arxiv.org/abs/1705.07664)
@@ -66,7 +66,7 @@ https://github.com/thunlp/GNNPapers</br>
 - 谱上的图卷积网络的缺陷：   
 **spectral methods usually handle the whole graph simultaneously and are difficult to parallel or scale to large graphs**
 
-## 空间上的图卷积：spatial-based graph convolutional networks( by <A Comprehensive Survey on Graph Neural Networks>)
+## 空间上的图卷积：spatial-based graph convolutional networks( by "A Comprehensive Survey on Graph Neural Networks")
 
 1. [Inductive representation learning on large graphs](http://papers.nips.cc/paper/6703-inductive-representation-learning-on-large-graphs.pdf)  (GraphSAGE)
 1. [Geometric deep learning on graphs and manifolds using mixture model cnns](http://openaccess.thecvf.com/content_cvpr_2017/papers/Monti_Geometric_Deep_Learning_CVPR_2017_paper.pdf)
@@ -75,7 +75,7 @@ https://github.com/thunlp/GNNPapers</br>
 
 - **Together with sampling strategies, the computation can be performed in a batch of nodes instead of the whole graph** (GraphSAGE and LGCN)
 
-## Graph level representation/Readout Operations( by <Deep Learning on Graphs: A Survey>)
+## Graph level representation/Readout Operations( by "Deep Learning on Graphs: A Survey")
 - **Order invariance**  A critical requirement for the graph readout operation is that the operation should be invariant to the order
 of nodes, i.e. if we change the indices of nodes and edges using a bijective function between two vertex sets, representation of the whole graph should not change. 
 
@@ -83,7 +83,7 @@ of nodes, i.e. if we change the indices of nodes and edges using a bijective fun
 
 # GCN的应用
 
-## 自然语言处理( by <Deep Learning on Graphs: A Survey>)
+## 自然语言处理( by "Deep Learning on Graphs: A Survey")
 
 ### 语义角色标注
 [Encoding Sentences with Graph Convolutional Networks for Semantic Role Labeling](https://arxiv.org/abs/1703.04826)</br>
@@ -98,7 +98,7 @@ of nodes, i.e. if we change the indices of nodes and edges using a bijective fun
 *Joost Bastings, Ivan Titov, Wilker Aziz, Diego Marcheggiani, Khalil Sima'an.* EMNLP 2017. [paper](https://arxiv.org/pdf/1704.04675)
 
 
-### 视觉问答( by <Graph Neural Networks: A Review of Methods and Applications>)
+### 视觉问答( by "Graph Neural Networks: A Review of Methods and Applications")
 1. **A simple neural network module for relational reasoning.**
 *Adam Santoro, David Raposo, David G.T. Barrett, Mateusz Malinowski, Razvan Pascanu, Peter Battaglia, Timothy Lillicrap.* NIPS 2017. [paper](https://arxiv.org/pdf/1706.01427.pdf)
 1. **Graph-Structured Representations for Visual Question Answering.**
