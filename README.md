@@ -76,7 +76,7 @@ https://github.com/thunlp/GNNPapers</br>
 ## Graph level representation/Readout Operations( by "Deep Learning on Graphs: A Survey")
 - **Order invariance**  A critical requirement for the graph readout operation is that the operation should be invariant to the order
 of nodes, i.e. if we change the indices of nodes and edges using a bijective function between two vertex sets, representation of the whole graph should not change. 
-一. Statistics 
+**一. Statistics** 
 - The most basic operations that are order invariant are simple statistics like taking sum, average or max-pooling
 1. Convolutional networks on graphs for learning molecular fingerprints
 1. Diffusion-convolutional neural networks
@@ -84,7 +84,7 @@ of nodes, i.e. if we change the indices of nodes and edges using a bijective fun
 1. Molecular graph convolutions: moving beyond fingerprints
 1. Spectral networks and locally connected networks on graphs
 
-一. Hierarchical clustering
+**二. Hierarchical clustering** 
 1. Spectral networks and locally connected networks on graphs
 1. Deep convolutional networks on graph-structured data
 
