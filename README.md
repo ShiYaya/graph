@@ -73,7 +73,7 @@ https://github.com/thunlp/GNNPapers</br>
 1. [Learning convolutional neural networks for graphs](http://proceedings.mlr.press/v48/niepert16.pdf)
 1. [Large-scale learnable graph convolutional networks](https://dl.acm.org/citation.cfm?id=3219947)  (LGCN) 
 
--**Together with sampling strategies, the computation can be performed in a batch of nodes instead of the whole graph** (GraphSAGE and LGCN)
+- **Together with sampling strategies, the computation can be performed in a batch of nodes instead of the whole graph** (GraphSAGE and LGCN)
 
 ## GCN的应用
 
