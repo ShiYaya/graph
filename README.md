@@ -107,7 +107,7 @@ of nodes, i.e. if we change the indices of nodes and edges using a bijective fun
 **三. Graph Pooling Modules** (by "A Comprehensive Survey on Graph Neural Networks")
 1. Convolutional neural networks on graphs with fast localized spectral filtering (NIPS 2016)
 1. Deep convolutional networks on graph-structured data
-1. An end-to-end deep learning architecture for graph classification (AAAI 2018) [[code]](https://github.com/muhanzhang/DGCNN)
+1. An end-to-end deep learning architecture for graph classification (AAAI 2018) [[code]](https://github.com/muhanzhang/DGCNN)  [[pytorch code]](https://github.com/muhanzhang/pytorch_DGCNN)
 1. Hierarchical graph representation learning with differentiable pooling (NIPS 2018)
 
 # GCN的应用
