@@ -20,6 +20,11 @@ condition 是基于question.那么在视频描述中也可以基于监督学习�
 1. **Modeling Relational Data with Graph Convolutional Networks.**
 *Michael Schlichtkrull, Thomas N. Kipf, Peter Bloem, Rianne van den Berg, Ivan Titov, Max Welling.* ESWC 2018. [paper](https://arxiv.org/pdf/1703.06103.pdf)
 
+- 使用不同训练方法的图变体
+1. **FastGCN: Fast Learning with Graph Convolutional Networks via Importance Sampling.**
+*Jie Chen, Tengfei Ma, Cao Xiao.* ICLR 2018. [paper](https://arxiv.org/pdf/1801.10247.pdf)
+
+
 
 ### 问题
 在Graph Neural Networks: A Review of Methods and Applications论文P16中，也提到了语义角色标注这篇文章，说"special variant of the GCN "；
