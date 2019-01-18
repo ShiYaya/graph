@@ -89,6 +89,7 @@ Instead of updating states over all nodes, GraphSage proposes a batch-training a
 1. [Learning convolutional neural networks for graphs](http://proceedings.mlr.press/v48/niepert16.pdf)
 1. [Large-scale learnable graph convolutional networks](https://dl.acm.org/citation.cfm?id=3219947)  (LGCN) 
 1. [Diffusion-convolutional neural networks (NIPS 2016)](https://arxiv.org/abs/1511.02136)
+1. [Geometric deep learning on graphs and manifolds using mixture model cnns](https://arxiv.org/abs/1611.08402)(CVPR 2017)
 1. etc: by "A Comprehensive Survey on Graph Neural Networks" P5;P7的表格分别列举了一些spatial-based GCN 
 - **Together with sampling strategies, the computation can be performed in a batch of nodes instead of the whole graph** (GraphSAGE and LGCN)
 
