@@ -160,19 +160,17 @@ proposed a control-variate based stochastic approximation algorithms for GCN by 
 1. [Watch your step: Learning node embeddings via graph attention]()(NIPS 2018)
 
 ## Graph Auto-encoders
+<img src="https://github.com/ShiYaya/graph/blob/master/images/graph-auto-encoder.png" width="200" height="100" ></br>
+
 - ( by "A Comprehensive Survey on Graph Neural Networks")
 - network embedding算法可以分类为:1.matrix factorization 2.random walks 3. deep learning. Graph Auto-encoders是deep learning的一类方法. P2
 - Network embedding aims to represent network vertices into a low-dimensional vector space, by preserving both network topology structure and node content information, so that any subsequent graph analytics tasks such as classification, clustering, and recommendation can be easily performed by using simple off-the-shelf learning machine algorithm (e.g., support vector machines for classification).
 
-
-
--by 
 1. [Variational graph auto-encoders (GAE)](https://arxiv.org/abs/1611.07308) [[code]](https://github.com/tkipf/gae)
 used in link prediction task in citation networks
-
 1. [Adversarially regularized graph autoencoder for graph embedding (ARGA)](https://arxiv.org/abs/1611.07308)
 1. [Learning deep network representations with adversarially regularized autoencoders (NetRA)](http://www.cs.ucsb.edu/~bzong/doc/kdd-18.pdf)
-1. [Deep neural networks for learning graph representations (DNGR)](https://pdfs.semanticscholar.org/1a37/f07606d60df365d74752857e8ce909f700b3.pdf)
+1. [Deep neural networks for learning graph representations (DNGR)(https://pdfs.semanticscholar.org/1a37/f07606d60df365d74752857e8ce909f700b3.pdf)
 1. [Structural deep network embedding (SDNE)](https://www.kdd.org/kdd2016/papers/files/rfp0191-wangAemb.pdf)
 1. [Deep recursive network embedding with regular equivalence (DRNE)](http://pengcui.thumedialab.com/papers/NE-RegularEquivalence.pdf)
 
