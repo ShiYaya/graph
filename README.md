@@ -41,12 +41,20 @@ https://github.com/sungyongs/graph-based-nn</br>
 https://github.com/thunlp/GNNPapers</br>
 [Spatio-temporal modeling 论文列表(主要是graph convolution相关)](https://github.com/Eilene/spatio-temporal-paper-list)
 ### 综述论文
-- [Deep Learning on Graphs: A Survey](https://arxiv.org/abs/1812.04202)  
+1. [Deep Learning on Graphs: A Survey](https://arxiv.org/abs/1812.04202) </br>
 [[新智元解读]](https://mp.weixin.qq.com/s/eelcT5x_kWC0dDt0_Ph4qg)
-- [Graph Neural Networks: A Review of Methods and Applications](https://arxiv.org/abs/1812.08434)  
+1. [Graph Neural Networks: A Review of Methods and Applications](https://arxiv.org/abs/1812.08434)  </br>
 [[新智元解读]](https://mp.weixin.qq.com/s/h4jQWJlQV2Ew3SpuF8k5Hw)
-- [A Comprehensive Survey on Graph Neural Networks](https://arxiv.org/abs/1901.00596)
-- [Relational inductive biases, deep learning, and graph networks](https://arxiv.org/pdf/1806.01261.pdf)
+1. [A Comprehensive Survey on Graph Neural Networks](https://arxiv.org/abs/1901.00596)</br>
+1. [Relational inductive biases, deep learning, and graph networks](https://arxiv.org/pdf/1806.01261.pdf)</br>
+1. [Geometric Deep Learning: Going beyond Euclidean data](https://arxiv.org/pdf/1611.08097.pdf)
+1. [Computational Capabilities of Graph Neural Networks](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4703190)
+1. [Neural Message Passing for Quantum Chemistry](https://arxiv.org/pdf/1704.01212.pdf)
+1. [Non-local Neural Networks](http://openaccess.thecvf.com/content_cvpr_2018/papers/Wang_Non-Local_Neural_Networks_CVPR_2018_paper.pdf)
+1. [The Graph Neural Network Model](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4700287)
+
+
+
 
 ## 谱上的图卷积发展:spectral-based graph convolutional networks
 
