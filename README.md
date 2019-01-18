@@ -150,9 +150,10 @@ proposed a control-variate based stochastic approximation algorithms for GCN by 
 
 ## Graph Auto-encoders
 <div align=center><img width="400" height="200" src="https://github.com/ShiYaya/graph/blob/master/images/graph-auto-encoder.png"/></div>
-- ( by "A Comprehensive Survey on Graph Neural Networks")
-- network embedding算法可以分类为:1.matrix factorization 2.random walks 3. deep learning. Graph Auto-encoders是deep learning的一类方法. P2
--  Network embedding是为了将node embedding 转化到低维的向量空间，通过保存网络的拓扑结构与节点内容信息，接下来的graph分析任务(比如，分类，聚类和推荐等)可以被应用于现有的机器学习任务(如SVM for classification)
+
+- ( by "A Comprehensive Survey on Graph Neural Networks")</br>
+- network embedding算法可以分类为:1.matrix factorization 2.random walks 3. deep learning. Graph Auto-encoders是deep learning的一类方法. P2</br>
+-  Network embedding是为了将node embedding 转化到低维的向量空间，通过保存网络的拓扑结构与节点内容信息，接下来的graph分析任务(比如，分类，聚类和推荐等)可以被应用于现有的机器学习任务(如SVM for classification)</br>
 
 1. [Variational graph auto-encoders (GAE)](https://arxiv.org/abs/1611.07308) [[code]](https://github.com/tkipf/gae)</br>
  used in link prediction task in citation networks</br>
@@ -166,6 +167,7 @@ proposed a control-variate based stochastic approximation algorithms for GCN by 
 
 
 ## Graph Generative Networks
+- ( by "A Comprehensive Survey on Graph Neural Networks")</br>
 - factor the generation process as forming nodes and edges alternatively
 1. [Graphrnn: A deep generative model for graphs](https://arxiv.org/abs/1802.08773) (ICML2018)
 1. [Learning deep generative models of graphs](https://arxiv.org/abs/1803.03324) (ICML2018)
