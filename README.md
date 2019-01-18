@@ -298,7 +298,7 @@ of nodes, i.e. if we change the indices of nodes and edges using a bijective fun
 *Medhini Narasimhan, Svetlana Lazebnik, Alexander Schwing.* NeurIPS 2018. [paper](http://papers.nips.cc/paper/7531-out-of-the-box-reasoning-with-graph-convolution-nets-for-factual-visual-question-answering.pdf)
 1. **Learning Conditioned Graph Structures for Interpretable Visual Question Answering.**
 *Will Norcliffe-Brown, Efstathios Vafeias, Sarah Parisot.* NeurIPS 2018. [paper](https://arxiv.org/pdf/1806.07243)  [[code]](https://github.com/aimbrain/vqa-project)
-
+1. **Deep reasoning with knowledge graph for social relationship understanding.**
 
 ## **library**
 
