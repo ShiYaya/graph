@@ -158,7 +158,14 @@ proposed a control-variate based stochastic approximation algorithms for GCN by 
 1. [Graph classification using structural attention](http://ryanrossi.com/pubs/KDD18-graph-attention-model.pdf)(ACM SIGKDD 2018)
 1. [Watch your step: Learning node embeddings via graph attention]()(NIPS 2018)
 
+## Graph Auto-encoders
+1. [Variational graph auto-encoders (GAE)](https://arxiv.org/abs/1611.07308) [[code]](https://github.com/tkipf/gae)
 
+1. [Adversarially regularized graph autoencoder for graph embedding (ARGA)](https://arxiv.org/abs/1611.07308)
+1. [Learning deep network representations with adversarially regularized autoencoders (NetRA)](http://www.cs.ucsb.edu/~bzong/doc/kdd-18.pdf)
+1. [Deep neural networks for learning graph representations (DNGR)](https://pdfs.semanticscholar.org/1a37/f07606d60df365d74752857e8ce909f700b3.pdf)
+1. [Structural deep network embedding (SDNE)](https://www.kdd.org/kdd2016/papers/files/rfp0191-wangAemb.pdf)
+1. [Deep recursive network embedding with regular equivalence (DRNE)](http://pengcui.thumedialab.com/papers/NE-RegularEquivalence.pdf)
 
 ## 图表达：Graph level representation/Readout Operations
 **Order invariance**  A critical requirement for the graph readout operation is that the operation should be invariant to the order
