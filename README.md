@@ -249,12 +249,13 @@ of nodes, i.e. if we change the indices of nodes and edges using a bijective fun
 ## 计算机视觉
 ### scene graph generation
 
-- detect and recognize objects and predict semantic relationships between pairs of objects
+- **by "A Comprehensive Survey on Graph Neural Networks"**
+- **detect and recognize objects and predict semantic relationships between pairs of objects**
 1. Scene graph generation by iterative message passing (CVPR 2017)
 1. Graph r-cnn for scene graph generation (ECCV 2018)
 1. Factorizable net: an efficient subgraph-based framework for scene graph generation (ECCV 2018)
 
-- generating realistic images given scene graphs
+- **generating realistic images given scene graphs**
 1. Image generation from scene graphs (arXiv preprint, 2018)
 
 ### 视觉问答( by "Graph Neural Networks: A Review of Methods and Applications")
