@@ -72,6 +72,7 @@ https://github.com/thunlp/GNNPapers</br>
 1. [Adaptive graph convolutional neural networks](https://arxiv.org/abs/1801.03226) (AAAI 2018) 可接受任意图结构和规模的图作为输入
 1. [Cayleynets: Graph convolutional neural networks with complex rational spectral filters](https://arxiv.org/abs/1705.07664)
 
+
 - **谱上的图卷积网络的缺陷：** (by "A Comprehensive Survey on Graph Neural Networks)   
 **spectral methods usually handle the whole graph simultaneously and are difficult to parallel or scale to large graphs** (P2)</br>
 **more drawbacks in "A Comprehensive Survey on Graph Neural Networks"** (P7 4.1.3 summary of spectral methods)</br>
@@ -79,6 +80,7 @@ https://github.com/thunlp/GNNPapers</br>
 1. 可学习的filter是与domain相关的，不能应用于不同的graph structure
 1. 特征值分解需要很大的计算量和存储量
 1. 虽然ChebNet and 1stChebNet定义的过滤器在空间上的局部的，且在graph上的任意位置(node)是共享的，但是这两个模型都需要载入整个graph进行graph convolution的计算，在处理big graph上计算效率低：***by yaya: X'=AXW, X'的更新, 需要输入整个X才可以计算得到***
+
 
 ## 空间上的图卷积：spatial-based graph convolutional networks
 - **by "A Comprehensive Survey on Graph Neural Networks"**
@@ -95,6 +97,7 @@ Instead of updating states over all nodes, GraphSage proposes a batch-training a
 1. [Geometric deep learning on graphs and manifolds using mixture model cnns](https://arxiv.org/abs/1611.08402) (CVPR 2017)
 1. etc: by "A Comprehensive Survey on Graph Neural Networks" P5;P7的表格分别列举了一些spatial-based GCN 
 - **Together with sampling strategies, the computation can be performed in a batch of nodes instead of the whole graph** (GraphSAGE and LGCN)
+
 
 ## 谱上与空间GCN的比较：Comparison Between Spectral and Spatial Models
 - **by "A Comprehensive Survey on Graph Neural Networks"**
@@ -152,6 +155,7 @@ proposed a control-variate based stochastic approximation algorithms for GCN by 
 1. [Encoding Sentences with Graph Convolutional Networks for Semantic Role Labeling](https://arxiv.org/abs/1703.04826)</br>
 1. [Exploring Visual Relationship for Image Captioning](https://arxiv.org/abs/1809.07041)
 
+
 ## Graph Attention Networks
 - ( by "A Comprehensive Survey on Graph Neural Networks")
 1. [Graph Attention Network (GAT)](https://arxiv.org/abs/1710.10903)(ICLR 2017)
@@ -159,21 +163,22 @@ proposed a control-variate based stochastic approximation algorithms for GCN by 
 1. [Graph classification using structural attention](http://ryanrossi.com/pubs/KDD18-graph-attention-model.pdf)(ACM SIGKDD 2018)
 1. [Watch your step: Learning node embeddings via graph attention]()(NIPS 2018)
 
+
 ## Graph Auto-encoders
 <div align=center><img width="400" height="200" src="https://github.com/ShiYaya/graph/blob/master/images/graph-auto-encoder.png"/></div>
-
-
 - ( by "A Comprehensive Survey on Graph Neural Networks")
 - network embedding算法可以分类为:1.matrix factorization 2.random walks 3. deep learning. Graph Auto-encoders是deep learning的一类方法. P2
-- Network embedding aims to represent network vertices into a low-dimensional vector space, by preserving both network topology structure and node content information, so that any subsequent graph analytics tasks such as classification, clustering, and recommendation can be easily performed by using simple off-the-shelf learning machine algorithm (e.g., support vector machines for classification).
+-  Network embedding是为了将node embedding 转化到低维的向量空间，通过保存网络的拓扑结构与节点内容信息，接下来的graph分析任务(比如，分类，聚类和推荐等)可以被应用于现有的机器学习任务(如SVM for classification)
 
-1. [Variational graph auto-encoders (GAE)](https://arxiv.org/abs/1611.07308) [[code]](https://github.com/tkipf/gae)
-used in link prediction task in citation networks
+1. [Variational graph auto-encoders (GAE)](https://arxiv.org/abs/1611.07308) [[code]](https://github.com/tkipf/gae)</br>
+ used in link prediction task in citation networks</br>
+ encoder对node embedding进行更新,decoder对A(adjacency matrix)进行更新
 1. [Adversarially regularized graph autoencoder for graph embedding (ARGA)](https://arxiv.org/abs/1611.07308)
 1. [Learning deep network representations with adversarially regularized autoencoders (NetRA)](http://www.cs.ucsb.edu/~bzong/doc/kdd-18.pdf)
 1. [Deep neural networks for learning graph representations (DNGR)(https://pdfs.semanticscholar.org/1a37/f07606d60df365d74752857e8ce909f700b3.pdf)
 1. [Structural deep network embedding (SDNE)](https://www.kdd.org/kdd2016/papers/files/rfp0191-wangAemb.pdf)
 1. [Deep recursive network embedding with regular equivalence (DRNE)](http://pengcui.thumedialab.com/papers/NE-RegularEquivalence.pdf)
+
 
 ## 图表达：Graph level representation/Readout Operations
 **Order invariance**  A critical requirement for the graph readout operation is that the operation should be invariant to the order
