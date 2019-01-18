@@ -161,7 +161,7 @@ proposed a control-variate based stochastic approximation algorithms for GCN by 
  encoder对node embedding进行更新,decoder对A(adjacency matrix)进行更新
 1. [Adversarially regularized graph autoencoder for graph embedding (ARGA)](https://arxiv.org/abs/1611.07308)
 1. [Learning deep network representations with adversarially regularized autoencoders (NetRA)](http://www.cs.ucsb.edu/~bzong/doc/kdd-18.pdf)
-1. [Deep neural networks for learning graph representations (DNGR)(https://pdfs.semanticscholar.org/1a37/f07606d60df365d74752857e8ce909f700b3.pdf)
+1. [Deep neural networks for learning graph representations (DNGR)](https://pdfs.semanticscholar.org/1a37/f07606d60df365d74752857e8ce909f700b3.pdf)
 1. [Structural deep network embedding (SDNE)](https://www.kdd.org/kdd2016/papers/files/rfp0191-wangAemb.pdf)
 1. [Deep recursive network embedding with regular equivalence (DRNE)](http://pengcui.thumedialab.com/papers/NE-RegularEquivalence.pdf)
 
