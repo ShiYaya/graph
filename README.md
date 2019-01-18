@@ -81,7 +81,7 @@ https://github.com/thunlp/GNNPapers</br>
 - **by "A Comprehensive Survey on Graph Neural Networks"**
 
 1. [Inductive representation learning on large graphs](http://papers.nips.cc/paper/6703-inductive-representation-learning-on-large-graphs.pdf)  (GraphSAGE)</br>
-Instead of updating states over all nodes, GraphSage proposes a batch-training algorithm, which improves scalability for large graphs. The learning process of GraphSage consists of three steps. First, it samples a node’s local k-hop neighborhood with fixed-size. Second, it derives the central node’s final state by aggregating its neighbors feature information. Finally, it uses the central node’s final state to make predictions and backpropagate errors.
+Instead of updating states over all nodes, GraphSage proposes a batch-training algorithm(sub-graph training)which improves scalability for large graphs. The learning process: P9 in "A Comprehensive Survey on Graph Neural Networks"
 
 1. [Neural Message Passing for Quantum Chemistry](https://arxiv.org/pdf/1704.01212.pdf)  (MPNNs)
 1. [Learning convolutional neural networks for graphs](https://arxiv.org/abs/1605.05273)  (PATCHY-SAN)
