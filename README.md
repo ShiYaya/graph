@@ -257,9 +257,39 @@ of nodes, i.e. if we change the indices of nodes and edges using a bijective fun
 1. Factorizable net: an efficient subgraph-based framework for scene graph generation (ECCV 2018)
 
 - **generating realistic images given scene graphs**
+- **by "A Comprehensive Survey on Graph Neural Networks"**
 1. Image generation from scene graphs (arXiv preprint, 2018)
 
-### 视觉问答( by "Graph Neural Networks: A Review of Methods and Applications")
+### point clouds classification and segmentation
+- **by "A Comprehensive Survey on Graph Neural Networks"**
+1. Dynamic graph cnn for learning on point clouds(arXiv preprint 2018)
+1. Large-scale point cloud semantic segmentation with superpoint graphs (CVPR 2018)
+1. Rgcnn: Regularized graph cnn for point cloud segmentation (arXiv preprint 2018)
+
+### action recognition
+- **by "A Comprehensive Survey on Graph Neural Networks"**
+- detects the locations of human joints in video clips
+1. Spatial temporal graph convolutional networks for skeleton-based action recognition (AAAI 2018)
+1. Structural-rnn:Deep learning on spatio-temporal graphs (CVPR 2016)
+
+### few-shot image classification
+- **by "A Comprehensive Survey on Graph Neural Networks"**
+1. Few-shot learning with graph neural networks (ICLR 2018)
+1. Neural graph matching networks for fewshot 3d action recognition (ECCV 2018)
+
+### semantic segmentation
+- **by "A Comprehensive Survey on Graph Neural Networks"**
+1. 3d graph neural networks for rgbd semantic segmentation (CVPR 2017)
+1. Syncspeccnn: Synchronized spectral cnn for 3d shape segmentation (CVPR 2017)
+- **by "Graph Neural Networks: A Review of Methods and Applications"**
+1. Semantic object parsing with graph lstm (ECCV 2016)
+1. Interpretable structure-evolving lstm (CVPR 2017)
+1. Large-scale point cloud semantic segmentation with superpoint graphs(arXiv preprint 2017)
+1. Dynamic graph cnn for learning on point clouds(arXiv preprint 2018)
+1. 3d graph neural networks for rgbd semantic segmentation (CVPR 2017)
+
+### 视觉问答
+- **by "Graph Neural Networks: A Review of Methods and Applications"**
 1. **A simple neural network module for relational reasoning.**
 *Adam Santoro, David Raposo, David G.T. Barrett, Mateusz Malinowski, Razvan Pascanu, Peter Battaglia, Timothy Lillicrap.* NIPS 2017. [paper](https://arxiv.org/pdf/1706.01427.pdf)
 1. **Graph-Structured Representations for Visual Question Answering.**
