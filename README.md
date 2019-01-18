@@ -73,20 +73,26 @@ https://github.com/thunlp/GNNPapers</br>
 
 - **Together with sampling strategies, the computation can be performed in a batch of nodes instead of the whole graph** (GraphSAGE and LGCN)
 
-## Training Methods
-- by "A Comprehensive Survey on Graph Neural Networks"
-- [1stChebNet(semi-supervised GCN)](https://arxiv.org/abs/1609.02907)在训练方面的缺陷：the main drawback of 1stChebNet is that the computation cost increases exponentially with the increase of the number of 1stChebNet layers during batch training. Each node in the last layer has to expand its neighborhood recursively across previous layers.
+## 改善GCN在训练方面的缺陷: Training Methods
+- **by "A Comprehensive Survey on Graph Neural Networks"**
+- [1stChebNet(semi-supervised GCN)](https://arxiv.org/abs/1609.02907)：the main drawback of 1stChebNet is that the computation cost increases exponentially with the increase of the number of 1stChebNet layers during batch training. Each node in the last layer has to expand its neighborhood recursively across previous layers.
 1. Fastgcn: fast learning with graph convolutional networks via importance sampling (ICLR 2018)
+assume the rescaled adjacent matrix A comes from a sampling distribution. 
 1. Stochastic training of graph convolutional networks with variance reduction (ICML 2018)
+reduce the receptive field size of the graph convolution to an arbitrary small scale by sampling neighborhoods and using historical hidden representations.
 1. Adaptive sampling towards fast graph representation learning (NIPS 2018)
+propose an adaptive layer-wise sampling approach to accelerate the training of 1stChebNet, where sampling for the lower layer is conditioned on the top one. 
 
-- by "Graph Neural Networks: A Review of Methods and Applications"
+- **by "Graph Neural Networks: A Review of Methods and Applications"**
 - GCN requires the full graph Laplacian, which is computational-consuming for large graphs. Furthermore, The embedding of a node at layer L is computed recursively by the embeddings of all its neighbors at layer L − 1. Therefore, the receptive field of a single node grows exponentially with respect to the number of layers, so computing gradient for a single node costs a lot. Finally, GCN is trained
 independently for a fixed graph, which lacks the ability for inductive learning.
 1. Inductive representation learning on large graphs (NIPS 2017)
 1. Fastgcn: fast learning with graph convolutional networks via importance sampling (ICLR 2018)
+directly samples the receptive field for each layer.
 1. Adaptive sampling towards fast graph representation learning (NIPS 2018)
+ introduces a parameterized and trainable sampler to perform layerwise sampling conditioned on the former layer.
 1. Stochastic training of graph convolutional networks with variance reduction (ICML 2018)
+proposed a control-variate based stochastic approximation algorithms for GCN by utilizing the historical activations of nodes as a control variate. 
 1. Deeper insights into graph convolutional networks for semi-supervised learning  (arXiv:1801.07606, 2018)
 
 
