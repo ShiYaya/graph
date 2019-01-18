@@ -39,7 +39,7 @@ condition 是基于question.那么在视频描述中也可以基于监督学习�
 ### github上的某篇总结-介绍了相关的论文、博客、以及研究者</br>
 https://github.com/sungyongs/graph-based-nn</br>
 https://github.com/thunlp/GNNPapers</br>
-[Spatio-temporal modeling 论文列表（主要是graph convolution相关](https://github.com/Eilene/spatio-temporal-paper-list)
+[Spatio-temporal modeling 论文列表(主要是graph convolution相关)](https://github.com/Eilene/spatio-temporal-paper-list)
 ### 综述论文
 - [Deep Learning on Graphs: A Survey](https://arxiv.org/abs/1812.04202)  
 [[新智元解读]](https://mp.weixin.qq.com/s/eelcT5x_kWC0dDt0_Ph4qg)
