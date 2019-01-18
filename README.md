@@ -153,13 +153,22 @@ proposed a control-variate based stochastic approximation algorithms for GCN by 
 1. [Exploring Visual Relationship for Image Captioning](https://arxiv.org/abs/1809.07041)
 
 ## Graph Attention Networks
+- ( by "A Comprehensive Survey on Graph Neural Networks")
 1. [Graph Attention Network (GAT)](https://arxiv.org/abs/1710.10903)(ICLR 2017)
 1. [Gaan:Gated attention networks for learning on large and spatiotemporal graphs (GAAN)]
 1. [Graph classification using structural attention](http://ryanrossi.com/pubs/KDD18-graph-attention-model.pdf)(ACM SIGKDD 2018)
 1. [Watch your step: Learning node embeddings via graph attention]()(NIPS 2018)
 
 ## Graph Auto-encoders
+- ( by "A Comprehensive Survey on Graph Neural Networks")
+- network embedding算法可以分类为:1.matrix factorization 2.random walks 3. deep learning. Graph Auto-encoders是deep learning的一类方法. P2
+- Network embedding aims to represent network vertices into a low-dimensional vector space, by preserving both network topology structure and node content information, so that any subsequent graph analytics tasks such as classification, clustering, and recommendation can be easily performed by using simple off-the-shelf learning machine algorithm (e.g., support vector machines for classification).
+
+
+
+-by 
 1. [Variational graph auto-encoders (GAE)](https://arxiv.org/abs/1611.07308) [[code]](https://github.com/tkipf/gae)
+used in link prediction task in citation networks
 
 1. [Adversarially regularized graph autoencoder for graph embedding (ARGA)](https://arxiv.org/abs/1611.07308)
 1. [Learning deep network representations with adversarially regularized autoencoders (NetRA)](http://www.cs.ucsb.edu/~bzong/doc/kdd-18.pdf)
