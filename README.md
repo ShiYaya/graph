@@ -74,6 +74,11 @@ https://github.com/thunlp/GNNPapers</br>
 1. etc: by "A Comprehensive Survey on Graph Neural Networks" P5;P7的表格分别列举了一些spatial-based GCN 
 - **Together with sampling strategies, the computation can be performed in a batch of nodes instead of the whole graph** (GraphSAGE and LGCN)
 
+## 谱上与空间GCN的比较：Comparison Between Spectral and Spatial Models
+- **bridges:** The graph convolution defined by 1stChebNet(semi-supervised GCN) is localized in space. It bridges the gap between spectral-based methods and spatial-based methods. 
+
+
+
 ## 改善GCN在训练方面的缺陷: Training Methods
 - **by "A Comprehensive Survey on Graph Neural Networks"**
 - [1stChebNet(semi-supervised GCN)](https://arxiv.org/abs/1609.02907)：the main drawback of 1stChebNet is that the computation cost increases exponentially with the increase of the number of 1stChebNet layers during batch training. Each node in the last layer has to expand its neighborhood recursively across previous layers.
