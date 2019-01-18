@@ -2,7 +2,7 @@
 ### 关于graph可做的方向
 - 图的任务也有很大的不同，可以是node-focused问题，如节点分类和链接预测，也可以是graph-focused问题，如图分类和图生成。不同的结构和任务需要不同的模型架构来处理特定的问题。   
 据此，现在要做的方向是视频描述，后边可以做一些图像生成的，graph与GAN结合的一些工作，但是似乎是有了。。再具体看看。
-- 关于视频描述任务：有一篇Spatio-temporal graph convolutional networks: A deep learning framework for traffic forecasting,可以考虑进去，这个时域的问题;;;;;;;;另外关于关节点做行为识别的问题，也找来看看是不是时空-图卷积
+- 关于视频描述任务：有一篇Spatio-temporal graph convolutional networks: A deep learning framework for traffic forecasting,可以考虑进去，这个时域的问题;另外关于关节点做行为识别的问题，也找来看看是不是时空-图卷积
 
 ### 近期Graph的学习任务 
 - semantic role labeling 代码
@@ -11,6 +11,8 @@
 condition 是基于question.那么在视频描述中也可以基于监督学习本身带有的标签，在Inference时，则，直接利用训练好的graph参数（此处可以参考一下few-shot）
 - 其他关于视觉问答的论文
 - Graph Neural Networks: A Review of Methods and Applications提到了一些关于视觉问答的论文可以找出来，看一看，还有关于源代码的部分
+- A Comprehensive Survey on Graph Neural Networks中提到的spatial-temporal networks需要看一看，这样的网络可以结合到行为识别与视频描述任务中
+
 
 ### 待学习：
 - 带边信息的图(Edge-informative Graph)
