@@ -62,9 +62,12 @@ https://github.com/thunlp/GNNPapers</br>
 1. [Cayleynets: Graph convolutional neural networks with complex rational spectral filters](https://arxiv.org/abs/1705.07664)
 
 - 谱上的图卷积网络的缺陷：   
-**spectral methods usually handle the whole graph simultaneously and are difficult to parallel or scale to large graphs**
-**more drawbacks in "A Comprehensive Survey on Graph Neural Networks" P7 4.1.3 summary of spectral methods
-
+**spectral methods usually handle the whole graph simultaneously and are difficult to parallel or scale to large graphs** -- by "A Comprehensive Survey on Graph Neural Networks" P2
+**more drawbacks in "A Comprehensive Survey on Graph Neural Networks" P7 4.1.3 summary of spectral methods**
+1. 任何对graph的扰动都可以导致特征基U(特征向量)的扰动
+1. 可学习的filter是与domain相关的，不能应用于不同的graph structure
+1. 特征值分解需要很大的计算量和存储量
+1. 虽然ChebNet and 1stChebNet定义的过滤器在空间上的局部的，且在graph上的任意位置(node)是共享的，但是这两个模型都需要载入整个graph进行graph convolution的计算，在处理big graph上计算效率低：***by yaya: X'=AXW, X'的更新, 需要输入整个X才可以计算得到***
 
 ## 空间上的图卷积：spatial-based graph convolutional networks
 - **by "A Comprehensive Survey on Graph Neural Networks"**
@@ -79,7 +82,7 @@ https://github.com/thunlp/GNNPapers</br>
 
 ## 谱上与空间GCN的比较：Comparison Between Spectral and Spatial Models
 - **by "A Comprehensive Survey on Graph Neural Networks"**
-- **bridges:** The graph convolution defined by 1stChebNet(semi-supervised GCN) is localized in space. It bridges the gap between spectral-based methods and spatial-based methods. 
+- **bridges:** The graph convolution defined by 1stChebNet(semi-supervised GCN) is localized in space. It bridges the gap between spectral-based methods and spatial-based methods. -- by "A Comprehensive Survey on Graph Neural Networks" P2
 
 
 
