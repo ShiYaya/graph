@@ -152,6 +152,14 @@ proposed a control-variate based stochastic approximation algorithms for GCN by 
 1. [Encoding Sentences with Graph Convolutional Networks for Semantic Role Labeling](https://arxiv.org/abs/1703.04826)</br>
 1. [Exploring Visual Relationship for Image Captioning](https://arxiv.org/abs/1809.07041)
 
+## Graph Attention Networks
+1. [Graph Attention Network (GAT)](https://arxiv.org/abs/1710.10903)(ICLR 2017)
+1. [Gaan:Gated attention networks for learning on large and spatiotemporal graphs (GAAN)]
+1. [Graph classification using structural attention](http://ryanrossi.com/pubs/KDD18-graph-attention-model.pdf)(ACM SIGKDD 2018)
+1. [Watch your step: Learning node embeddings via graph attention]()(NIPS 2018)
+
+
+
 ## 图表达：Graph level representation/Readout Operations
 **Order invariance**  A critical requirement for the graph readout operation is that the operation should be invariant to the order
 of nodes, i.e. if we change the indices of nodes and edges using a bijective function between two vertex sets, representation of the whole graph should not change.   
