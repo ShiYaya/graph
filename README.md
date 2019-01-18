@@ -34,6 +34,9 @@ condition 是基于question.那么在视频描述中也可以基于监督学习�
 ### 通过池化，提出了一种graph classification的方法</br>
 [Hierarchical Graph Representation Learning with Differentiable Pooling](https://arxiv.org/pdf/1806.08804.pdf),[code](https://github.com/RexYing/diffpool)
 
+### 可以再根据node classification与graph classification 与edge 进行一下分类
+
+
 
 ## 总结性质的
 ### github上的某篇总结-介绍了相关的论文、博客、以及研究者</br>
