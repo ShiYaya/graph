@@ -80,7 +80,9 @@ https://github.com/thunlp/GNNPapers</br>
 ## 空间上的图卷积：spatial-based graph convolutional networks
 - **by "A Comprehensive Survey on Graph Neural Networks"**
 
-1. [Inductive representation learning on large graphs](http://papers.nips.cc/paper/6703-inductive-representation-learning-on-large-graphs.pdf)  (GraphSAGE)
+1. [Inductive representation learning on large graphs](http://papers.nips.cc/paper/6703-inductive-representation-learning-on-large-graphs.pdf)  (GraphSAGE)</br>
+Instead of updating states over all nodes, GraphSage proposes a batch-training algorithm, which improves scalability for large graphs. The learning process of GraphSage consists of three steps. First, it samples a node’s local k-hop neighborhood with fixed-size. Second, it derives the central node’s final state by aggregating its neighbors feature information. Finally, it uses the central node’s final state to make predictions and backpropagate errors.
+
 1. [Neural Message Passing for Quantum Chemistry](https://arxiv.org/pdf/1704.01212.pdf)  (MPNNs)
 1. [Learning convolutional neural networks for graphs](https://arxiv.org/abs/1605.05273)  (PATCHY-SAN)
 1. [Geometric deep learning on graphs and manifolds using mixture model cnns](http://openaccess.thecvf.com/content_cvpr_2017/papers/Monti_Geometric_Deep_Learning_CVPR_2017_paper.pdf)
