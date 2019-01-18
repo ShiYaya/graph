@@ -140,7 +140,7 @@ proposed a control-variate based stochastic approximation algorithms for GCN by 
 
 
 ## Graph Attention Networks
-- ( by "A Comprehensive Survey on Graph Neural Networks")
+- **by "A Comprehensive Survey on Graph Neural Networks"**
 1. [Graph Attention Network (GAT)](https://arxiv.org/abs/1710.10903)(ICLR 2017)
 1. [Gaan:Gated attention networks for learning on large and spatiotemporal graphs (GAAN)]
 1. [Graph classification using structural attention](http://ryanrossi.com/pubs/KDD18-graph-attention-model.pdf)(ACM SIGKDD 2018)
@@ -150,7 +150,7 @@ proposed a control-variate based stochastic approximation algorithms for GCN by 
 ## Graph Auto-encoders
 <div align=center><img width="400" height="200" src="https://github.com/ShiYaya/graph/blob/master/images/graph-auto-encoder.png"/></div>
 
-- ( by "A Comprehensive Survey on Graph Neural Networks")</br>
+- **by "A Comprehensive Survey on Graph Neural Networks"**</br>
 - network embedding算法可以分类为:1.matrix factorization 2.random walks 3. deep learning. Graph Auto-encoders是deep learning的一类方法. P2</br>
 -  Network embedding是为了将node embedding 转化到低维的向量空间，通过保存网络的拓扑结构与节点内容信息，接下来的graph分析任务(比如，分类，聚类和推荐等)可以被应用于现有的机器学习任务(如SVM for classification)</br>
 
@@ -166,7 +166,7 @@ proposed a control-variate based stochastic approximation algorithms for GCN by 
 
 
 ## Graph Generative Networks
-- ( by "A Comprehensive Survey on Graph Neural Networks")</br>
+- **by "A Comprehensive Survey on Graph Neural Networks"**</br>
 - factor the generation process as forming nodes and edges alternatively
 1. [Graphrnn: A deep generative model for graphs](https://arxiv.org/abs/1802.08773) (ICML2018)
 1. [Learning deep generative models of graphs](https://arxiv.org/abs/1803.03324) (ICML2018)
@@ -176,18 +176,18 @@ proposed a control-variate based stochastic approximation algorithms for GCN by 
 
 
 ## 输入含有边特征的GNN：input allow edge features 
-- ( by "A Comprehensive Survey on Graph Neural Networks")
+- **by "A Comprehensive Survey on Graph Neural Networks"**
 1. GNN (2009) The graph neural network model
 1. MPNN (2017) Neural message passing for quantum chemistry
 1. DCNN (2016) Diffusion-convolutional neural networks
 1. PATCHY-SAN (2016) Learning convolutional neural networks for graphs
 
-- ( by "Deep Learning on Graphs: A Survey")
+- **by "Deep Learning on Graphs: A Survey"**
 1. Geniepath:Graph neural networks with adaptive receptive paths
 1. Dual graph convolutional networks for graph-based semi-supervised classification
 1. Signed graph convolutional network
 
-- (by yaya)
+- **by yaya**
 1. [Encoding Sentences with Graph Convolutional Networks for Semantic Role Labeling](https://arxiv.org/abs/1703.04826)</br>
 1. [Exploring Visual Relationship for Image Captioning](https://arxiv.org/abs/1809.07041)
 
@@ -196,7 +196,8 @@ proposed a control-variate based stochastic approximation algorithms for GCN by 
 **Order invariance**  A critical requirement for the graph readout operation is that the operation should be invariant to the order
 of nodes, i.e. if we change the indices of nodes and edges using a bijective function between two vertex sets, representation of the whole graph should not change.   
 
-**一. Statistics** ( by "Deep Learning on Graphs: A Survey")
+**一. Statistics** </br>
+- **by "Deep Learning on Graphs: A Survey"**
 - The most basic operations that are order invariant are simple statistics like taking **sum**, **average** or **max-pooling**
 1. Convolutional networks on graphs for learning molecular fingerprints
 1. Diffusion-convolutional neural networks
@@ -204,12 +205,14 @@ of nodes, i.e. if we change the indices of nodes and edges using a bijective fun
 1. Molecular graph convolutions: moving beyond fingerprints
 1. Spectral networks and locally connected networks on graphs
 
-**二. Hierarchical clustering** ( by "Deep Learning on Graphs: A Survey")
+**二. Hierarchical clustering** </br>
+- **by "Deep Learning on Graphs: A Survey"**
 1. Spectral networks and locally connected networks on graphs
 1. Deep convolutional networks on graph-structured data
 1. [Hierarchical Graph Representation Learning with Differentiable Pooling](https://arxiv.org/pdf/1806.08804.pdf) [[code]](https://github.com/RexYing/diffpool)
 
-**三. Graph Pooling Modules** (by "A Comprehensive Survey on Graph Neural Networks")
+**三. Graph Pooling Modules** 
+- **by "A Comprehensive Survey on Graph Neural Networks"**
 1. Convolutional neural networks on graphs with fast localized spectral filtering (NIPS 2016)
 1. Deep convolutional networks on graph-structured data
 1. An end-to-end deep learning architecture for graph classification (AAAI 2018) [[code]](https://github.com/muhanzhang/DGCNN)  [[pytorch code]](https://github.com/muhanzhang/pytorch_DGCNN)
