@@ -93,7 +93,7 @@ Instead of updating states over all nodes, GraphSage proposes a batch-training a
 1. [Geometric deep learning on graphs and manifolds using mixture model cnns](http://openaccess.thecvf.com/content_cvpr_2017/papers/Monti_Geometric_Deep_Learning_CVPR_2017_paper.pdf)
 1. [Learning convolutional neural networks for graphs](http://proceedings.mlr.press/v48/niepert16.pdf)
 1. [Large-scale learnable graph convolutional networks (LGCN)](https://dl.acm.org/citation.cfm?id=3219947) [[tf code]](https://github.com/divelab/lgcn/)
-1. [Diffusion-convolutional neural networks](https://arxiv.org/abs/1511.02136) (NIPS 2016)
+1. [Diffusion-convolutional neural networks](https://arxiv.org/abs/1511.02136) (NIPS 2016) [[tf code]](https://github.com/liyaguang/DCRNN)
 1. [Geometric deep learning on graphs and manifolds using mixture model cnns](https://arxiv.org/abs/1611.08402) (CVPR 2017)
 1. etc: by "A Comprehensive Survey on Graph Neural Networks" P5;P7的表格分别列举了一些spatial-based GCN 
 
@@ -159,18 +159,18 @@ proposed a control-variate based stochastic approximation algorithms for GCN by 
 1. [Variational graph auto-encoders (GAE)](https://arxiv.org/abs/1611.07308) [[tkipf/code]](https://github.com/tkipf/gae) [[tf code]](https://github.com/limaosen0/Variational-Graph-Auto-Encoders)</br>
  used in link prediction task in citation networks</br>
  encoder对node embedding进行更新,decoder对A(adjacency matrix)进行更新
-1. [Adversarially regularized graph autoencoder for graph embedding (ARGA)](https://arxiv.org/abs/1611.07308)
+1. [Adversarially regularized graph autoencoder for graph embedding (ARGA)](https://arxiv.org/abs/1611.07308) [[tf code]](https://github.com/Ruiqi-Hu/ARGA)
 1. [Learning deep network representations with adversarially regularized autoencoders (NetRA)](http://www.cs.ucsb.edu/~bzong/doc/kdd-18.pdf)
-1. [Deep neural networks for learning graph representations (DNGR)](https://pdfs.semanticscholar.org/1a37/f07606d60df365d74752857e8ce909f700b3.pdf)
-1. [Structural deep network embedding (SDNE)](https://www.kdd.org/kdd2016/papers/files/rfp0191-wangAemb.pdf)
-1. [Deep recursive network embedding with regular equivalence (DRNE)](http://pengcui.thumedialab.com/papers/NE-RegularEquivalence.pdf)
+1. [Deep neural networks for learning graph representations (DNGR)](https://pdfs.semanticscholar.org/1a37/f07606d60df365d74752857e8ce909f700b3.pdf) [[matlab code]](https://github.com/ShelsonCao/DNGR)
+1. [Structural deep network embedding (SDNE)](https://www.kdd.org/kdd2016/papers/files/rfp0191-wangAemb.pdf) [[python code]](https://github.com/suanrong/SDNE)
+1. [Deep recursive network embedding with regular equivalence (DRNE)](http://pengcui.thumedialab.com/papers/NE-RegularEquivalence.pdf)(https://github.com/tadpole/DRNE)
 
 
 
 ## Graph Generative Networks
 - **by "A Comprehensive Survey on Graph Neural Networks"**</br>
 - factor the generation process as forming nodes and edges alternatively
-1. [Graphrnn: A deep generative model for graphs](https://arxiv.org/abs/1802.08773) (ICML2018)
+1. [Graphrnn: A deep generative model for graphs](https://arxiv.org/abs/1802.08773) (ICML2018) [[tf code]](https://github.com/snap-stanford/GraphRNN)
 1. [Learning deep generative models of graphs](https://arxiv.org/abs/1803.03324) (ICML2018)
 - employ generative adversarial training
 1. [Molgan: An implicit generative model for small molecular graphs](https://arxiv.org/pdf/1805.11973.pdf) (arXiv:1805.11973 2018)
