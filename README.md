@@ -110,7 +110,7 @@ Instead of updating states over all nodes, GraphSage proposes a batch-training a
 1. flexibility
 - 基于谱的模型受限于无向图，但是却没有在有向图上的关于拉普拉斯矩阵(Laplacian matrix)清晰的定义。因此，若将基于谱的方法应用在有向图上，需要将有向图转化为无向图，
 - 基于空间的模型处理多源输入更加灵活，这里的多源输入可以指：edge features or edge directions, etc
-- 关于edge features, 参见下文  (input allow edge features )
+- 关于edge features, 参见下文 [输入含有边特征的GNN：input allow edge features](#输入含有边特征的GNN：input-allow-edge-features)
 
 
 ## 改善GCN在训练方面的缺陷: Training Methods
