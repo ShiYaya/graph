@@ -63,6 +63,8 @@ https://github.com/thunlp/GNNPapers</br>
 
 - 谱上的图卷积网络的缺陷：   
 **spectral methods usually handle the whole graph simultaneously and are difficult to parallel or scale to large graphs**
+**more drawbacks in "A Comprehensive Survey on Graph Neural Networks" P7 4.1.3 summary of spectral methods
+
 
 ## 空间上的图卷积：spatial-based graph convolutional networks
 - **by "A Comprehensive Survey on Graph Neural Networks"**
