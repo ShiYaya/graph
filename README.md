@@ -268,3 +268,4 @@ of nodes, i.e. if we change the indices of nodes and edges using a bijective fun
 in PyTorch named PyTorch Geometric, which implements serveral graph neural networks including ChebNet, 1stChebNet, GraphSage, MPNNs, GAT and SplineCNN.
 - **[Deep Graph Library (DGL)](https://www.dgl.ai/)**
 provides a fast implementation of many graph neural networks with a set of functions on top of popular deep learning platforms such as PyTorch and MXNet
+- **graph_nets[github](https://github.com/deepmind/graph_nets)**
