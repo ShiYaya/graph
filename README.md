@@ -139,22 +139,6 @@ proposed a control-variate based stochastic approximation algorithms for GCN by 
 1. [Deeper insights into graph convolutional networks for semi-supervised learning  (arXiv:1801.07606, 2018)](https://arxiv.org/abs/1801.07606)</br>  
 
 
-## 输入含有边特征的GNN：input allow edge features 
-- ( by "A Comprehensive Survey on Graph Neural Networks")
-1. GNN (2009) The graph neural network model
-1. MPNN (2017) Neural message passing for quantum chemistry
-1. DCNN (2016) Diffusion-convolutional neural networks
-1. PATCHY-SAN (2016) Learning convolutional neural networks for graphs
-
-- ( by "Deep Learning on Graphs: A Survey")
-1. Geniepath:Graph neural networks with adaptive receptive paths
-1. Dual graph convolutional networks for graph-based semi-supervised classification
-1. Signed graph convolutional network
-
-- (by yaya)
-1. [Encoding Sentences with Graph Convolutional Networks for Semantic Role Labeling](https://arxiv.org/abs/1703.04826)</br>
-1. [Exploring Visual Relationship for Image Captioning](https://arxiv.org/abs/1809.07041)
-
 
 ## Graph Attention Networks
 - ( by "A Comprehensive Survey on Graph Neural Networks")
@@ -178,6 +162,33 @@ proposed a control-variate based stochastic approximation algorithms for GCN by 
 1. [Deep neural networks for learning graph representations (DNGR)(https://pdfs.semanticscholar.org/1a37/f07606d60df365d74752857e8ce909f700b3.pdf)
 1. [Structural deep network embedding (SDNE)](https://www.kdd.org/kdd2016/papers/files/rfp0191-wangAemb.pdf)
 1. [Deep recursive network embedding with regular equivalence (DRNE)](http://pengcui.thumedialab.com/papers/NE-RegularEquivalence.pdf)
+
+
+
+## Graph Generative Networks
+- factor the generation process as forming nodes and edges alternatively
+1. [Graphrnn: A deep generative model for graphs](https://arxiv.org/abs/1802.08773) (ICML2018)
+1. [Learning deep generative models of graphs](https://arxiv.org/abs/1803.03324) (ICML2018)
+- employ generative adversarial training
+1. [Molgan: An implicit generative model for small molecular graphs](https://arxiv.org/pdf/1805.11973.pdf) (arXiv:1805.11973 2018)
+1. [Net-gan: Generating graphs via random walks](https://arxiv.org/abs/1803.00816) (ICML2018)
+
+
+## 输入含有边特征的GNN：input allow edge features 
+- ( by "A Comprehensive Survey on Graph Neural Networks")
+1. GNN (2009) The graph neural network model
+1. MPNN (2017) Neural message passing for quantum chemistry
+1. DCNN (2016) Diffusion-convolutional neural networks
+1. PATCHY-SAN (2016) Learning convolutional neural networks for graphs
+
+- ( by "Deep Learning on Graphs: A Survey")
+1. Geniepath:Graph neural networks with adaptive receptive paths
+1. Dual graph convolutional networks for graph-based semi-supervised classification
+1. Signed graph convolutional network
+
+- (by yaya)
+1. [Encoding Sentences with Graph Convolutional Networks for Semantic Role Labeling](https://arxiv.org/abs/1703.04826)</br>
+1. [Exploring Visual Relationship for Image Captioning](https://arxiv.org/abs/1809.07041)
 
 
 ## 图表达：Graph level representation/Readout Operations
