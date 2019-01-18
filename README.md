@@ -150,7 +150,7 @@ proposed a control-variate based stochastic approximation algorithms for GCN by 
 
 - (by yaya)
 1. [Encoding Sentences with Graph Convolutional Networks for Semantic Role Labeling](https://arxiv.org/abs/1703.04826)</br>
-1. [Exploring Visual Relationship for Image Captioning]
+1. [Exploring Visual Relationship for Image Captioning](https://arxiv.org/abs/1809.07041)
 
 ## 图表达：Graph level representation/Readout Operations
 **Order invariance**  A critical requirement for the graph readout operation is that the operation should be invariant to the order
