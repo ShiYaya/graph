@@ -156,7 +156,7 @@ proposed a control-variate based stochastic approximation algorithms for GCN by 
 - network embedding算法可以分类为:1.matrix factorization 2.random walks 3. deep learning. Graph Auto-encoders是deep learning的一类方法. P2</br>
 -  Network embedding是为了将node embedding 转化到低维的向量空间，通过保存网络的拓扑结构与节点内容信息，接下来的graph分析任务(比如，分类，聚类和推荐等)可以被应用于现有的机器学习任务(如SVM for classification)</br>
 
-1. [Variational graph auto-encoders (GAE)](https://arxiv.org/abs/1611.07308) [[code]](https://github.com/tkipf/gae) [[tf code]](https://github.com/limaosen0/Variational-Graph-Auto-Encoders)</br>
+1. [Variational graph auto-encoders (GAE)](https://arxiv.org/abs/1611.07308) [[tkipf/code]](https://github.com/tkipf/gae) [[tf code]](https://github.com/limaosen0/Variational-Graph-Auto-Encoders)</br>
  used in link prediction task in citation networks</br>
  encoder对node embedding进行更新,decoder对A(adjacency matrix)进行更新
 1. [Adversarially regularized graph autoencoder for graph embedding (ARGA)](https://arxiv.org/abs/1611.07308)
