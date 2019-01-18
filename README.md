@@ -35,7 +35,7 @@ condition 是基于question.那么在视频描述中也可以基于监督学习�
 [Hierarchical Graph Representation Learning with Differentiable Pooling](https://arxiv.org/pdf/1806.08804.pdf),[code](https://github.com/RexYing/diffpool)
 
 ### 可以再根据node classification与graph classification 与edge 进行一下分类------yaya 后续任务
-
+### 再填上 关于res-connection的相关论文
 
 
 ## 总结性质的
