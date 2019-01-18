@@ -64,7 +64,8 @@ https://github.com/thunlp/GNNPapers</br>
 - 谱上的图卷积网络的缺陷：   
 **spectral methods usually handle the whole graph simultaneously and are difficult to parallel or scale to large graphs**
 
-## 空间上的图卷积：spatial-based graph convolutional networks( by "A Comprehensive Survey on Graph Neural Networks")
+## 空间上的图卷积：spatial-based graph convolutional networks
+- **by "A Comprehensive Survey on Graph Neural Networks"**
 
 1. [Inductive representation learning on large graphs](http://papers.nips.cc/paper/6703-inductive-representation-learning-on-large-graphs.pdf)  (GraphSAGE)
 1. [Geometric deep learning on graphs and manifolds using mixture model cnns](http://openaccess.thecvf.com/content_cvpr_2017/papers/Monti_Geometric_Deep_Learning_CVPR_2017_paper.pdf)
@@ -75,6 +76,7 @@ https://github.com/thunlp/GNNPapers</br>
 - **Together with sampling strategies, the computation can be performed in a batch of nodes instead of the whole graph** (GraphSAGE and LGCN)
 
 ## 谱上与空间GCN的比较：Comparison Between Spectral and Spatial Models
+- **by "A Comprehensive Survey on Graph Neural Networks"**
 - **bridges:** The graph convolution defined by 1stChebNet(semi-supervised GCN) is localized in space. It bridges the gap between spectral-based methods and spatial-based methods. 
 
 
