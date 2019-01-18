@@ -208,7 +208,7 @@ of nodes, i.e. if we change the indices of nodes and edges using a bijective fun
 * [专知讲解](https://mp.weixin.qq.com/s/c6ZhSk4r3pvnjHsvpwkkSw)
 * by yaya:阅读该篇文章主要是来源于这篇将图卷积用于图像描述的文章:Exploring Visual Relationship for Image Captioning</br>
 这两篇文章采用的图卷积公式都是一样的，但是我认为很奇怪，而且b是如何由edge获得的，将进一步阅读代码，稍后解释。</br>
-<div align=center><img width="400" height="200" src="https://github.com/ShiYaya/graph/blob/master/images/gcn%2Bformulation.png"/></div>
+<div align=center><img src="https://github.com/ShiYaya/graph/blob/master/images/gcn%2Bformulation.png"/></div>
 
 
 ### Neural Machine Translation
