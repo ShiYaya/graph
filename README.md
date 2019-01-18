@@ -257,3 +257,14 @@ of nodes, i.e. if we change the indices of nodes and edges using a bijective fun
 *Medhini Narasimhan, Svetlana Lazebnik, Alexander Schwing.* NeurIPS 2018. [paper](http://papers.nips.cc/paper/7531-out-of-the-box-reasoning-with-graph-convolution-nets-for-factual-visual-question-answering.pdf)
 1. **Learning Conditioned Graph Structures for Interpretable Visual Question Answering.**
 *Will Norcliffe-Brown, Efstathios Vafeias, Sarah Parisot.* NeurIPS 2018. [paper](https://arxiv.org/pdf/1806.07243)  [[code]](https://github.com/aimbrain/vqa-project)
+
+
+## **library**
+
+3. https://github.com/rusty1s/pytorch geometric
+4. https://www.dgl.ai/
+
+- **geometric learning library** [https://github.com/rusty1s/pytorch geometric](https://github.com/rusty1s/pytorch geometric)
+in PyTorch named PyTorch Geometric, which implements serveral graph neural networks including ChebNet, 1stChebNet, GraphSage, MPNNs, GAT and SplineCNN.
+- **Deep Graph Library (DGL)**[https://www.dgl.ai/](https://www.dgl.ai/)
+provides a fast implementation of many graph neural networks with a set of functions on top of popular deep learning platforms such as PyTorch and MXNet
