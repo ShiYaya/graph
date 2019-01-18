@@ -177,6 +177,18 @@ proposed a control-variate based stochastic approximation algorithms for GCN by 
 1. [Net-gan: Generating graphs via random walks](https://arxiv.org/abs/1803.00816) (ICML2018)
 
 
+## GCN Based Graph Spatial-Temporal Networks
+1. [Diffusion convolutional recurrent neural network: Data-driven traffic forecasting (DCRNN)] (ICLR 2018)
+1. [Spatio-temporal graph convolutional networks: A deep learning framework for traffic forecasting (CNN-GNN)] (IJCAI 2017)
+1. [Spatial temporal graph convolutional networks for skeleton-based action recognition (ST-GCN)] (AAAI 2018)
+1. [Structural-rnn:Deep learning on spatio-temporal graphs (Structural-RNN)]  (CVPR 2016)
+
+- by yaya
+- 这两篇都是skeleton-based action recognition
+1. [Skeleton-Based Action Recognition with Spatial Reasoning and Temporal Stack Learning] (ECCV 2018)
+1. [Spatial temporal graph convolutional networks for skeleton-based action recognition (ST-GCN)] (AAAI 2018)
+
+
 ## 输入含有边特征的GNN：input allow edge features 
 - **by "A Comprehensive Survey on Graph Neural Networks"**
 1. GNN (2009) The graph neural network model
