@@ -99,14 +99,16 @@ Instead of updating states over all nodes, GraphSage proposes a batch-training a
 ## 谱上与空间GCN的比较：Comparison Between Spectral and Spatial Models
 - **by "A Comprehensive Survey on Graph Neural Networks"**
 - **bridges:** The graph convolution defined by 1stChebNet(semi-supervised GCN) is localized in space. It bridges the gap between spectral-based methods and spatial-based methods. -- by "A Comprehensive Survey on Graph Neural Networks" P2
-- Drawbacks to spectralbased models. We illustrate this in the following from three aspects, efficiency, generality and flexibility
+- **Drawbacks** to spectralbased models. We illustrate this in the following from three aspects, efficiency, generality and flexibility
 
 1. efficiency
 - 基于谱的模型或者需要计算特征向量，或者需要同时处理整个graph，这样的情况下，模型的计算量将随着graph size 显著的增加
 - 基于空间的模型通过聚合临近节点的特征，直接在graph domain进行卷积计算，因此具有处理large graph的潜力。另外，可以以批次处理节点，而不是整个graph。再另外，随着临近节点的增加，可以使用采样策略来提高效率----参见后文 [改善GCN在训练方面的缺陷: Training Methods](#改善gcn在训练方面的缺陷-training-methods)
+
 1. generality
 - 基于谱的模型假设在固定的graph上进行训练，很难泛化到其他的新的或者不同的graph上
 - 基于空间的模型在每个node上执行graph convolution计算，因此训练得到的权重(weights)可以轻易的共享到其他的node或者graph
+
 1. flexibility
 - 基于谱的模型受限于无向图，但是却没有在有向图上的关于拉普拉斯矩阵(Laplacian matrix)清晰的定义。因此，若将基于谱的方法应用在有向图上，需要将有向图转化为无向图，
 - 基于空间的模型处理多源输入更加灵活，这里的多源输入可以指：edge features or edge directions, etc
