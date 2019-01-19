@@ -427,7 +427,7 @@ Structural deep embedding for hyper-networks (AAAI 2018)
 
 **六. Compositionality**
 - **by "Deep Learning on Graphs: A Survey"**
-- 
+- 很多存在的方法可以组合到一起，例如将GCN作为GAEs或者Graph RNNs里的layer, 除了设计新的building blocks, 如何将现有的结构以某种原则组合到一起也是一个很有趣的方向, 最近的工作, [Graph Networks](https://arxiv.org/abs/1806.01261)进行了尝试, 重点介绍了GNNS和GCNS通用框架在关系推理问题中的应用。
 
 
 
