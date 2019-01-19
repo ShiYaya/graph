@@ -285,8 +285,11 @@ of nodes, i.e. if we change the indices of nodes and edges using a bijective fun
 1. [Few-shot learning with graph neural networks](https://arxiv.org/abs/1711.04043) (ICLR 2018) [[code]](Code available at: https://github.com/vgsatorras/few-shot-gnn)
 1. [Zero-shot recognition via semantic embeddings and knowledge graphs](https://arxiv.org/abs/1803.08035) (CVPR 2018)
 1. [Multi-label zero-shot learning with structured knowledge graphs](https://arxiv.org/abs/1711.06526) (arXiv preprint 2017)
-1. [Rethinking knowledge graph propagation for zero-shot learning](https://arxiv.org/abs/1805.11724)(arXiv preprint 2018.
+1. [Rethinking knowledge graph propagation for zero-shot learning](https://arxiv.org/abs/1805.11724)(arXiv preprint 2018)
 1. [The more you know: Using knowledge graphs for image classification](https://arxiv.org/abs/1612.04844) (arXiv preprint 2016)
+- **by yaya**
+1. [Learning to Propagate Labels: Transductive Propagation Network for Few-shot Learning](https://arxiv.org/abs/1805.10002) [[tf code]](https://github.com/csyanbin/TPN)
+
 
 ### few-shot 
 - **by "A Comprehensive Survey on Graph Neural Networks"**
@@ -298,7 +301,10 @@ of nodes, i.e. if we change the indices of nodes and edges using a bijective fun
 - image classification
 1. [Learning to Propagate Labels: Transductive Propagation Network for Few-shot Learning](https://arxiv.org/abs/1805.10002) [[tf code]](https://github.com/csyanbin/TPN)
 
-
+### zero-shot
+1. [Zero-shot recognition via semantic embeddings and knowledge graphs](https://arxiv.org/abs/1803.08035) (CVPR 2018)
+1. [Multi-label zero-shot learning with structured knowledge graphs](https://arxiv.org/abs/1711.06526) (arXiv preprint 2017)
+1. [Rethinking knowledge graph propagation for zero-shot learning](https://arxiv.org/abs/1805.11724)(arXiv preprint 2018)
 
 ### semantic segmentation
 - **by "A Comprehensive Survey on Graph Neural Networks"**
