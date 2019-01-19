@@ -317,7 +317,7 @@ of nodes, i.e. if we change the indices of nodes and edges using a bijective fun
 1. Dynamic graph cnn for learning on point clouds(arXiv preprint 2018)
 1. 3d graph neural networks for rgbd semantic segmentation (CVPR 2017)
 
-### 视觉问答
+### visual question answer
 - **by "Graph Neural Networks: A Review of Methods and Applications"**
 1. **A simple neural network module for relational reasoning.**
 *Adam Santoro, David Raposo, David G.T. Barrett, Mateusz Malinowski, Razvan Pascanu, Peter Battaglia, Timothy Lillicrap.* NIPS 2017. [paper](https://arxiv.org/pdf/1706.01427.pdf)
@@ -328,6 +328,22 @@ of nodes, i.e. if we change the indices of nodes and edges using a bijective fun
 1. **Learning Conditioned Graph Structures for Interpretable Visual Question Answering.**
 *Will Norcliffe-Brown, Efstathios Vafeias, Sarah Parisot.* NeurIPS 2018. [paper](https://arxiv.org/pdf/1806.07243)  [[code]](https://github.com/aimbrain/vqa-project)
 1. **Deep reasoning with knowledge graph for social relationship understanding.**
+
+### object detection
+- **by "Graph Neural Networks: A Review of Methods and Applications"**
+1. Relation networks for object detection (CVPR 2018)
+1. Learning region features for object detection (arXiv preprint 2018)
+
+### interaction detection
+- **by "Graph Neural Networks: A Review of Methods and Applications"**
+1. [Learning humanobject interactions by graph parsing neural networks] (arXiv preprint 2018)
+1. Structural-rnn:Deep learning on spatio-temporal graphs (CVPR 2016)
+
+### region classification
+- **by "Graph Neural Networks: A Review of Methods and Applications"**
+1. Iterative visual reasoning beyond convolutions (arXiv preprint 2018)
+
+
 
 ## **library**
 
