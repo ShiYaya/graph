@@ -272,6 +272,14 @@ of nodes, i.e. if we change the indices of nodes and edges using a bijective fun
 1. Spatial temporal graph convolutional networks for skeleton-based action recognition (AAAI 2018)
 1. Structural-rnn:Deep learning on spatio-temporal graphs (CVPR 2016)
 
+### Image classification
+- **by Graph Neural Networks: A Review of Methods and Applications**
+1. [Few-shot learning with graph neural networks](https://arxiv.org/abs/1711.04043) (ICLR 2018) [[code]](Code available at: https://github.com/vgsatorras/few-shot-gnn)
+1. [Zero-shot recognition via semantic embeddings and knowledge graphs](https://arxiv.org/abs/1803.08035) (CVPR 2018)
+1. [Multi-label zero-shot learning with structured knowledge graphs](https://arxiv.org/abs/1711.06526) (arXiv preprint 2017)
+1. [Rethinking knowledge graph propagation for zero-shot learning](https://arxiv.org/abs/1805.11724)(arXiv preprint 2018.
+1. [The more you know: Using knowledge graphs for image classification](https://arxiv.org/abs/1612.04844) (arXiv preprint 2016)
+
 ### few-shot image classification
 - **by "A Comprehensive Survey on Graph Neural Networks"**
 1. [Few-shot learning with graph neural networks](https://arxiv.org/abs/1711.04043) (ICLR 2018) [[code]](Code available at: https://github.com/vgsatorras/few-shot-gnn)
