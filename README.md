@@ -343,7 +343,8 @@ of nodes, i.e. if we change the indices of nodes and edges using a bijective fun
 - **by "Graph Neural Networks: A Review of Methods and Applications"**
 1. Iterative visual reasoning beyond convolutions (arXiv preprint 2018)
 
-
+### Social Relationship Understanding
+1. Deep reasoning with knowledge graph for social relationship understanding
 
 ## **library**
 
