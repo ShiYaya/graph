@@ -367,3 +367,19 @@ provides a fast implementation of many graph neural networks with a set of funct
 
 - **by "Graph Neural Networks: A Review of Methods and Applications"**
 <div align=center><img src="https://github.com/ShiYaya/graph/blob/master/images/gcn-in-other-application.png"/></div>
+
+
+
+## open problems and future direction
+1. go deeper?
+当前的gnn的层数大都很浅,这是因为，随着网络层数的增加，representation of nodes将趋于平滑,换句话说，图卷积本质上是使相邻节点的表达更加接近，从而在理论上来说，在无限次卷积的情况下，所有节点的表达都将会收敛于一个稳定的点，节点特征的可区分性与信息的丰富性将会损失。
+
+
+
+
+
+
+
+
+
+
