@@ -187,8 +187,11 @@ proposed a control-variate based stochastic approximation algorithms for GCN by 
 1. [Structural-rnn:Deep learning on spatio-temporal graphs (Structural-RNN)](https://arxiv.org/abs/1511.05298)  (CVPR 2016) [[theano code]](https://github.com/asheshjain399/RNNexp)
 - **by yaya**
 - 这两篇都是skeleton-based action recognition
-1. [Skeleton-Based Action Recognition with Spatial Reasoning and Temporal Stack Learning] (ECCV 2018)
-1. [Spatial temporal graph convolutional networks for skeleton-based action recognition (ST-GCN)] (AAAI 2018)
+1. [Skeleton-Based Action Recognition with Spatial Reasoning and Temporal Stack Learning](https://arxiv.org/abs/1805.02335) (ECCV 2018)
+
+
+
+
 
 
 ## 输入含有边特征的GNN：input allow edge features 
@@ -267,11 +270,15 @@ of nodes, i.e. if we change the indices of nodes and edges using a bijective fun
 1. Large-scale point cloud semantic segmentation with superpoint graphs (CVPR 2018)
 1. Rgcnn: Regularized graph cnn for point cloud segmentation (arXiv preprint 2018)
 
+
 ### action recognition
 - **by "A Comprehensive Survey on Graph Neural Networks"**
 - detects the locations of human joints in video clips
-1. Spatial temporal graph convolutional networks for skeleton-based action recognition (AAAI 2018)
-1. Structural-rnn:Deep learning on spatio-temporal graphs (CVPR 2016)
+1. [Spatial temporal graph convolutional networks for skeleton-based action recognition (ST-GCN)](https://arxiv.org/abs/1801.07455) (AAAI 2018) [[pytorch code]](https://github.com/yysijie/st-gcn)
+1. [Structural-rnn:Deep learning on spatio-temporal graphs (Structural-RNN)](https://arxiv.org/abs/1511.05298)  (CVPR 2016) [[theano code]](https://github.com/asheshjain399/RNNexp)
+- **by yaya**
+1. [Skeleton-Based Action Recognition with Spatial Reasoning and Temporal Stack Learning](https://arxiv.org/abs/1805.02335) (ECCV 2018)
+
 
 ### Image classification
 - **by "Graph Neural Networks: A Review of Methods and Applications"**
