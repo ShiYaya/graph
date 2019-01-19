@@ -240,7 +240,8 @@ of nodes, i.e. if we change the indices of nodes and edges using a bijective fun
 # GCN的应用
 
 ## 自然语言处理
-- **by "Deep Learning on Graphs: A Survey"**
+- **by "Graph Neural Networks: A Review of Methods and Applications"**
+<div align=center><img src="https://github.com/ShiYaya/graph/blob/master/images/gcn-in-test-application.png"/></div>
 
 1. [Encoding Sentences with Graph Convolutional Networks for Semantic Role Labeling](https://arxiv.org/abs/1703.04826)</br>
 * [[官方code(theano 0.8.2,lasagne 0.1)]](https://github.com/diegma/neural-dep-srl)  [[复现pytorch]](https://github.com/kervyRivas/Graph-convolutional)
@@ -252,7 +253,11 @@ of nodes, i.e. if we change the indices of nodes and edges using a bijective fun
 1. [Graph Convolutional Encoders for Syntax-aware Neural Machine Translation](https://arxiv.org/pdf/1704.04675)
 
 ## 计算机视觉
+
 ### scene graph generation
+- **by "Graph Neural Networks: A Review of Methods and Applications"**
+<div align=center><img src="https://github.com/ShiYaya/graph/blob/master/images/gcn-in-image-application.png"/></div>
+
 
 - **by "A Comprehensive Survey on Graph Neural Networks"**
 - **detect and recognize objects and predict semantic relationships between pairs of objects**
@@ -356,3 +361,9 @@ in PyTorch named PyTorch Geometric, which implements serveral graph neural netwo
 - **Deep Graph Library (DGL) [[website]](https://www.dgl.ai/) [[github]](https://github.com/dmlc/dgl)**
 provides a fast implementation of many graph neural networks with a set of functions on top of popular deep learning platforms such as PyTorch and MXNet
 - **graph_nets [[github]](https://github.com/deepmind/graph_nets)**
+
+
+## other application
+
+- **by "Graph Neural Networks: A Review of Methods and Applications"**
+<div align=center><img src="https://github.com/ShiYaya/graph/blob/master/images/gcn-in-other-application.png"/></div>
