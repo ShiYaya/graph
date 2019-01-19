@@ -288,7 +288,7 @@ of nodes, i.e. if we change the indices of nodes and edges using a bijective fun
 - 3d action recognition
 1. [Neural graph matching networks for fewshot 3d action recognition](http://openaccess.thecvf.com/content_ECCV_2018/html/Michelle_Guo_Neural_Graph_Matching_ECCV_2018_paper.html) (ECCV 2018)
 - **by yaya**
--- image classification
+- image classification
 1. [Learning to Propagate Labels: Transductive Propagation Network for Few-shot Learning](https://arxiv.org/abs/1805.10002) [[tf code]](https://github.com/csyanbin/TPN)
 
 
