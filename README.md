@@ -150,6 +150,18 @@ proposed a control-variate based stochastic approximation algorithms for GCN by 
 1. [Watch your step: Learning node embeddings via graph attention](https://arxiv.org/abs/1710.09599)(NIPS 2018)
 
 
+## Residual and Jumping Connections/Skip connections
+- by yaya:考虑到CNN中residual network增加网络层数,使得性能的提升, 这里尝试使用residual 也是为了在增加网络层数的基础上,使得性能更好. 参见下文：[Go deeper?]()
+- **by "Deep Learning on Graphs: A Survey"**
+1. Semi-supervised classification with graph convolutional networks (ICLR 2017)
+1. Column networks for collective classification (AAAI 2017)
+1. Representation learning on graphs with jumping knowledge networks (ICML 2018)
+- **by "Graph Neural Networks: A Review of Methods and Applications"**
+1. Semi-supervised user geolocation via graph convolutional networks (ACL 2018)
+1. Representation learning on graphs with jumping knowledge networks (ICML 2018)
+
+
+
 ## Graph Auto-encoders
 <div align=center><img width="400" height="200" src="https://github.com/ShiYaya/graph/blob/master/images/graph-auto-encoder.png"/></div>
 
