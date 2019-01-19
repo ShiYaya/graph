@@ -22,6 +22,7 @@ condition 是基于question.那么在视频描述中也可以基于监督学习�
 *Daniel Beck, Gholamreza Haffari, Trevor Cohn.* ACL 2018. [paper](https://arxiv.org/pdf/1806.09835.pdf)
 1. **Modeling Relational Data with Graph Convolutional Networks.**
 *Michael Schlichtkrull, Thomas N. Kipf, Peter Bloem, Rianne van den Berg, Ivan Titov, Max Welling.* ESWC 2018. [paper](https://arxiv.org/pdf/1703.06103.pdf)
+1. **Neural graph matching networks for fewshot 3d action recognition (ECCV 2018)** 可以看一下
 
 - 使用不同训练方法的图变体
 1. **FastGCN: Fast Learning with Graph Convolutional Networks via Importance Sampling.**
@@ -280,11 +281,14 @@ of nodes, i.e. if we change the indices of nodes and edges using a bijective fun
 1. [Rethinking knowledge graph propagation for zero-shot learning](https://arxiv.org/abs/1805.11724)(arXiv preprint 2018.
 1. [The more you know: Using knowledge graphs for image classification](https://arxiv.org/abs/1612.04844) (arXiv preprint 2016)
 
-### few-shot image classification
+### few-shot 
 - **by "A Comprehensive Survey on Graph Neural Networks"**
-1. [Few-shot learning with graph neural networks](https://arxiv.org/abs/1711.04043) (ICLR 2018) [[code]](Code available at: https://github.com/vgsatorras/few-shot-gnn)
-1. Neural graph matching networks for fewshot 3d action recognition (ECCV 2018)
+- image classification
+1. [Few-shot learning with graph neural networks](https://arxiv.org/abs/1711.04043) (ICLR 2018) [[code]](https://github.com/vgsatorras/few-shot-gnn)
+- 3d action recognition
+1. [Neural graph matching networks for fewshot 3d action recognition](http://openaccess.thecvf.com/content_ECCV_2018/html/Michelle_Guo_Neural_Graph_Matching_ECCV_2018_paper.html) (ECCV 2018)
 - **by yaya**
+- 
 1. [Learning to Propagate Labels: Transductive Propagation Network for Few-shot Learning](https://arxiv.org/abs/1805.10002) [[tf code]](https://github.com/csyanbin/TPN)
 
 
