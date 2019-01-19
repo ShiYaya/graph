@@ -371,7 +371,7 @@ provides a fast implementation of many graph neural networks with a set of funct
 
 
 ## open problems and future direction
-一. **go deeper?**
+**一. go deeper?**
 - **by "Graph Neural Networks: A Review of Methods and Applications"  &  "A Comprehensive Survey on Graph Neural Networks"**</br>
 (1)当前的gnn的层数大都很浅,这是因为，随着网络层数的增加，representation of nodes将趋于平滑,换句话说，图卷积本质上是使相邻节点的表达更加接近，从而在理论上来说，在无限次卷积的情况下，所有节点的表达都将会收敛于一个稳定的点，节点特征的可区分性与信息的丰富性将会损失。在图结构数据上的网络增加层数是否是一个好的策略仍然是一个开放性的问题。[[Deeper insights into graph convolutional networks for semi-supervised learning]](https://arxiv.org/abs/1801.07606)</br>
 (2)when tack k layers, each node will aggregate more information from neighborhoods k hops away. 若临近节点有噪声，将会随着层数的增加，噪声信息也会指数级增加. P9 by "Graph Neural Networks: A Review of Methods and Applications"--skip connection</br>
@@ -384,7 +384,7 @@ provides a fast implementation of many graph neural networks with a set of funct
 1. Semi-supervised user geolocation via graph convolutional networks (ACL 2018)
 1. Representation learning on graphs with jumping knowledge networks (ICML 2018)
 
-二. Scalability-Can gnn handle large graphs?
+**二. Scalability->Can gnn handle large graphs?**
 - **by "Graph Neural Networks: A Review of Methods and Applications"**</br>
 Scaling up GNN is difficult because many of the core steps are computational consuming in big data environment:1. graph不是规则的欧式空间，receptive filed(neighborhood structure) 对于每个node也是不同的，因此很难对节点进行批次训练. 2. 当处理 large graph时，计算graph Laplacian也很困难.
 - **by yaya**
@@ -399,17 +399,35 @@ Scaling up GNN is difficult because many of the core steps are computational con
 1. [Inductive representation learning on large graphs (NIPS 2017)](https://arxiv.org/abs/1706.02216)</br>
 1. [Large-scale learnable graph convolutional networks](https://arxiv.org/abs/1808.03965) (ACM 2018)
 
-- **by yaya**
-- 我觉得这样说，是从deep gnn的角度来说，这样就没有讲清shallow gnn是否可以应用于large graph
+- **by yaya：**我觉得这样说，是从deep gnn的角度来说，这样就没有讲清shallow gnn是否可以应用于large graph
 
-- yaya:1.基于公式X'=AXW的GCN网络，需要将entire graph输入网络中进行计算，不能以节点为单位进行batch运算，计算量大，对于设计了sub-graph的网络，局限性可能在于邻近节点很多，若网络也很深，计算量将也会很大
+- ***yaya conclution:*** 基于公式X'=AXW的GCN网络，需要将entire graph输入网络中进行计算，不能以节点为单位进行batch运算，计算量大，对于设计了sub-graph的网络，局限性可能在于邻近节点很多，若网络也很深，计算量将也会很大
 
-三. Dynamic graphs
-在社交网络中，存在新的人加入，或者已存在的人退出社交网络，这样的graph是动态的，而当前提出的方法都是建立在 static graph
+**三. Dynamic graphs**
+- **by "Deep Learning on Graphs: A Survey"**
+在社交网络中，存在新的人加入，或者已存在的人退出社交网络，这样的graph是动态的，而当前提出的方法都是建立在 static graph.</br> 
+How to model the evolving characteristics of dynamic graphs and support incrementally updating model parameters largely remains open in the literature.</br>
+- Some preliminary works try to tackle this problem using Graph RNN architectures with encouraging results
+1. Dynamic graph neural networks (arXiv preprint 2018)
+1. Dynamic graph convolutional networks (arXiv preprint 2017)
 
 
+**四. Different types of graphs**
+- **by "Deep Learning on Graphs: A Survey"**
+- **homogeneous graphs**
+Heterogeneous network embedding via deep architectures
+- **Signed networks**
+Signed graph convolutional network
+- **Hyper graphs**
+Structural deep embedding for hyper-networks (AAAI 2018)
 
+**五. Interpretability**
+- **by "Deep Learning on Graphs: A Survey"**
+- 由于graph经常与其他学科相关联，因此解释图形的深度学习模型对于决策问题至关重要，例如，在药物或者疾病相关的问题，可解释性对于将计算机实验转化为临床应用至关重要。然而，由于图中的节点和边缘是紧密相互关联的， 因此基于图形的深度学习的可解释性甚至比其他黑匣子模型更具挑战性
 
+**六. Compositionality**
+- **by "Deep Learning on Graphs: A Survey"**
+- 
 
 
 
