@@ -463,6 +463,7 @@ Scaling up GNN is difficult because many of the core steps are computational con
 
 **八. Receptive Field**
 - **by "A Comprehensive Survey on Graph Neural Networks"**</br>
+- 这里的Receptive Field是参考了论文"Deep Learning on Graphs: A Survey"中的Accelerating by Sampling这一节, 目的也是在于加速训练
 - 一个node的可接受域是指它本身以及its neighbors, But the number of neighbors is very different, from one to thousands. 遵循power law
 distribution. 因此采样策略被提出来, 如何选择节点的有代表性的接收域仍有待探索
 1. Inductive representation learning on large graphs (NIPS 2017)
