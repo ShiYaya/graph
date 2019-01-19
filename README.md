@@ -371,7 +371,7 @@ provides a fast implementation of many graph neural networks with a set of funct
 
 
 ## open problems and future direction
-1. **go deeper?**
+一. **go deeper?**
 - **by "Graph Neural Networks: A Review of Methods and Applications"  &  "A Comprehensive Survey on Graph Neural Networks"**</br>
 (1)当前的gnn的层数大都很浅,这是因为，随着网络层数的增加，representation of nodes将趋于平滑,换句话说，图卷积本质上是使相邻节点的表达更加接近，从而在理论上来说，在无限次卷积的情况下，所有节点的表达都将会收敛于一个稳定的点，节点特征的可区分性与信息的丰富性将会损失。在图结构数据上的网络增加层数是否是一个好的策略仍然是一个开放性的问题。[[Deeper insights into graph convolutional networks for semi-supervised learning]](https://arxiv.org/abs/1801.07606)</br>
 (2)when tack k layers, each node will aggregate more information from neighborhoods k hops away. 若临近节点有噪声，将会随着层数的增加，噪声信息也会指数级增加. P9 by "Graph Neural Networks: A Review of Methods and Applications"--skip connection</br>
@@ -383,6 +383,33 @@ provides a fast implementation of many graph neural networks with a set of funct
 - **by "Graph Neural Networks: A Review of Methods and Applications"**</br>
 1. Semi-supervised user geolocation via graph convolutional networks (ACL 2018)
 1. Representation learning on graphs with jumping knowledge networks (ICML 2018)
+
+二. Scalability-Can gnn handle large graphs?
+- **by "Graph Neural Networks: A Review of Methods and Applications"**</br>
+Scaling up GNN is difficult because many of the core steps are computational consuming in big data environment:1. graph不是规则的欧式空间，receptive filed(neighborhood structure) 对于每个node也是不同的，因此很难对节点进行批次训练. 2. 当处理 large graph时，计算graph Laplacian也很困难.
+- **by yaya**
+我觉得这样的说法是不对的，由上文的分析中可以看出，只是谱方法需要计算graph Laplacian，
+
+- **by "A Comprehensive Survey on Graph Neural Networks"**</br>
+当gcn的堆叠多层时，一个节点的最终状态将由很多临近节点((1~k)-hop neighbors)的状态所决定, 在反向传播时的计算量将会很大。当前为了提高模型的效率提出了两类方法fast sampling and sub-graph training, but still not scalable enough to handle deep architectures with large graphs</br>
+- **fast sampling**
+1. [Fastgcn: fast learning with graph convolutional networks via importance sampling (ICLR 2018)](https://arxiv.org/abs/1801.10247)</br> 
+assume the rescaled adjacent matrix A comes from a sampling distribution. 
+1. [Stochastic training of graph convolutional networks with variance reduction (ICML 2018)](https://arxiv.org/abs/1710.10568)</br> 
+reduce the receptive field size of the graph convolution to an arbitrary small scale by sampling neighborhoods and using historical hidden representations.
+- **sub-graph training**
+1. [Inductive representation learning on large graphs (NIPS 2017)](https://arxiv.org/abs/1706.02216)</br>
+1. [Large-scale learnable graph convolutional networks](https://arxiv.org/abs/1808.03965) (ACM 2018)
+
+- **by yaya**
+- 我觉得这样说，是从deep gnn的角度来说，这样就没有讲清shallow gnn是否可以应用于large graph
+
+
+
+
+
+
+
 
 
 
