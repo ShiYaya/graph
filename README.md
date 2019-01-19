@@ -276,6 +276,10 @@ of nodes, i.e. if we change the indices of nodes and edges using a bijective fun
 - **by "A Comprehensive Survey on Graph Neural Networks"**
 1. Few-shot learning with graph neural networks (ICLR 2018)
 1. Neural graph matching networks for fewshot 3d action recognition (ECCV 2018)
+- **by yaya**
+1. [Learning to Propagate Labels: Transductive Propagation Network for Few-shot Learning](https://arxiv.org/abs/1805.10002)
+
+
 
 ### semantic segmentation
 - **by "A Comprehensive Survey on Graph Neural Networks"**
