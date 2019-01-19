@@ -141,6 +141,13 @@ directly samples the receptive field for each layer.
 proposed a control-variate based stochastic approximation algorithms for GCN by utilizing the historical activations of nodes as a control variate. 
 1. [Deeper insights into graph convolutional networks for semi-supervised learning  (arXiv:1801.07606, 2018)](https://arxiv.org/abs/1801.07606)</br>  
 
+- **by "Deep Learning on Graphs: A Survey"**
+- Accelerating by Sampling P8
+1. [Inductive representation learning on large graphs (NIPS 2017)](https://arxiv.org/abs/1706.02216)</br>
+1. Graph convolutional neural networks for web-scale recommender systems
+1. [Fastgcn: fast learning with graph convolutional networks via importance sampling (ICLR 2018)](https://arxiv.org/abs/1801.10247)</br>
+1. [Stochastic training of graph convolutional networks with variance reduction (ICML 2018)](https://arxiv.org/abs/1710.10568)</br>
+
 
 ## Graph Attention Networks
 - **by "A Comprehensive Survey on Graph Neural Networks"**
