@@ -274,7 +274,7 @@ of nodes, i.e. if we change the indices of nodes and edges using a bijective fun
 1. Structural-rnn:Deep learning on spatio-temporal graphs (CVPR 2016)
 
 ### Image classification
-- **by Graph Neural Networks: A Review of Methods and Applications**
+- **by "Graph Neural Networks: A Review of Methods and Applications"**
 1. [Few-shot learning with graph neural networks](https://arxiv.org/abs/1711.04043) (ICLR 2018) [[code]](Code available at: https://github.com/vgsatorras/few-shot-gnn)
 1. [Zero-shot recognition via semantic embeddings and knowledge graphs](https://arxiv.org/abs/1803.08035) (CVPR 2018)
 1. [Multi-label zero-shot learning with structured knowledge graphs](https://arxiv.org/abs/1711.06526) (arXiv preprint 2017)
@@ -288,7 +288,7 @@ of nodes, i.e. if we change the indices of nodes and edges using a bijective fun
 - 3d action recognition
 1. [Neural graph matching networks for fewshot 3d action recognition](http://openaccess.thecvf.com/content_ECCV_2018/html/Michelle_Guo_Neural_Graph_Matching_ECCV_2018_paper.html) (ECCV 2018)
 - **by yaya**
-- 
+-- image classification
 1. [Learning to Propagate Labels: Transductive Propagation Network for Few-shot Learning](https://arxiv.org/abs/1805.10002) [[tf code]](https://github.com/csyanbin/TPN)
 
 
