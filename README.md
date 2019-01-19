@@ -282,7 +282,7 @@ of nodes, i.e. if we change the indices of nodes and edges using a bijective fun
 
 ### Image classification
 - **by "Graph Neural Networks: A Review of Methods and Applications"**
-1. [Few-shot learning with graph neural networks](https://arxiv.org/abs/1711.04043) (ICLR 2018) [[code]](Code available at: https://github.com/vgsatorras/few-shot-gnn)
+1. [Few-shot learning with graph neural networks](https://arxiv.org/abs/1711.04043) (ICLR 2018) [[code]](https://github.com/vgsatorras/few-shot-gnn)
 1. [Zero-shot recognition via semantic embeddings and knowledge graphs](https://arxiv.org/abs/1803.08035) (CVPR 2018)
 1. [Multi-label zero-shot learning with structured knowledge graphs](https://arxiv.org/abs/1711.06526) (arXiv preprint 2017)
 1. [Rethinking knowledge graph propagation for zero-shot learning](https://arxiv.org/abs/1805.11724)(arXiv preprint 2018)
