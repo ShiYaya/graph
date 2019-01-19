@@ -240,6 +240,7 @@ of nodes, i.e. if we change the indices of nodes and edges using a bijective fun
 # GCN的应用
 
 ## 自然语言处理
+- **overview**
 - **by "Graph Neural Networks: A Review of Methods and Applications"**
 <div align=center><img src="https://github.com/ShiYaya/graph/blob/master/images/gcn-in-test-application.png"/></div>
 
@@ -253,12 +254,11 @@ of nodes, i.e. if we change the indices of nodes and edges using a bijective fun
 1. [Graph Convolutional Encoders for Syntax-aware Neural Machine Translation](https://arxiv.org/pdf/1704.04675)
 
 ## 计算机视觉
-
-### scene graph generation
+- **overview**
 - **by "Graph Neural Networks: A Review of Methods and Applications"**
 <div align=center><img src="https://github.com/ShiYaya/graph/blob/master/images/gcn-in-image-application.png"/></div>
 
-
+### scene graph generation
 - **by "A Comprehensive Survey on Graph Neural Networks"**
 - **detect and recognize objects and predict semantic relationships between pairs of objects**
 1. Scene graph generation by iterative message passing (CVPR 2017)
