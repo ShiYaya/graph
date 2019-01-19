@@ -182,7 +182,7 @@ proposed a control-variate based stochastic approximation algorithms for GCN by 
 ## GCN Based Graph Spatial-Temporal Networks
 - **by "A Comprehensive Survey on Graph Neural Networks"**
 1. [Diffusion convolutional recurrent neural network: Data-driven traffic forecasting (DCRNN)](https://arxiv.org/abs/1707.01926) (ICLR 2018)
-1. [Spatio-temporal graph convolutional networks: A deep learning framework for traffic forecasting (CNN-GNN)](https://arxiv.org/abs/1709.04875) (IJCAI 2017) [[tf code](https://github.com/VeritasYin/STGCN IJCAI-18)
+1. [Spatio-temporal graph convolutional networks: A deep learning framework for traffic forecasting (CNN-GNN)](https://arxiv.org/abs/1709.04875) (IJCAI 2017) [[tf code](https://github.com/VeritasYin/STGCN_IJCAI-18)
 1. [Spatial temporal graph convolutional networks for skeleton-based action recognition (ST-GCN)](https://arxiv.org/abs/1801.07455) (AAAI 2018) [[pytorch code]](https://github.com/yysijie/st-gcn)
 1. [Structural-rnn:Deep learning on spatio-temporal graphs (Structural-RNN)](https://arxiv.org/abs/1511.05298)  (CVPR 2016) [[theano code]](https://github.com/asheshjain399/RNNexp)
 - **by yaya**
@@ -392,19 +392,20 @@ Scaling up GNN is difficult because many of the core steps are computational con
 
 - **by "A Comprehensive Survey on Graph Neural Networks"**</br>
 当gcn的堆叠多层时，一个节点的最终状态将由很多临近节点((1~k)-hop neighbors)的状态所决定, 在反向传播时的计算量将会很大。当前为了提高模型的效率提出了两类方法fast sampling and sub-graph training, but still not scalable enough to handle deep architectures with large graphs</br>
-- **fast sampling**
+**fast sampling**</br>
 1. [Fastgcn: fast learning with graph convolutional networks via importance sampling (ICLR 2018)](https://arxiv.org/abs/1801.10247)</br> 
-assume the rescaled adjacent matrix A comes from a sampling distribution. 
 1. [Stochastic training of graph convolutional networks with variance reduction (ICML 2018)](https://arxiv.org/abs/1710.10568)</br> 
-reduce the receptive field size of the graph convolution to an arbitrary small scale by sampling neighborhoods and using historical hidden representations.
-- **sub-graph training**
+**sub-graph training**</br>
 1. [Inductive representation learning on large graphs (NIPS 2017)](https://arxiv.org/abs/1706.02216)</br>
 1. [Large-scale learnable graph convolutional networks](https://arxiv.org/abs/1808.03965) (ACM 2018)
 
 - **by yaya**
 - 我觉得这样说，是从deep gnn的角度来说，这样就没有讲清shallow gnn是否可以应用于large graph
 
+- yaya:1.基于公式X'=AXW的GCN网络，需要将entire graph输入网络中进行计算，不能以节点为单位进行batch运算，计算量大，对于设计了sub-graph的网络，局限性可能在于邻近节点很多，若网络也很深，计算量将也会很大
 
+三. Dynamic graphs
+在社交网络中，存在新的人加入，或者已存在的人退出社交网络，这样的graph是动态的，而当前提出的方法都是建立在 static graph
 
 
 
