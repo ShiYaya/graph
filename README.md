@@ -432,8 +432,13 @@ Scaling up GNN is difficult because many of the core steps are computational con
 
 - ***yaya conclution:*** 基于公式X'=AXW的GCN网络，需要将entire graph输入网络中进行计算，不能以节点为单位进行batch运算，计算量大，对于设计了sub-graph的网络，局限性可能在于邻近节点很多，若网络也很深，计算量将也会很大
 
-
-
+**八. Receptive Field
+- **by "A Comprehensive Survey on Graph Neural Networks"**</br>
+- 一个node的可接受域是指它本身以及its neighbors, But the number of neighbors is very different, from one to thousands. 遵循power law
+distribution. 因此采样策略被提出来, 如何选择节点的有代表性的接收域仍有待探索
+1. Inductive representation learning on large graphs (NIPS 2017)
+1. Learning convolutional neural networks for graphs (ICML 2016)
+1. Large-scale learnable graph convolutional networks (ACM　SIGKDD 2018)
 
 
 
