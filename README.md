@@ -384,24 +384,11 @@ provides a fast implementation of many graph neural networks with a set of funct
 1. Semi-supervised user geolocation via graph convolutional networks (ACL 2018)
 1. Representation learning on graphs with jumping knowledge networks (ICML 2018)
 
-**二. Scalability->Can gnn handle large graphs?**
+***二. Non-structural Scenarios->generate graph from raw data***
 - **by "Graph Neural Networks: A Review of Methods and Applications"**</br>
-Scaling up GNN is difficult because many of the core steps are computational consuming in big data environment:1. graph不是规则的欧式空间，receptive filed(neighborhood structure) 对于每个node也是不同的，因此很难对节点进行批次训练. 2. 当处理 large graph时，计算graph Laplacian也很困难.
-- **by yaya**
-我觉得这样的说法是不对的，由上文的分析中可以看出，只是谱方法需要计算graph Laplacian，
+- 虽然上文讨论了graph在非结构化场景(image, text)中的应用, 但是目前却没有从原始数据中来生成graph的最优的方法. in image domain, 一些工作利用CNN来获取特征映射, 然后对其进行采样得到的超像素作为节点, 其他的也有提取object作为节点. in test domain, 一些工作利用syntactic trees作为syntactic graphs, 另外其他的工作直接采用全连接graphs. </br>
+因此找到最佳的graph generation approach将提供更广泛的领域, GNN可以在这些领域中做出贡献。
 
-- **by "A Comprehensive Survey on Graph Neural Networks"**</br>
-当gcn的堆叠多层时，一个节点的最终状态将由很多临近节点((1~k)-hop neighbors)的状态所决定, 在反向传播时的计算量将会很大。当前为了提高模型的效率提出了两类方法fast sampling and sub-graph training, but still not scalable enough to handle deep architectures with large graphs</br>
-**fast sampling**</br>
-1. [Fastgcn: fast learning with graph convolutional networks via importance sampling (ICLR 2018)](https://arxiv.org/abs/1801.10247)</br> 
-1. [Stochastic training of graph convolutional networks with variance reduction (ICML 2018)](https://arxiv.org/abs/1710.10568)</br> 
-**sub-graph training**</br>
-1. [Inductive representation learning on large graphs (NIPS 2017)](https://arxiv.org/abs/1706.02216)</br>
-1. [Large-scale learnable graph convolutional networks](https://arxiv.org/abs/1808.03965) (ACM 2018)
-
-- **by yaya：**我觉得这样说，是从deep gnn的角度来说，这样就没有讲清shallow gnn是否可以应用于large graph
-
-- ***yaya conclution:*** 基于公式X'=AXW的GCN网络，需要将entire graph输入网络中进行计算，不能以节点为单位进行batch运算，计算量大，对于设计了sub-graph的网络，局限性可能在于邻近节点很多，若网络也很深，计算量将也会很大
 
 **三. Dynamic graphs**
 - **by "Deep Learning on Graphs: A Survey"**
@@ -429,6 +416,25 @@ Structural deep embedding for hyper-networks (AAAI 2018)
 - **by "Deep Learning on Graphs: A Survey"**
 - 很多存在的方法可以组合到一起，例如将GCN作为GAEs或者Graph RNNs里的layer, 除了设计新的building blocks, 如何将现有的结构以某种原则组合到一起也是一个很有趣的方向, 最近的工作, [Graph Networks](https://arxiv.org/abs/1806.01261)进行了尝试, 重点介绍了GNNS和GCNS通用框架在关系推理问题中的应用。
 
+
+**七. Scalability->Can gnn handle large graphs?**
+- **by "Graph Neural Networks: A Review of Methods and Applications"**</br>
+Scaling up GNN is difficult because many of the core steps are computational consuming in big data environment:1. graph不是规则的欧式空间，receptive filed(neighborhood structure) 对于每个node也是不同的，因此很难对节点进行批次训练. 2. 当处理 large graph时，计算graph Laplacian也很困难.
+- **by yaya**
+我觉得这样的说法是不对的，由上文的分析中可以看出，只是谱方法需要计算graph Laplacian，
+
+- **by "A Comprehensive Survey on Graph Neural Networks"**</br>
+当gcn的堆叠多层时，一个节点的最终状态将由很多临近节点((1~k)-hop neighbors)的状态所决定, 在反向传播时的计算量将会很大。当前为了提高模型的效率提出了两类方法fast sampling and sub-graph training, but still not scalable enough to handle deep architectures with large graphs</br>
+**fast sampling**</br>
+1. [Fastgcn: fast learning with graph convolutional networks via importance sampling (ICLR 2018)](https://arxiv.org/abs/1801.10247)</br> 
+1. [Stochastic training of graph convolutional networks with variance reduction (ICML 2018)](https://arxiv.org/abs/1710.10568)</br> 
+**sub-graph training**</br>
+1. [Inductive representation learning on large graphs (NIPS 2017)](https://arxiv.org/abs/1706.02216)</br>
+1. [Large-scale learnable graph convolutional networks](https://arxiv.org/abs/1808.03965) (ACM 2018)
+
+- **by yaya：**我觉得这样说，是从deep gnn的角度来说，这样就没有讲清shallow gnn是否可以应用于large graph
+
+- ***yaya conclution:*** 基于公式X'=AXW的GCN网络，需要将entire graph输入网络中进行计算，不能以节点为单位进行batch运算，计算量大，对于设计了sub-graph的网络，局限性可能在于邻近节点很多，若网络也很深，计算量将也会很大
 
 
 
