@@ -146,9 +146,9 @@ proposed a control-variate based stochastic approximation algorithms for GCN by 
 ## Graph Attention Networks
 - **by "A Comprehensive Survey on Graph Neural Networks"**
 1. [Graph Attention Network (GAT)](https://arxiv.org/abs/1710.10903)(ICLR 2017) [[tf code]](https://github.com/PetarV-/GAT)
-1. [Gaan:Gated attention networks for learning on large and spatiotemporal graphs (GAAN)]
+1. [Gaan:Gated attention networks for learning on large and spatiotemporal graphs](https://arxiv.org/abs/1803.07294)
 1. [Graph classification using structural attention](http://ryanrossi.com/pubs/KDD18-graph-attention-model.pdf)(ACM SIGKDD 2018)
-1. [Watch your step: Learning node embeddings via graph attention]()(NIPS 2018)
+1. [Watch your step: Learning node embeddings via graph attention](https://arxiv.org/abs/1710.09599)(NIPS 2018)
 
 
 ## Graph Auto-encoders
