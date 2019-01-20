@@ -1,5 +1,7 @@
-# graph
-
+# 该文是对以下三篇graph综述进行的整理, 可能会有些差池，若有修改意见，可以提出！
+1. Deep Learning on Graphs: A Survey
+1. Graph Neural Networks: A Review of Methods and Applications
+1. A Comprehensive Survey on Graph Neural Networks
 
 ## 总结性质的
 ### github上的某篇总结-介绍了相关的论文、博客、以及研究者</br>
