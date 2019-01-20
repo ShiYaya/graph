@@ -134,7 +134,6 @@ proposed a control-variate based stochastic approximation algorithms for GCN by 
 1. Semantic object parsing with graph lstm (ECCV 2016)
 
 
-
 ## Residual and Jumping Connections/Skip Connections
 - by yaya:考虑到CNN中residual network增加网络层数, 使得性能的提升, 这里尝试使用residual 也是为了在增加网络层数的基础上,使得性能更好. 参见下文：[Go deeper?]()
 - **by "Deep Learning on Graphs: A Survey"** -- (P7 Residual and Jumping Connections)
@@ -184,6 +183,16 @@ proposed a control-variate based stochastic approximation algorithms for GCN by 
 - 这两篇都是skeleton-based action recognition
 1. [Skeleton-Based Action Recognition with Spatial Reasoning and Temporal Stack Learning](https://arxiv.org/abs/1805.02335) (ECCV 2018)
 1. [Spatial temporal graph convolutional networks for skeleton-based action recognition (ST-GCN)](https://arxiv.org/abs/1801.07455) (AAAI 2018) [[pytorch code]](https://github.com/yysijie/st-gcn)
+
+
+## Graph Recurrent Neural Networks
+- **by "Deep Learning on Graphs: A Survey"** 
+1. Graphrnn: Generating realistic graphs with deep auto-regressive models  (ICML 2018)
+1. Dynamic graph neural networks (arXiv preprint 2018)
+1. Geometric matrix completion with recurrent multi-graph neural networks (NIPS 2017)
+1. Dynamic graph convolutional networks (arXiv preprint 2017)</br>
+Dynamic GCN applies LSTM to gather results of GCNs of different time slices in dynamic networks, aiming to capture both spatio and temporal graph information.
+
 
 
 ## 输入含有边特征的GNN：Input allow edge features 
