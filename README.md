@@ -1,45 +1,4 @@
 # graph
-### 关于graph可做的方向
-- 图的任务也有很大的不同，可以是node-focused问题，如节点分类和链接预测，也可以是graph-focused问题，如图分类和图生成。不同的结构和任务需要不同的模型架构来处理特定的问题。   
-据此，现在要做的方向是视频描述，后边可以做一些图像生成的，graph与GAN结合的一些工作，但是似乎是有了。。再具体看看。
-- 关于视频描述任务：有一篇Spatio-temporal graph convolutional networks: A deep learning framework for traffic forecasting,可以考虑进去，这个时域的问题;另外关于关节点做行为识别的问题，也找来看看是不是时空-图卷积
-- As natural language can be parsed as semantic graphs where each word represents an object, it is a promising solution to synthesize images given textual descriptions.（给定文本，生成图像）（scene graph generation）（by A Comprehensive Survey on Graph Neural Networks）
-
-### 近期Graph的学习任务 
-- semantic role labeling 代码
-- Hierarchical Graph Representation Learning with Differentiable Pooling [代码](https://github.com/RexYing/diffpool)
-- Learning Conditioned Graph Structures for Interpretable Visual Question Answering 代码：github.com/aimbrain/vqa-project.
-condition 是基于question.那么在视频描述中也可以基于监督学习本身带有的标签，在Inference时，则，直接利用训练好的graph参数（此处可以参考一下few-shot）
-- 其他关于视觉问答的论文
-- Graph Neural Networks: A Review of Methods and Applications提到了一些关于视觉问答的论文可以找出来，看一看，还有关于源代码的部分
-- A Comprehensive Survey on Graph Neural Networks中提到的spatial-temporal networks需要看一看，这样的网络可以结合到行为识别与视频描述任务中
-
-
-### 待学习：
-- 带边信息的图(Edge-informative Graph)
-每条边都有信息，比如权值或边的类型。例如G2S和R-GCN。
-1. **Graph-to-Sequence Learning using Gated Graph Neural Networks.**
-*Daniel Beck, Gholamreza Haffari, Trevor Cohn.* ACL 2018. [paper](https://arxiv.org/pdf/1806.09835.pdf)
-1. **Modeling Relational Data with Graph Convolutional Networks.**
-*Michael Schlichtkrull, Thomas N. Kipf, Peter Bloem, Rianne van den Berg, Ivan Titov, Max Welling.* ESWC 2018. [paper](https://arxiv.org/pdf/1703.06103.pdf)
-1. **Neural graph matching networks for fewshot 3d action recognition (ECCV 2018)** 可以看一下
-
-- 使用不同训练方法的图变体
-1. **FastGCN: Fast Learning with Graph Convolutional Networks via Importance Sampling.**
-*Jie Chen, Tengfei Ma, Cao Xiao.* ICLR 2018. [paper](https://arxiv.org/pdf/1801.10247.pdf) [[code]](https://github.com/matenure/FastGCN)
-
-
-
-### 问题
-在Graph Neural Networks: A Review of Methods and Applications论文P16中，也提到了语义角色标注这篇文章，说"special variant of the GCN "；
-在语义角色标注的本文中，也提到了More formally....这一处需要再理解一些。
-
-
-### 通过池化，提出了一种graph classification的方法</br>
-[Hierarchical Graph Representation Learning with Differentiable Pooling](https://arxiv.org/pdf/1806.08804.pdf),[code](https://github.com/RexYing/diffpool)
-
-### 可以再根据node classification与graph classification 与edge 进行一下分类------yaya 后续任务
-### 再填上 关于res-connection的相关论文
 
 
 ## 总结性质的
