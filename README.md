@@ -353,9 +353,11 @@ of nodes, i.e. if we change the indices of nodes and edges using a bijective fun
 1. [Encoding Sentences with Graph Convolutional Networks for Semantic Role Labeling](https://arxiv.org/abs/1703.04826)</br>
 * [[官方code(theano 0.8.2,lasagne 0.1)]](https://github.com/diegma/neural-dep-srl)  [[复现pytorch]](https://github.com/kervyRivas/Graph-convolutional)
 * [专知讲解](https://mp.weixin.qq.com/s/c6ZhSk4r3pvnjHsvpwkkSw)
-* by yaya:阅读该篇文章主要是来源于这篇将图卷积用于图像描述的文章:Exploring Visual Relationship for Image Captioning</br>
-这两篇文章采用的图卷积公式都是一样的. </br>
--解析 
+* by yaya:阅读该篇文章主要是来源于这篇将图卷积用于图像描述的文章: Exploring Visual Relationship for Image Captioning </br>
+这两篇文章采用的图卷积公式都是一样的 </br>
+-***解析:*** 首先node是句子中的每一个word, edge是句法依赖树生成的, edge是连接具有句法依赖的两个word, **同时, edge也有label** (dependency label/syntactic functions), 如：'nsubj', 'advmod'等.  如下图的一个例子, 则公式中的W与相邻的节点有关, A与label of edge 有关.</br>
+<div align=center><img src="https://github.com/ShiYaya/graph/blob/master/images/syntactic-dependecy.png"/></div>
+
 1. Semantic graph中的GCN公式, 与X' = AXW 的形式是不一样的, 仅能当成是一个节点特征的更新是由近邻节点的聚合特征得到-这样一般的gnn的形式，并不是像论文中说的相比于"semi-supervised gcn" more formally(又可能我没有读懂这个fromally的意思). 
 1. 关于公式,  Semantic graph首先由给定的句子通过StanfordCoreNLP生成句法依赖树，根据这个树，构建图
 
