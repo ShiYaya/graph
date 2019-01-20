@@ -205,24 +205,24 @@ of nodes, i.e. if we change the indices of nodes and edges using a bijective fun
 **一. Statistics** </br>
 - **by "Deep Learning on Graphs: A Survey"**
 - The most basic operations that are order invariant are simple statistics like taking **sum**, **average** or **max-pooling**
-1. Convolutional networks on graphs for learning molecular fingerprints
-1. Diffusion-convolutional neural networks
+1. [Convolutional networks on graphs for learning molecular fingerprints](https://arxiv.org/abs/1509.09292)
+1. [Diffusion-convolutional neural networks](https://arxiv.org/abs/1511.02136)
 - other 
-1. Molecular graph convolutions: moving beyond fingerprints
-1. Spectral networks and locally connected networks on graphs
+1. [Molecular graph convolutions: moving beyond fingerprints](https://arxiv.org/abs/1603.00856)
+1. [Spectral networks and locally connected networks on graphs](https://arxiv.org/abs/1312.6203)
 
 **二. Hierarchical clustering** </br>
 - **by "Deep Learning on Graphs: A Survey"**
-1. Spectral networks and locally connected networks on graphs
-1. Deep convolutional networks on graph-structured data
+1. [Spectral networks and locally connected networks on graphs](https://arxiv.org/abs/1312.6203)
+1. [Deep convolutional networks on graph-structured data](https://arxiv.org/abs/1506.05163)
 1. [Hierarchical Graph Representation Learning with Differentiable Pooling](https://arxiv.org/pdf/1806.08804.pdf) [[code]](https://github.com/RexYing/diffpool)
 
 **三. Graph Pooling Modules** 
 - **by "A Comprehensive Survey on Graph Neural Networks"**
-1. Convolutional neural networks on graphs with fast localized spectral filtering (NIPS 2016)
-1. Deep convolutional networks on graph-structured data
-1. An end-to-end deep learning architecture for graph classification (AAAI 2018) [[code]](https://github.com/muhanzhang/DGCNN)  [[pytorch code]](https://github.com/muhanzhang/pytorch_DGCNN)
-1. Hierarchical graph representation learning with differentiable pooling (NIPS 2018) [[code]](https://github.com/RexYing/diffpool)
+1. [Convolutional neural networks on graphs with fast localized spectral filtering](https://arxiv.org/abs/1606.09375) (NIPS 2016)
+1. [Deep convolutional networks on graph-structured data](https://arxiv.org/abs/1506.05163)
+1. [An end-to-end deep learning architecture for graph classification](https://www.cse.wustl.edu/~muhan/papers/AAAI_2018_DGCNN.pdf) (AAAI 2018) [[code]](https://github.com/muhanzhang/DGCNN)  [[pytorch code]](https://github.com/muhanzhang/pytorch_DGCNN)
+1. [Hierarchical graph representation learning with differentiable pooling](https://arxiv.org/abs/1806.08804) (NIPS 2018) [[code]](https://github.com/RexYing/diffpool)
 
 # GCN的应用
 
