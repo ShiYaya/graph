@@ -39,7 +39,7 @@ https://github.com/thunlp/GNNPapers</br>
 - **谱上的图卷积网络的缺陷：** 
 - **by "A Comprehensive Survey on Graph Neural Networks**
 - **spectral methods usually handle the whole graph simultaneously and are difficult to parallel or scale to large graphs** (P2)</br>
-- **more drawbacks:** (P7 4.1.3 summary of spectral methods)</br>
+- **more drawbacks:** -- (P7 4.1.3 summary of spectral methods)</br>
 1. 任何对graph的扰动都可以导致特征基U(特征向量)的扰动
 1. 可学习的filter是与domain相关的，不能应用于不同的graph structure
 1. 特征值分解需要很大的计算量和存储量
@@ -64,8 +64,8 @@ Instead of updating states over all nodes, GraphSage proposes a batch-training a
 
 ## 谱上与空间GCN的比较：Comparison Between Spectral and Spatial Models
 - **by "A Comprehensive Survey on Graph Neural Networks"**
-- **bridges:** The graph convolution defined by 1stChebNet(semi-supervised GCN) is localized in space. It bridges the gap between spectral-based methods and spatial-based methods. --P2
-- **Drawbacks** to spectral based models. We illustrate this in the following from three aspects, efficiency, generality and flexibility. --P11 
+- **bridges:** The graph convolution defined by 1stChebNet(semi-supervised GCN) is localized in space. It bridges the gap between spectral-based methods and spatial-based methods. -- (P2)
+- **Drawbacks** to spectral based models. We illustrate this in the following from three aspects, efficiency, generality and flexibility. -- (P11) 
 
 1. **Efficiency**</br>
 **基于谱的模型** 或者需要计算特征向量，或者需要同时处理整个graph，这样的情况下，模型的计算量将随着graph size 显著的增加</br>
@@ -81,7 +81,7 @@ Instead of updating states over all nodes, GraphSage proposes a batch-training a
 
 ## 改善GCN在训练方面的缺陷: Training Methods
 - **by "A Comprehensive Survey on Graph Neural Networks"**
-- Comparison Between Spectral and Spatial Models P11
+- Comparison Between Spectral and Spatial Models -- (P11)
 - [1stChebNet(semi-supervised GCN)](https://arxiv.org/abs/1609.02907)：the main drawback of 1stChebNet is that the computation cost increases exponentially with the increase of the number of 1stChebNet layers during batch training. Each node in the last layer has to expand its neighborhood recursively across previous layers.
 1. [Fastgcn: fast learning with graph convolutional networks via importance sampling (ICLR 2018)](https://arxiv.org/abs/1801.10247)</br> 
 assume the rescaled adjacent matrix A comes from a sampling distribution. 
@@ -91,7 +91,7 @@ reduce the receptive field size of the graph convolution to an arbitrary small s
 propose an adaptive layer-wise sampling approach to accelerate the training of 1stChebNet, where sampling for the lower layer is conditioned on the top one. 
 
 - **by "Graph Neural Networks: A Review of Methods and Applications"**
-- Training Methods P9
+- Training Methods -- (P9)
 - GCN requires the full graph Laplacian, which is computational-consuming for large graphs. Furthermore, The embedding of a node at layer L is computed recursively by the embeddings of all its neighbors at layer L − 1. Therefore, the receptive field of a single node grows exponentially with respect to the number of layers, so computing gradient for a single node costs a lot. Finally, GCN is trained
 independently for a fixed graph, which lacks the ability for inductive learning.
 1. [Inductive representation learning on large graphs (NIPS 2017)](https://arxiv.org/abs/1706.02216)</br>
@@ -104,7 +104,7 @@ proposed a control-variate based stochastic approximation algorithms for GCN by 
 1. [Deeper insights into graph convolutional networks for semi-supervised learning  (arXiv:1801.07606, 2018)](https://arxiv.org/abs/1801.07606)</br>  
 
 - **by "Deep Learning on Graphs: A Survey"**
-- Accelerating by Sampling P8
+- Accelerating by Sampling -- (P8)
 1. [Inductive representation learning on large graphs (NIPS 2017)](https://arxiv.org/abs/1706.02216)</br>
 1. Graph convolutional neural networks for web-scale recommender systems
 1. [Fastgcn: fast learning with graph convolutional networks via importance sampling (ICLR 2018)](https://arxiv.org/abs/1801.10247)</br>
@@ -131,7 +131,7 @@ proposed a control-variate based stochastic approximation algorithms for GCN by 
 
 ## Residual and Jumping Connections/Skip Connections
 - by yaya:考虑到CNN中residual network增加网络层数, 使得性能的提升, 这里尝试使用residual 也是为了在增加网络层数的基础上,使得性能更好. 参见下文：[Go deeper?]()
-- **by "Deep Learning on Graphs: A Survey"** -- P7 Residual and Jumping Connections
+- **by "Deep Learning on Graphs: A Survey"** -- (P7 Residual and Jumping Connections)
 1. Semi-supervised classification with graph convolutional networks (ICLR 2017)
 1. Column networks for collective classification (AAAI 2017)
 1. Representation learning on graphs with jumping knowledge networks (ICML 2018)
@@ -145,7 +145,7 @@ proposed a control-variate based stochastic approximation algorithms for GCN by 
 <div align=center><img width="400" height="200" src="https://github.com/ShiYaya/graph/blob/master/images/graph-auto-encoder.png"/></div>
 
 - **by "A Comprehensive Survey on Graph Neural Networks"**</br>
-- network embedding算法可以分类为:1.matrix factorization 2.random walks 3. deep learning. Graph Auto-encoders是deep learning的一类方法. -- P2</br>
+- network embedding算法可以分类为:1.matrix factorization 2.random walks 3. deep learning. Graph Auto-encoders是deep learning的一类方法. -- (P2)</br>
 -  Network embedding是为了将node embedding 转化到低维的向量空间，通过保存网络的拓扑结构与节点内容信息，接下来的graph分析任务(比如，分类，聚类和推荐等)可以被应用于现有的机器学习任务(如SVM for classification)</br>
 
 1. [Variational graph auto-encoders (GAE)](https://arxiv.org/abs/1611.07308) [[tkipf/code]](https://github.com/tkipf/gae) [[tf code]](https://github.com/limaosen0/Variational-Graph-Auto-Encoders)</br>
