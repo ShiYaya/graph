@@ -431,7 +431,7 @@ Scaling up GNN is difficult because many of the core steps are computational con
 1. [Inductive representation learning on large graphs (NeurIPS 2017)](https://arxiv.org/abs/1706.02216)</br>
 1. [Large-scale learnable graph convolutional networks](https://arxiv.org/abs/1808.03965) (ACM 2018)
 
-- **by yaya：**我觉得这样说，是从deep gnn的角度来说，这样就没有讲清shallow gnn是否可以应用于large graph
+- **by yaya:** 我觉得这样说，是从deep gnn的角度来说，这样就没有讲清shallow gnn是否可以应用于large graph
 
 - ***yaya conclution:*** 基于公式X'=AXW的GCN网络，需要将entire graph输入网络中进行计算，不能以节点为单位进行batch运算，计算量大，对于设计了sub-graph的网络，局限性可能在于邻近节点很多，若网络也很深，计算量将也会很大
 
