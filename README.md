@@ -467,7 +467,7 @@ distribution. 因此采样策略被提出来, 如何选择节点的有代表性�
 1. Large-scale learnable graph convolutional networks (ACM　SIGKDD 2018)
 
 
-##未提到的文章
+## 未提到的文章
 - 图神经网络评价的误区--[Pitfalls of Graph Neural Network Evaluation](https://arxiv.org/abs/1811.05868)
 - 提出了一个理论框架来分析GNN的表征能力--[How Powerful are Graph Neural Networks?](https://arxiv.org/abs/1810.00826) (ICLR 2019)</br>
 [专知解读](https://mp.weixin.qq.com/s/OnRB44tliuTFcjlmuRG3Xw)
