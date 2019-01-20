@@ -423,8 +423,8 @@ Scaling up GNN is difficult because many of the core steps are computational con
 
 - **by "A Comprehensive Survey on Graph Neural Networks"**</br>
 当gcn的堆叠多层时，一个节点的最终状态将由很多临近节点((1~k)-hop neighbors)的状态所决定, 在反向传播时的计算量将会很大。当前为了提高模型的效率提出了两类方法fast sampling and sub-graph training, but still not scalable enough to handle deep architectures with large graphs</br>
-**fast sampling**</br>
 - **solution:**
+**fast sampling**</br>
 1. [Fastgcn: fast learning with graph convolutional networks via importance sampling (ICLR 2018)](https://arxiv.org/abs/1801.10247)</br> 
 1. [Stochastic training of graph convolutional networks with variance reduction (ICML 2018)](https://arxiv.org/abs/1710.10568)</br> 
 **sub-graph training**</br>
