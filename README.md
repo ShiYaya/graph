@@ -246,20 +246,6 @@ of nodes, i.e. if we change the indices of nodes and edges using a bijective fun
 
 # GCN的应用
 
-## 自然语言处理
-- **Overview**
-- **by "Graph Neural Networks: A Review of Methods and Applications"**
-<div align=center><img src="https://github.com/ShiYaya/graph/blob/master/images/gcn-in-test-application.png"/></div>
-
-1. [Encoding Sentences with Graph Convolutional Networks for Semantic Role Labeling](https://arxiv.org/abs/1703.04826)</br>
-* [[官方code(theano 0.8.2,lasagne 0.1)]](https://github.com/diegma/neural-dep-srl)  [[复现pytorch]](https://github.com/kervyRivas/Graph-convolutional)
-* [专知讲解](https://mp.weixin.qq.com/s/c6ZhSk4r3pvnjHsvpwkkSw)
-* by yaya:阅读该篇文章主要是来源于这篇将图卷积用于图像描述的文章:Exploring Visual Relationship for Image Captioning</br>
-这两篇文章采用的图卷积公式都是一样的，但是我认为很奇怪，而且b是如何由edge获得的，将进一步阅读代码，稍后解释。</br>
-<div align=center><img src="https://github.com/ShiYaya/graph/blob/master/images/gcn%2Bformulation.png"/></div>
-
-1. [Graph Convolutional Encoders for Syntax-aware Neural Machine Translation](https://arxiv.org/pdf/1704.04675)
-
 ## 计算机视觉
 - **Overview**
 - **by "Graph Neural Networks: A Review of Methods and Applications"**
@@ -359,6 +345,28 @@ of nodes, i.e. if we change the indices of nodes and edges using a bijective fun
 1. Deep reasoning with knowledge graph for social relationship understanding
 
 
+## 自然语言处理
+- **Overview**
+- **by "Graph Neural Networks: A Review of Methods and Applications"**
+<div align=center><img src="https://github.com/ShiYaya/graph/blob/master/images/gcn-in-test-application.png"/></div>
+
+1. [Encoding Sentences with Graph Convolutional Networks for Semantic Role Labeling](https://arxiv.org/abs/1703.04826)</br>
+* [[官方code(theano 0.8.2,lasagne 0.1)]](https://github.com/diegma/neural-dep-srl)  [[复现pytorch]](https://github.com/kervyRivas/Graph-convolutional)
+* [专知讲解](https://mp.weixin.qq.com/s/c6ZhSk4r3pvnjHsvpwkkSw)
+* by yaya:阅读该篇文章主要是来源于这篇将图卷积用于图像描述的文章:Exploring Visual Relationship for Image Captioning</br>
+这两篇文章采用的图卷积公式都是一样的. </br>
+-解析 
+1. Semantic graph中的GCN公式, 与X' = AXW 的形式是不一样的, 仅能当成是一个节点特征的更新是由近邻节点的聚合特征得到-这样一般的gnn的形式，并不是像论文中说的相比于"semi-supervised gcn" more formally(又可能我没有读懂这个fromally的意思). 
+1. 关于公式,  Semantic graph首先由给定的句子通过StanfordCoreNLP生成句法依赖树，根据这个树，构建图
+
+
+但是我认为很奇怪, 而且b是如何由edge获得的, 将进一步阅读代码, 稍后解释。</br>
+<div align=center><img src="https://github.com/ShiYaya/graph/blob/master/images/gcn%2Bformulation.png"/></div>
+
+1. [Graph Convolutional Encoders for Syntax-aware Neural Machine Translation](https://arxiv.org/pdf/1704.04675)
+
+
+
 ## Other application
 
 - **by "Graph Neural Networks: A Review of Methods and Applications"**
@@ -423,7 +431,7 @@ Scaling up GNN is difficult because many of the core steps are computational con
 
 - **by "A Comprehensive Survey on Graph Neural Networks"**</br>
 当gcn的堆叠多层时，一个节点的最终状态将由很多临近节点((1~k)-hop neighbors)的状态所决定, 在反向传播时的计算量将会很大。当前为了提高模型的效率提出了两类方法fast sampling and sub-graph training, but still not scalable enough to handle deep architectures with large graphs</br>
-- **solution:**
+- **solution:**</br>
 **fast sampling**</br>
 1. [Fastgcn: fast learning with graph convolutional networks via importance sampling (ICLR 2018)](https://arxiv.org/abs/1801.10247)</br> 
 1. [Stochastic training of graph convolutional networks with variance reduction (ICML 2018)](https://arxiv.org/abs/1710.10568)</br> 
