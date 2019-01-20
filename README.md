@@ -19,7 +19,13 @@ https://github.com/thunlp/GNNPapers</br>
 1. [Non-local Neural Networks](http://openaccess.thecvf.com/content_cvpr_2018/papers/Wang_Non-Local_Neural_Networks_CVPR_2018_paper.pdf)
 1. [The Graph Neural Network Model](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4700287)
 
+## **Library**
 
+- **geometric learning library [[github]](https://github.com/rusty1s/pytorch_geometric)** 
+in PyTorch named PyTorch Geometric, which implements serveral graph neural networks including ChebNet, 1stChebNet, GraphSage, MPNNs, GAT and SplineCNN.
+- **Deep Graph Library (DGL) [[website]](https://www.dgl.ai/) [[github]](https://github.com/dmlc/dgl)**
+provides a fast implementation of many graph neural networks with a set of functions on top of popular deep learning platforms such as PyTorch and MXNet
+- **graph_nets [[github]](https://github.com/deepmind/graph_nets)**
 
 
 ## 谱上的图卷积发展:Spectral-based graph convolutional networks
@@ -336,17 +342,6 @@ of nodes, i.e. if we change the indices of nodes and edges using a bijective fun
 
 ### Social Relationship Understanding
 1. Deep reasoning with knowledge graph for social relationship understanding
-
-## **Library**
-
-3. https://github.com/rusty1s/pytorch geometric
-4. https://www.dgl.ai/
-
-- **geometric learning library [[github]](https://github.com/rusty1s/pytorch_geometric)** 
-in PyTorch named PyTorch Geometric, which implements serveral graph neural networks including ChebNet, 1stChebNet, GraphSage, MPNNs, GAT and SplineCNN.
-- **Deep Graph Library (DGL) [[website]](https://www.dgl.ai/) [[github]](https://github.com/dmlc/dgl)**
-provides a fast implementation of many graph neural networks with a set of functions on top of popular deep learning platforms such as PyTorch and MXNet
-- **graph_nets [[github]](https://github.com/deepmind/graph_nets)**
 
 
 ## Other application
