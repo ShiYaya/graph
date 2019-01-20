@@ -371,7 +371,7 @@ of nodes, i.e. if we change the indices of nodes and edges using a bijective fun
 <div align=center><img src="https://github.com/ShiYaya/graph/blob/master/images/gcn-in-other-application.png"/></div>
 
 
-### by yaya:我看过的关于graph在cv and nlp上应用的文章
+### by yaya: Papers I've read about the application of graph on cv and nlp 
 
 - Action recognition
 1. Non-local Neural Networks
@@ -438,7 +438,7 @@ Structural deep embedding for hyper-networks (AAAI 2018)
 - **by "Graph Neural Networks: A Review of Methods and Applications"**</br>
 Scaling up GNN is difficult because many of the core steps are computational consuming in big data environment:1. graph不是规则的欧式空间，receptive filed(neighborhood structure) 对于每个node也是不同的，因此很难对节点进行批次训练. 2. 当处理 large graph时，计算graph Laplacian也很困难.
 - **by yaya**
-我觉得这样的说法是不对的，由上文的分析中可以看出，只是谱方法需要计算graph Laplacian，
+我觉得这样的说法是不对的，由上文的分析中可以看出，只是谱方法需要计算graph Laplacian
 
 - **by "A Comprehensive Survey on Graph Neural Networks"**</br>
 当gcn的堆叠多层时，一个节点的最终状态将由很多临近节点((1~k)-hop neighbors)的状态所决定, 在反向传播时的计算量将会很大。当前为了提高模型的效率提出了两类方法fast sampling and sub-graph training, but still not scalable enough to handle deep architectures with large graphs</br>
