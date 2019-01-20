@@ -140,7 +140,6 @@ proposed a control-variate based stochastic approximation algorithms for GCN by 
 1. Representation learning on graphs with jumping knowledge networks (ICML 2018)
 
 
-
 ## Graph Auto-encoders
 <div align=center><img width="400" height="200" src="https://github.com/ShiYaya/graph/blob/master/images/graph-auto-encoder.png"/></div>
 
@@ -178,20 +177,20 @@ proposed a control-variate based stochastic approximation algorithms for GCN by 
 - **by yaya**
 - 这两篇都是skeleton-based action recognition
 1. [Skeleton-Based Action Recognition with Spatial Reasoning and Temporal Stack Learning](https://arxiv.org/abs/1805.02335) (ECCV 2018)
-
+1. [Spatial temporal graph convolutional networks for skeleton-based action recognition (ST-GCN)](https://arxiv.org/abs/1801.07455) (AAAI 2018) [[pytorch code]](https://github.com/yysijie/st-gcn)
 
 
 ## 输入含有边特征的GNN：Input allow edge features 
 - **by "A Comprehensive Survey on Graph Neural Networks"**
-1. GNN (2009) The graph neural network model
-1. MPNN (2017) Neural message passing for quantum chemistry
-1. DCNN (2016) Diffusion-convolutional neural networks
-1. PATCHY-SAN (2016) Learning convolutional neural networks for graphs
+1. [The graph neural network model(GNN)](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.1015.7227&rep=rep1&type=pdf)  (2009) 
+1. [Neural message passing for quantum chemistry(MPNN)](https://arxiv.org/abs/1704.01212)  (2017) 
+1. [Diffusion-convolutional neural networks(DCNN)](https://arxiv.org/abs/1511.02136)  (2016) 
+1. [Learning convolutional neural networks for graphs(PATCHY-SAN)](https://arxiv.org/abs/1605.05273)  (2016)
 
 - **by "Deep Learning on Graphs: A Survey"**
-1. Geniepath:Graph neural networks with adaptive receptive paths
-1. Dual graph convolutional networks for graph-based semi-supervised classification
-1. Signed graph convolutional network
+1. [Geniepath:Graph neural networks with adaptive receptive paths](https://arxiv.org/pdf/1802.00910.pdf)
+1. [Dual graph convolutional networks for graph-based semi-supervised classification](https://dl.acm.org/citation.cfm?id=3186116)
+1. [Signed graph convolutional network](https://arxiv.org/abs/1808.06354)
 
 - **by yaya**
 1. [Encoding Sentences with Graph Convolutional Networks for Semantic Role Labeling](https://arxiv.org/abs/1703.04826)</br>
