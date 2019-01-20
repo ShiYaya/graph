@@ -1,4 +1,4 @@
-# 该文是对以下三篇graph综述进行的整理， 可能会有些差池，若有修改意见，可以提出！
+## 该文是对以下三篇graph综述进行的整理， 主要是对GNN网络的分类、GNN在cv上的应用、以及细节的地方添加了自己的理解，可能会有些差池，若有修改意见，可以提出！
 1. Deep Learning on Graphs: A Survey
 1. Graph Neural Networks: A Review of Methods and Applications
 1. A Comprehensive Survey on Graph Neural Networks
