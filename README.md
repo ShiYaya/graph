@@ -6,6 +6,7 @@
 https://github.com/sungyongs/graph-based-nn</br>
 https://github.com/thunlp/GNNPapers</br>
 [Spatio-temporal modeling 论文列表(主要是graph convolution相关)](https://github.com/Eilene/spatio-temporal-paper-list)
+https://mp.weixin.qq.com/s/xgf7A3GFh1cIM2QhaCyyoA
 ### 综述论文
 1. [Deep Learning on Graphs: A Survey](https://arxiv.org/abs/1812.04202) </br>
 [[新智元解读]](https://mp.weixin.qq.com/s/eelcT5x_kWC0dDt0_Ph4qg)
