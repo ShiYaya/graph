@@ -31,7 +31,7 @@ provides a fast implementation of many graph neural networks with a set of funct
 - **graph_nets [[github]](https://github.com/deepmind/graph_nets)**
 
 
-## 谱上的图卷积发展:Spectral-based graph convolutional networks
+## 谱上的图卷积发展:Spectral-Based Graph Convolutional Networks
 
 - 以下四篇是按照时间轴，依次在前一篇的文章上进行改进的
 1. [The Emerging Field of Signal Processing on Graphs](https://arxiv.org/pdf/1211.0053.pdf)
@@ -55,7 +55,7 @@ provides a fast implementation of many graph neural networks with a set of funct
 1. 虽然ChebNet and 1stChebNet定义的过滤器在空间上的局部的，且在graph上的任意位置(node)是共享的，但是这两个模型都需要载入整个graph进行graph convolution的计算，在处理big graph上计算效率低：***by yaya: X'=AXW, X'的更新, 需要输入整个X才可以计算得到***
 
 
-## 空间上的图卷积：Spatial-based graph convolutional networks
+## 空间上的图卷积：Spatial-Based Graph Convolutional Networks
 - **by "A Comprehensive Survey on Graph Neural Networks"**
 1. [Inductive representation learning on large graphs(GraphSAGE)](http://papers.NeurIPS.cc/paper/6703-inductive-representation-learning-on-large-graphs.pdf) [[tf code]](https://github.com/williamleif/GraphSAGE) </br>
 Instead of updating states over all nodes, GraphSage proposes a batch-training algorithm(sub-graph training)which improves scalability for large graphs. The learning process: P9 in "A Comprehensive Survey on Graph Neural Networks"
@@ -128,7 +128,7 @@ proposed a control-variate based stochastic approximation algorithms for GCN by 
 1. [Watch your step: Learning node embeddings via graph attention](https://arxiv.org/abs/1710.09599)(NeurIPS 2018)
 
 
-## Gated graph neural network 
+## Gated Graph Neural Network 
 - **by "Graph Neural Networks: A Review of Methods and Applications"**
 1. Gated graph sequence neural networks (arXiv 2016)
 1. Improved semantic representations from tree-structured long short-term memory networks (IJCNLP 2015)
@@ -205,7 +205,7 @@ Dynamic GCN applies LSTM to gather results of GCNs of different time slices in d
 
 
 
-## 输入含有边特征的GNN：Input allow edge features 
+## 输入含有边特征的GNN：Input Allow Edge Features 
 - **by "A Comprehensive Survey on Graph Neural Networks"**
 1. [The graph neural network model(GNN)](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.1015.7227&rep=rep1&type=pdf)  (2009) 
 1. [Neural message passing for quantum chemistry(MPNN)](https://arxiv.org/abs/1704.01212)  (2017) 
@@ -222,7 +222,7 @@ Dynamic GCN applies LSTM to gather results of GCNs of different time slices in d
 1. [Exploring Visual Relationship for Image Captioning](https://arxiv.org/abs/1809.07041)
 
 
-## 图表达：Graph level representation/Readout Operations
+## 图表达：Graph Level Representation/Readout Operations
 **Order invariance**  A critical requirement for the graph readout operation is that the operation should be invariant to the order
 of nodes, i.e. if we change the indices of nodes and edges using a bijective function between two vertex sets, representation of the whole graph should not change.   
 
@@ -235,7 +235,7 @@ of nodes, i.e. if we change the indices of nodes and edges using a bijective fun
 1. [Molecular graph convolutions: moving beyond fingerprints](https://arxiv.org/abs/1603.00856)
 1. [Spectral networks and locally connected networks on graphs](https://arxiv.org/abs/1312.6203)
 
-**二. Hierarchical clustering** </br>
+**二. Hierarchical Clustering** </br>
 - **by "Deep Learning on Graphs: A Survey"**
 1. [Spectral networks and locally connected networks on graphs](https://arxiv.org/abs/1312.6203)
 1. [Deep convolutional networks on graph-structured data](https://arxiv.org/abs/1506.05163)
