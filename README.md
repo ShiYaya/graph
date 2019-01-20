@@ -65,7 +65,7 @@ Instead of updating states over all nodes, GraphSage proposes a batch-training a
 ## 谱上与空间GCN的比较：Comparison Between Spectral and Spatial Models
 - **by "A Comprehensive Survey on Graph Neural Networks"**
 - **bridges:** The graph convolution defined by 1stChebNet(semi-supervised GCN) is localized in space. It bridges the gap between spectral-based methods and spatial-based methods. --P2
-- **Drawbacks** to spectralbased models. We illustrate this in the following from three aspects, efficiency, generality and flexibility. --P11 
+- **Drawbacks** to spectral based models. We illustrate this in the following from three aspects, efficiency, generality and flexibility. --P11 
 
 1. **Efficiency**</br>
 **基于谱的模型**或者需要计算特征向量，或者需要同时处理整个graph，这样的情况下，模型的计算量将随着graph size 显著的增加</br>
