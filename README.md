@@ -57,6 +57,7 @@ provides a fast implementation of many graph neural networks with a set of funct
 
 ## 空间上的图卷积：Spatial-Based Graph Convolutional Networks
 - **by "A Comprehensive Survey on Graph Neural Networks"**
+1. [Graph Attention Network (GAT)](https://arxiv.org/abs/1710.10903)(ICLR 2017) [[tf code]](https://github.com/PetarV-/GAT) 
 1. [Inductive representation learning on large graphs(GraphSAGE)](http://papers.NeurIPS.cc/paper/6703-inductive-representation-learning-on-large-graphs.pdf) [[tf code]](https://github.com/williamleif/GraphSAGE)   ★</br>
 Instead of updating states over all nodes, GraphSage proposes a batch-training algorithm(sub-graph training)which improves scalability for large graphs. The learning process: P9 in "A Comprehensive Survey on Graph Neural Networks"
 1. [Neural Message Passing for Quantum Chemistry](https://arxiv.org/pdf/1704.01212.pdf)  (MPNNs)
