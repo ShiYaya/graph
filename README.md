@@ -197,6 +197,9 @@ proposed a control-variate based stochastic approximation algorithms for GCN by 
 1. Dynamic graph convolutional networks (arXiv preprint 2017)</br>
 Dynamic GCN applies LSTM to gather results of GCNs of different time slices in dynamic networks, aiming to capture both spatio and temporal graph information.
 
+- **by yaya**
+1. [Graph2Seq: Graph to Sequence Learning with Attention-based Neural Networks](https://arxiv.org/abs/1804.00823)
+1. [Structured Sequence Modeling with Graph Convolutional Recurrent Networks](https://arxiv.org/abs/1804.00823)
 
 ## Graph Reinforcement Learning
 - **by "Deep Learning on Graphs: A Survey"** 
