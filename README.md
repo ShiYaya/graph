@@ -194,6 +194,12 @@ proposed a control-variate based stochastic approximation algorithms for GCN by 
 Dynamic GCN applies LSTM to gather results of GCNs of different time slices in dynamic networks, aiming to capture both spatio and temporal graph information.
 
 
+## Graph Reinforcement Learning
+- **by "Deep Learning on Graphs: A Survey"** 
+1. Graph convolutional policy network for goal-directed molecular graph generation (NIPS 2018)
+1. Molgan: An implicit generative model for small molecular graphs (arXiv preprint 2018)
+
+
 
 ## 输入含有边特征的GNN：Input allow edge features 
 - **by "A Comprehensive Survey on Graph Neural Networks"**
