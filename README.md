@@ -9,7 +9,7 @@ https://github.com/sungyongs/graph-based-nn</br>
 https://github.com/thunlp/GNNPapers</br>
 [Spatio-temporal modeling 论文列表(主要是graph convolution相关)](https://github.com/Eilene/spatio-temporal-paper-list)
 https://mp.weixin.qq.com/s/xgf7A3GFh1cIM2QhaCyyoA
-### 综述论文
+### 综述论文 ★
 1. [Deep Learning on Graphs: A Survey](https://arxiv.org/abs/1812.04202) </br>
 [[新智元解读]](https://mp.weixin.qq.com/s/eelcT5x_kWC0dDt0_Ph4qg)
 1. [Graph Neural Networks: A Review of Methods and Applications](https://arxiv.org/abs/1812.08434)  </br>
@@ -33,7 +33,7 @@ provides a fast implementation of many graph neural networks with a set of funct
 
 ## 谱上的图卷积发展:Spectral-Based Graph Convolutional Networks
 
-- 以下四篇是按照时间轴，依次在前一篇的文章上进行改进的
+- 以下四篇是按照时间轴，依次在前一篇的文章上进行改进的 ★
 1. [The Emerging Field of Signal Processing on Graphs](https://arxiv.org/pdf/1211.0053.pdf)
 1. [Spectral Networks and Locally Connected Networks on Graphs](https://arxiv.org/abs/1312.6203)
 1. [Convolutional Neural Networks on Graphs with Fast Localized Spectral Filtering](https://arxiv.org/abs/1606.09375), [[PyTorch Code]](https://github.com/xbresson/graph_convnets_pytorch/blob/master/README.md) [[TF Code]](https://github.com/mdeff/cnn_graph)
@@ -57,14 +57,14 @@ provides a fast implementation of many graph neural networks with a set of funct
 
 ## 空间上的图卷积：Spatial-Based Graph Convolutional Networks
 - **by "A Comprehensive Survey on Graph Neural Networks"**
-1. [Inductive representation learning on large graphs(GraphSAGE)](http://papers.NeurIPS.cc/paper/6703-inductive-representation-learning-on-large-graphs.pdf) [[tf code]](https://github.com/williamleif/GraphSAGE) </br>
+1. ★[Inductive representation learning on large graphs(GraphSAGE)](http://papers.NeurIPS.cc/paper/6703-inductive-representation-learning-on-large-graphs.pdf) [[tf code]](https://github.com/williamleif/GraphSAGE) </br>
 Instead of updating states over all nodes, GraphSage proposes a batch-training algorithm(sub-graph training)which improves scalability for large graphs. The learning process: P9 in "A Comprehensive Survey on Graph Neural Networks"
 1. [Neural Message Passing for Quantum Chemistry](https://arxiv.org/pdf/1704.01212.pdf)  (MPNNs)
 1. [Learning convolutional neural networks for graphs](https://arxiv.org/abs/1605.05273)  (PATCHY-SAN)
 1. [Geometric deep learning on graphs and manifolds using mixture model cnns](http://openaccess.thecvf.com/content_cvpr_2017/papers/Monti_Geometric_Deep_Learning_CVPR_2017_paper.pdf)
 1. [Learning convolutional neural networks for graphs](http://proceedings.mlr.press/v48/niepert16.pdf)
 1. [Large-scale learnable graph convolutional networks (LGCN)](https://dl.acm.org/citation.cfm?id=3219947) [[tf code]](https://github.com/divelab/lgcn/)
-1. [Diffusion-convolutional neural networks](https://arxiv.org/abs/1511.02136) (NeurIPS 2016) [[tf code]](https://github.com/liyaguang/DCRNN)
+1. ★[Diffusion-convolutional neural networks](https://arxiv.org/abs/1511.02136) (NeurIPS 2016) [[tf code]](https://github.com/liyaguang/DCRNN)
 1. [Geometric deep learning on graphs and manifolds using mixture model cnns](https://arxiv.org/abs/1611.08402) (CVPR 2017)
 1. etc: by "A Comprehensive Survey on Graph Neural Networks" P5;P7的表格分别列举了一些spatial-based GCN 
 
@@ -88,7 +88,7 @@ Instead of updating states over all nodes, GraphSage proposes a batch-training a
 **关于edge features**, 参见下文 [输入含有边特征的GNN：input allow edge features](#输入含有边特征的gnninput-allow-edge-features)</br>
 
 
-## 改善GCN在训练方面的缺陷: Training Methods
+## 改善GCN在训练方面的缺陷: Training Methods ★
 - **by "A Comprehensive Survey on Graph Neural Networks"**
 - Comparison Between Spectral and Spatial Models -- (P11)
 - [1stChebNet(semi-supervised GCN)](https://arxiv.org/abs/1609.02907)：the main drawback of 1stChebNet is that the computation cost increases exponentially with the increase of the number of 1stChebNet layers during batch training. Each node in the last layer has to expand its neighborhood recursively across previous layers.
@@ -122,7 +122,7 @@ proposed a control-variate based stochastic approximation algorithms for GCN by 
 
 ## Graph Attention Networks
 - **by "A Comprehensive Survey on Graph Neural Networks"**
-1. [Graph Attention Network (GAT)](https://arxiv.org/abs/1710.10903)(ICLR 2017) [[tf code]](https://github.com/PetarV-/GAT)
+1. ★[Graph Attention Network (GAT)](https://arxiv.org/abs/1710.10903)(ICLR 2017) [[tf code]](https://github.com/PetarV-/GAT)
 1. [Gaan:Gated attention networks for learning on large and spatiotemporal graphs](https://arxiv.org/abs/1803.07294)
 1. [Graph classification using structural attention](http://ryanrossi.com/pubs/KDD18-graph-attention-model.pdf)(ACM SIGKDD 2018)
 1. [Watch your step: Learning node embeddings via graph attention](https://arxiv.org/abs/1710.09599)(NeurIPS 2018)
@@ -166,7 +166,7 @@ proposed a control-variate based stochastic approximation algorithms for GCN by 
 
 
 
-## Graph Generative Networks
+## Graph Generative Networks ★
 - **by "A Comprehensive Survey on Graph Neural Networks"**</br>
 - factor the generation process as forming nodes and edges alternatively
 1. [Graphrnn: A deep generative model for graphs](https://arxiv.org/abs/1802.08773) (ICML2018) [[tf code]](https://github.com/snap-stanford/GraphRNN)
@@ -176,7 +176,7 @@ proposed a control-variate based stochastic approximation algorithms for GCN by 
 1. [Net-gan: Generating graphs via random walks](https://arxiv.org/abs/1803.00816) (ICML2018)
 
 
-## GCN Based Graph Spatial-Temporal Networks
+## GCN Based Graph Spatial-Temporal Networks ★
 - **by "A Comprehensive Survey on Graph Neural Networks"**
 1. [Diffusion convolutional recurrent neural network: Data-driven traffic forecasting (DCRNN)](https://arxiv.org/abs/1707.01926) (ICLR 2018)</br>
 运用图卷积的思想提出了DCRNN来进行时间和空间上的交通流预测，并达到了很好的效果</br>
@@ -184,7 +184,7 @@ proposed a control-variate based stochastic approximation algorithms for GCN by 
 1. [Spatial temporal graph convolutional networks for skeleton-based action recognition (ST-GCN)](https://arxiv.org/abs/1801.07455) (AAAI 2018) [[pytorch code]](https://github.com/yysijie/st-gcn)
 1. [Structural-rnn:Deep learning on spatio-temporal graphs (Structural-RNN)](https://arxiv.org/abs/1511.05298)  (CVPR 2016) [[theano code]](https://github.com/asheshjain399/RNNexp)
 - **by yaya**
-- 这两篇都是skeleton-based action recognition
+- 这两篇都是skeleton-based action recognition ★
 1. [Skeleton-Based Action Recognition with Spatial Reasoning and Temporal Stack Learning](https://arxiv.org/abs/1805.02335) (ECCV 2018)
 1. [Spatial temporal graph convolutional networks for skeleton-based action recognition (ST-GCN)](https://arxiv.org/abs/1801.07455) (AAAI 2018) [[pytorch code]](https://github.com/yysijie/st-gcn)
 
@@ -205,7 +205,7 @@ Dynamic GCN applies LSTM to gather results of GCNs of different time slices in d
 
 
 
-## 输入含有边特征的GNN：Input Allow Edge Features 
+## 输入含有边特征的GNN：Input Allow Edge Features   ★
 - **by "A Comprehensive Survey on Graph Neural Networks"**
 1. [The graph neural network model(GNN)](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.1015.7227&rep=rep1&type=pdf)  (2009) 
 1. [Neural message passing for quantum chemistry(MPNN)](https://arxiv.org/abs/1704.01212)  (2017) 
@@ -217,12 +217,12 @@ Dynamic GCN applies LSTM to gather results of GCNs of different time slices in d
 1. [Dual graph convolutional networks for graph-based semi-supervised classification](https://dl.acm.org/citation.cfm?id=3186116)
 1. [Signed graph convolutional network](https://arxiv.org/abs/1808.06354)
 
-- **by yaya**
+- **by yaya**  ★
 1. [Encoding Sentences with Graph Convolutional Networks for Semantic Role Labeling](https://arxiv.org/abs/1703.04826)</br>
 1. [Exploring Visual Relationship for Image Captioning](https://arxiv.org/abs/1809.07041)
 
 
-## 图表达：Graph Level Representation/Readout Operations
+## 图表达：Graph Level Representation/Readout Operations  ★
 **Order invariance**  A critical requirement for the graph readout operation is that the operation should be invariant to the order
 of nodes, i.e. if we change the indices of nodes and edges using a bijective function between two vertex sets, representation of the whole graph should not change.   
 
@@ -239,7 +239,7 @@ of nodes, i.e. if we change the indices of nodes and edges using a bijective fun
 - **by "Deep Learning on Graphs: A Survey"**
 1. [Spectral networks and locally connected networks on graphs](https://arxiv.org/abs/1312.6203)
 1. [Deep convolutional networks on graph-structured data](https://arxiv.org/abs/1506.05163)
-1. [Hierarchical Graph Representation Learning with Differentiable Pooling](https://arxiv.org/pdf/1806.08804.pdf) [[code]](https://github.com/RexYing/diffpool)
+1. ★[Hierarchical Graph Representation Learning with Differentiable Pooling](https://arxiv.org/pdf/1806.08804.pdf) [[code]](https://github.com/RexYing/diffpool)
 
 **三. Graph Pooling Modules** 
 - **by "A Comprehensive Survey on Graph Neural Networks"**
@@ -250,7 +250,7 @@ of nodes, i.e. if we change the indices of nodes and edges using a bijective fun
 
 # GCN的应用
 
-## 计算机视觉
+## 计算机视觉  ★
 - **Overview**
 - **by "Graph Neural Networks: A Review of Methods and Applications"**
 <div align=center><img src="https://github.com/ShiYaya/graph/blob/master/images/gcn-in-image-application.png"/></div>
@@ -275,7 +275,7 @@ of nodes, i.e. if we change the indices of nodes and edges using a bijective fun
 1. Rgcnn: Regularized graph cnn for point cloud segmentation (arXiv preprint 2018)
 
 
-### Action recognition
+### Action recognition  ★
 - **by "A Comprehensive Survey on Graph Neural Networks"**
 - detects the locations of human joints in video clips
 1. [Spatial temporal graph convolutional networks for skeleton-based action recognition (ST-GCN)](https://arxiv.org/abs/1801.07455) (AAAI 2018) [[pytorch code]](https://github.com/yysijie/st-gcn)
@@ -284,7 +284,7 @@ of nodes, i.e. if we change the indices of nodes and edges using a bijective fun
 1. [Skeleton-Based Action Recognition with Spatial Reasoning and Temporal Stack Learning](https://arxiv.org/abs/1805.02335) (ECCV 2018)
 
 
-### Image classification
+### Image classification  ★
 - **by "Graph Neural Networks: A Review of Methods and Applications"**
 1. [Few-shot learning with graph neural networks](https://arxiv.org/abs/1711.04043) (ICLR 2018) [[code]](https://github.com/vgsatorras/few-shot-gnn)
 1. [Zero-shot recognition via semantic embeddings and knowledge graphs](https://arxiv.org/abs/1803.08035) (CVPR 2018)
@@ -321,7 +321,7 @@ of nodes, i.e. if we change the indices of nodes and edges using a bijective fun
 1. Dynamic graph cnn for learning on point clouds(arXiv preprint 2018)
 1. 3d graph neural networks for rgbd semantic segmentation (CVPR 2017)
 
-### Visual question answer
+### Visual question answer  ★
 - **by "Graph Neural Networks: A Review of Methods and Applications"**
 1. **A simple neural network module for relational reasoning.**
 *Adam Santoro, David Raposo, David G.T. Barrett, Mateusz Malinowski, Razvan Pascanu, Peter Battaglia, Timothy Lillicrap.* NeurIPS 2017. [paper](https://arxiv.org/pdf/1706.01427.pdf)
@@ -356,7 +356,7 @@ of nodes, i.e. if we change the indices of nodes and edges using a bijective fun
 - **by "Graph Neural Networks: A Review of Methods and Applications"**
 <div align=center><img src="https://github.com/ShiYaya/graph/blob/master/images/gcn-in-test-application.png"/></div>
 
-1. [Encoding Sentences with Graph Convolutional Networks for Semantic Role Labeling](https://arxiv.org/abs/1703.04826)</br>
+1. ★[Encoding Sentences with Graph Convolutional Networks for Semantic Role Labeling](https://arxiv.org/abs/1703.04826)</br>
 * [[官方code(theano 0.8.2,lasagne 0.1)]](https://github.com/diegma/neural-dep-srl)  [[复现pytorch]](https://github.com/kervyRivas/Graph-convolutional)
 * [专知讲解](https://mp.weixin.qq.com/s/c6ZhSk4r3pvnjHsvpwkkSw)
 * by yaya:阅读该篇文章主要是来源于这篇将图卷积用于图像描述的文章: Exploring Visual Relationship for Image Captioning </br>
@@ -375,7 +375,7 @@ of nodes, i.e. if we change the indices of nodes and edges using a bijective fun
 <div align=center><img src="https://github.com/ShiYaya/graph/blob/master/images/gcn-in-other-application.png"/></div>
 
 
-### by yaya: Papers I've read about the application of graph on cv and nlp 
+### by yaya: Papers I've read about the application of graph on cv and nlp  ★★
 
 - Action recognition
 1. Non-local Neural Networks
@@ -389,7 +389,7 @@ Exploring Visual Relationship for Image Captioning
 1. Encoding Sentences with Graph Convolutional Networks for Semantic Role Labeling
 
 
-## Open problems and future direction
+## Open problems and future direction  ★
 **一. Go deeper?**
 - **by "Graph Neural Networks: A Review of Methods and Applications"  &  "A Comprehensive Survey on Graph Neural Networks"**</br>
 (1)当前的gnn的层数大都很浅，这是因为，随着网络层数的增加，representation of nodes将趋于平滑，换句话说，图卷积本质上是使相邻节点的表达更加接近，从而在理论上来说，在无限次卷积的情况下，所有节点的表达都将会收敛于一个稳定的点，节点特征的可区分性与信息的丰富性将会损失。在图结构数据上的网络增加层数是否是一个好的策略仍然是一个开放性的问题。[[Deeper insights into graph convolutional networks for semi-supervised learning]](https://arxiv.org/abs/1801.07606)</br>
@@ -469,7 +469,7 @@ distribution. 因此采样策略被提出来，如何选择节点的有代表性
 1. Large-scale learnable graph convolutional networks (ACM　SIGKDD 2018)
 
 
-## 未提到的文章
+## 未提到的文章  ★
 - 图神经网络评价的误区--[Pitfalls of Graph Neural Network Evaluation](https://arxiv.org/abs/1811.05868)
 - 提出了一个理论框架来分析GNN的表征能力--[How Powerful are Graph Neural Networks?](https://arxiv.org/abs/1810.00826) (ICLR 2019)</br>
 [专知解读](https://mp.weixin.qq.com/s/OnRB44tliuTFcjlmuRG3Xw)
