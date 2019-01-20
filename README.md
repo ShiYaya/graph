@@ -57,14 +57,14 @@ provides a fast implementation of many graph neural networks with a set of funct
 
 ## 空间上的图卷积：Spatial-Based Graph Convolutional Networks
 - **by "A Comprehensive Survey on Graph Neural Networks"**
-1. ★[Inductive representation learning on large graphs(GraphSAGE)](http://papers.NeurIPS.cc/paper/6703-inductive-representation-learning-on-large-graphs.pdf) [[tf code]](https://github.com/williamleif/GraphSAGE) </br>
+1. [Inductive representation learning on large graphs(GraphSAGE)](http://papers.NeurIPS.cc/paper/6703-inductive-representation-learning-on-large-graphs.pdf) [[tf code]](https://github.com/williamleif/GraphSAGE)   ★</br>
 Instead of updating states over all nodes, GraphSage proposes a batch-training algorithm(sub-graph training)which improves scalability for large graphs. The learning process: P9 in "A Comprehensive Survey on Graph Neural Networks"
 1. [Neural Message Passing for Quantum Chemistry](https://arxiv.org/pdf/1704.01212.pdf)  (MPNNs)
 1. [Learning convolutional neural networks for graphs](https://arxiv.org/abs/1605.05273)  (PATCHY-SAN)
 1. [Geometric deep learning on graphs and manifolds using mixture model cnns](http://openaccess.thecvf.com/content_cvpr_2017/papers/Monti_Geometric_Deep_Learning_CVPR_2017_paper.pdf)
 1. [Learning convolutional neural networks for graphs](http://proceedings.mlr.press/v48/niepert16.pdf)
 1. [Large-scale learnable graph convolutional networks (LGCN)](https://dl.acm.org/citation.cfm?id=3219947) [[tf code]](https://github.com/divelab/lgcn/)
-1. ★[Diffusion-convolutional neural networks](https://arxiv.org/abs/1511.02136) (NeurIPS 2016) [[tf code]](https://github.com/liyaguang/DCRNN)
+1. [Diffusion-convolutional neural networks](https://arxiv.org/abs/1511.02136) (NeurIPS 2016) [[tf code]](https://github.com/liyaguang/DCRNN)   ★
 1. [Geometric deep learning on graphs and manifolds using mixture model cnns](https://arxiv.org/abs/1611.08402) (CVPR 2017)
 1. etc: by "A Comprehensive Survey on Graph Neural Networks" P5;P7的表格分别列举了一些spatial-based GCN 
 
@@ -122,7 +122,7 @@ proposed a control-variate based stochastic approximation algorithms for GCN by 
 
 ## Graph Attention Networks
 - **by "A Comprehensive Survey on Graph Neural Networks"**
-1. ★[Graph Attention Network (GAT)](https://arxiv.org/abs/1710.10903)(ICLR 2017) [[tf code]](https://github.com/PetarV-/GAT)
+1. [Graph Attention Network (GAT)](https://arxiv.org/abs/1710.10903)(ICLR 2017) [[tf code]](https://github.com/PetarV-/GAT)   ★
 1. [Gaan:Gated attention networks for learning on large and spatiotemporal graphs](https://arxiv.org/abs/1803.07294)
 1. [Graph classification using structural attention](http://ryanrossi.com/pubs/KDD18-graph-attention-model.pdf)(ACM SIGKDD 2018)
 1. [Watch your step: Learning node embeddings via graph attention](https://arxiv.org/abs/1710.09599)(NeurIPS 2018)
@@ -239,7 +239,7 @@ of nodes, i.e. if we change the indices of nodes and edges using a bijective fun
 - **by "Deep Learning on Graphs: A Survey"**
 1. [Spectral networks and locally connected networks on graphs](https://arxiv.org/abs/1312.6203)
 1. [Deep convolutional networks on graph-structured data](https://arxiv.org/abs/1506.05163)
-1. ★[Hierarchical Graph Representation Learning with Differentiable Pooling](https://arxiv.org/pdf/1806.08804.pdf) [[code]](https://github.com/RexYing/diffpool)
+1. [Hierarchical Graph Representation Learning with Differentiable Pooling](https://arxiv.org/pdf/1806.08804.pdf) [[code]](https://github.com/RexYing/diffpool)   ★
 
 **三. Graph Pooling Modules** 
 - **by "A Comprehensive Survey on Graph Neural Networks"**
@@ -356,8 +356,8 @@ of nodes, i.e. if we change the indices of nodes and edges using a bijective fun
 - **by "Graph Neural Networks: A Review of Methods and Applications"**
 <div align=center><img src="https://github.com/ShiYaya/graph/blob/master/images/gcn-in-test-application.png"/></div>
 
-1. ★[Encoding Sentences with Graph Convolutional Networks for Semantic Role Labeling](https://arxiv.org/abs/1703.04826)</br>
-* [[官方code(theano 0.8.2,lasagne 0.1)]](https://github.com/diegma/neural-dep-srl)  [[复现pytorch]](https://github.com/kervyRivas/Graph-convolutional)
+1. [Encoding Sentences with Graph Convolutional Networks for Semantic Role Labeling](https://arxiv.org/abs/1703.04826)</br>
+* [[官方code(theano 0.8.2,lasagne 0.1)]](https://github.com/diegma/neural-dep-srl)  [[复现pytorch]](https://github.com/kervyRivas/Graph-convolutional)   ★
 * [专知讲解](https://mp.weixin.qq.com/s/c6ZhSk4r3pvnjHsvpwkkSw)
 * by yaya:阅读该篇文章主要是来源于这篇将图卷积用于图像描述的文章: Exploring Visual Relationship for Image Captioning </br>
 这两篇文章采用的图卷积公式都是一样的 </br>
