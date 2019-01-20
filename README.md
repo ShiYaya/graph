@@ -372,7 +372,7 @@ of nodes, i.e. if we change the indices of nodes and edges using a bijective fun
 (1)当前的gnn的层数大都很浅,这是因为，随着网络层数的增加，representation of nodes将趋于平滑,换句话说，图卷积本质上是使相邻节点的表达更加接近，从而在理论上来说，在无限次卷积的情况下，所有节点的表达都将会收敛于一个稳定的点，节点特征的可区分性与信息的丰富性将会损失。在图结构数据上的网络增加层数是否是一个好的策略仍然是一个开放性的问题。[[Deeper insights into graph convolutional networks for semi-supervised learning]](https://arxiv.org/abs/1801.07606)</br>
 (2)when tack k layers, each node will aggregate more information from neighborhoods k hops away. 若临近节点有噪声，将会随着层数的增加，噪声信息也会指数级增加. P9 by "Graph Neural Networks: A Review of Methods and Applications"--skip connection</br>
 受到传统deep neural networks在增加网络深度上取得的显著结果，一些研究者也尝试解决GNN中的网络层数难以加深的问题：</br>
-
+- **solution:**
 - **by "A Comprehensive Survey on Graph Neural Networks"**</br>
 1. Gated graph sequence neural networks (arXiv 2016)</br>
 1. Deeper insights into graph convolutional networks for semi-supervised learning (arXiv preprint 2018)</br>
@@ -391,12 +391,14 @@ of nodes, i.e. if we change the indices of nodes and edges using a bijective fun
 在社交网络中，存在新的人加入，或者已存在的人退出社交网络，这样的graph是动态的，而当前提出的方法都是建立在 static graph.</br> 
 How to model the evolving characteristics of dynamic graphs and support incrementally updating model parameters largely remains open in the literature.</br>
 - Some preliminary works try to tackle this problem using Graph RNN architectures with encouraging results
+- **solution:**
 1. Dynamic graph neural networks (arXiv preprint 2018)
 1. Dynamic graph convolutional networks (arXiv preprint 2017)
 
 
 **四. Different types of graphs**
 - **by "Deep Learning on Graphs: A Survey"**
+- **solution:**
 - **homogeneous graphs**
 Heterogeneous network embedding via deep architectures
 - **Signed networks**
@@ -422,6 +424,7 @@ Scaling up GNN is difficult because many of the core steps are computational con
 - **by "A Comprehensive Survey on Graph Neural Networks"**</br>
 当gcn的堆叠多层时，一个节点的最终状态将由很多临近节点((1~k)-hop neighbors)的状态所决定, 在反向传播时的计算量将会很大。当前为了提高模型的效率提出了两类方法fast sampling and sub-graph training, but still not scalable enough to handle deep architectures with large graphs</br>
 **fast sampling**</br>
+- **solution:**
 1. [Fastgcn: fast learning with graph convolutional networks via importance sampling (ICLR 2018)](https://arxiv.org/abs/1801.10247)</br> 
 1. [Stochastic training of graph convolutional networks with variance reduction (ICML 2018)](https://arxiv.org/abs/1710.10568)</br> 
 **sub-graph training**</br>
@@ -437,6 +440,7 @@ Scaling up GNN is difficult because many of the core steps are computational con
 - 这里的Receptive Field是参考了论文"Deep Learning on Graphs: A Survey"中的Accelerating by Sampling这一节, 目的也是在于加速训练
 - 一个node的可接受域是指它本身以及its neighbors, But the number of neighbors is very different, from one to thousands. 遵循power law
 distribution. 因此采样策略被提出来, 如何选择节点的有代表性的接收域仍有待探索
+- **solution:**
 1. Inductive representation learning on large graphs (NeurIPS 2017)
 1. Learning convolutional neural networks for graphs (ICML 2016)
 1. Large-scale learnable graph convolutional networks (ACM　SIGKDD 2018)
