@@ -251,6 +251,8 @@ of nodes, i.e. if we change the indices of nodes and edges using a bijective fun
 - **by "Graph Neural Networks: A Review of Methods and Applications"**
 <div align=center><img src="https://github.com/ShiYaya/graph/blob/master/images/gcn-in-image-application.png"/></div>
 
+
+
 ### Scene graph generation
 - **by "A Comprehensive Survey on Graph Neural Networks"**
 - **detect and recognize objects and predict semantic relationships between pairs of objects**
@@ -359,6 +361,7 @@ of nodes, i.e. if we change the indices of nodes and edges using a bijective fun
 1. Semantic graph中的GCN公式, 与X' = AXW 的形式是不一样的, 仅能当成是一个节点特征的更新是由近邻节点的聚合特征得到-这样一般的gnn的形式，并不是像论文中说的相比于"semi-supervised gcn" more formally(又可能我没有读懂这个fromally的意思). 
 1. 关于公式,  Semantic graph首先由给定的句子通过StanfordCoreNLP生成句法依赖树，根据这个树，构建图
 <div align=center><img src="https://github.com/ShiYaya/graph/blob/master/images/gcn%2Bformulation.png"/></div>
+
 -***解析公式:*** 首先node是句子中的每一个word, edge是句法依赖树生成的, edge是连接具有句法依赖的两个word, **同时, edge也有label** (dependency label/syntactic functions), 如：'nsubj', 'advmod'等.  如下图的一个例子, 则公式中的W与相邻的节点有关, A与label of edge 有关.</br>
 <div align=center><img src="https://github.com/ShiYaya/graph/blob/master/images/syntactic-dependecy.png"/></div>
 
@@ -366,6 +369,20 @@ of nodes, i.e. if we change the indices of nodes and edges using a bijective fun
 ## Other application
 - **by "Graph Neural Networks: A Review of Methods and Applications"**
 <div align=center><img src="https://github.com/ShiYaya/graph/blob/master/images/gcn-in-other-application.png"/></div>
+
+
+### by yaya:我看过的关于graph在cv and nlp上应用的文章
+
+- Action recognition
+1. Non-local Neural Networks
+1. Nonlocal Neural Networks, Nonlocal Diffusion and Nonlocal Modeling(non-local 的升级版--未阅读--该文可能是没有具体application)
+1. Videos as Space-Time Region Graphs
+- Few-shot image classification
+1. Few-Shot Learning with Graph Neural Networks
+- Image captioning
+Exploring Visual Relationship for Image Captioning
+- Semantic role labeling
+1. Encoding Sentences with Graph Convolutional Networks for Semantic Role Labeling
 
 
 ## Open problems and future direction
@@ -448,5 +465,6 @@ distribution. 因此采样策略被提出来, 如何选择节点的有代表性�
 1. Large-scale learnable graph convolutional networks (ACM　SIGKDD 2018)
 
 
+##未提到的文章
 
 
