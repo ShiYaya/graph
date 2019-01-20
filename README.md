@@ -466,5 +466,6 @@ distribution. 因此采样策略被提出来, 如何选择节点的有代表性�
 
 
 ##未提到的文章
+图神经网络评价的误区--Pitfalls of Graph Neural Network Evaluation
 
 
