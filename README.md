@@ -54,14 +54,14 @@ provides a fast implementation of many graph neural networks with a set of funct
 
 ## 空间上的图卷积：Spatial-based graph convolutional networks
 - **by "A Comprehensive Survey on Graph Neural Networks"**
-1. [Inductive representation learning on large graphs(GraphSAGE)](http://papers.nips.cc/paper/6703-inductive-representation-learning-on-large-graphs.pdf) [[tf code]](https://github.com/williamleif/GraphSAGE) </br>
+1. [Inductive representation learning on large graphs(GraphSAGE)](http://papers.NeurIPS.cc/paper/6703-inductive-representation-learning-on-large-graphs.pdf) [[tf code]](https://github.com/williamleif/GraphSAGE) </br>
 Instead of updating states over all nodes, GraphSage proposes a batch-training algorithm(sub-graph training)which improves scalability for large graphs. The learning process: P9 in "A Comprehensive Survey on Graph Neural Networks"
 1. [Neural Message Passing for Quantum Chemistry](https://arxiv.org/pdf/1704.01212.pdf)  (MPNNs)
 1. [Learning convolutional neural networks for graphs](https://arxiv.org/abs/1605.05273)  (PATCHY-SAN)
 1. [Geometric deep learning on graphs and manifolds using mixture model cnns](http://openaccess.thecvf.com/content_cvpr_2017/papers/Monti_Geometric_Deep_Learning_CVPR_2017_paper.pdf)
 1. [Learning convolutional neural networks for graphs](http://proceedings.mlr.press/v48/niepert16.pdf)
 1. [Large-scale learnable graph convolutional networks (LGCN)](https://dl.acm.org/citation.cfm?id=3219947) [[tf code]](https://github.com/divelab/lgcn/)
-1. [Diffusion-convolutional neural networks](https://arxiv.org/abs/1511.02136) (NIPS 2016) [[tf code]](https://github.com/liyaguang/DCRNN)
+1. [Diffusion-convolutional neural networks](https://arxiv.org/abs/1511.02136) (NeurIPS 2016) [[tf code]](https://github.com/liyaguang/DCRNN)
 1. [Geometric deep learning on graphs and manifolds using mixture model cnns](https://arxiv.org/abs/1611.08402) (CVPR 2017)
 1. etc: by "A Comprehensive Survey on Graph Neural Networks" P5;P7的表格分别列举了一些spatial-based GCN 
 
@@ -93,17 +93,17 @@ Instead of updating states over all nodes, GraphSage proposes a batch-training a
 assume the rescaled adjacent matrix A comes from a sampling distribution. 
 1. [Stochastic training of graph convolutional networks with variance reduction (ICML 2018)](https://arxiv.org/abs/1710.10568)</br> 
 reduce the receptive field size of the graph convolution to an arbitrary small scale by sampling neighborhoods and using historical hidden representations.
-1. [Adaptive sampling towards fast graph representation learning (NIPS 2018)](https://arxiv.org/abs/1809.05343) </br>
+1. [Adaptive sampling towards fast graph representation learning (NeurIPS 2018)](https://arxiv.org/abs/1809.05343) </br>
 propose an adaptive layer-wise sampling approach to accelerate the training of 1stChebNet, where sampling for the lower layer is conditioned on the top one. 
 
 - **by "Graph Neural Networks: A Review of Methods and Applications"**
 - Training Methods -- (P9)
 - GCN requires the full graph Laplacian, which is computational-consuming for large graphs. Furthermore, The embedding of a node at layer L is computed recursively by the embeddings of all its neighbors at layer L − 1. Therefore, the receptive field of a single node grows exponentially with respect to the number of layers, so computing gradient for a single node costs a lot. Finally, GCN is trained
 independently for a fixed graph, which lacks the ability for inductive learning.
-1. [Inductive representation learning on large graphs (NIPS 2017)](https://arxiv.org/abs/1706.02216)</br>
+1. [Inductive representation learning on large graphs (NeurIPS 2017)](https://arxiv.org/abs/1706.02216)</br>
 1. [Fastgcn: fast learning with graph convolutional networks via importance sampling (ICLR 2018)](https://arxiv.org/abs/1801.10247)</br>
 directly samples the receptive field for each layer.
-1. [Adaptive sampling towards fast graph representation learning (NIPS 2018)](https://arxiv.org/abs/1809.05343) </br>
+1. [Adaptive sampling towards fast graph representation learning (NeurIPS 2018)](https://arxiv.org/abs/1809.05343) </br>
  introduces a parameterized and trainable sampler to perform layerwise sampling conditioned on the former layer.
 1. [Stochastic training of graph convolutional networks with variance reduction (ICML 2018)](https://arxiv.org/abs/1710.10568)</br>
 proposed a control-variate based stochastic approximation algorithms for GCN by utilizing the historical activations of nodes as a control variate. 
@@ -111,7 +111,7 @@ proposed a control-variate based stochastic approximation algorithms for GCN by 
 
 - **by "Deep Learning on Graphs: A Survey"**
 - Accelerating by Sampling -- (P8)
-1. [Inductive representation learning on large graphs (NIPS 2017)](https://arxiv.org/abs/1706.02216)</br>
+1. [Inductive representation learning on large graphs (NeurIPS 2017)](https://arxiv.org/abs/1706.02216)</br>
 1. Graph convolutional neural networks for web-scale recommender systems
 1. [Fastgcn: fast learning with graph convolutional networks via importance sampling (ICLR 2018)](https://arxiv.org/abs/1801.10247)</br>
 1. [Stochastic training of graph convolutional networks with variance reduction (ICML 2018)](https://arxiv.org/abs/1710.10568)</br>
@@ -122,7 +122,7 @@ proposed a control-variate based stochastic approximation algorithms for GCN by 
 1. [Graph Attention Network (GAT)](https://arxiv.org/abs/1710.10903)(ICLR 2017) [[tf code]](https://github.com/PetarV-/GAT)
 1. [Gaan:Gated attention networks for learning on large and spatiotemporal graphs](https://arxiv.org/abs/1803.07294)
 1. [Graph classification using structural attention](http://ryanrossi.com/pubs/KDD18-graph-attention-model.pdf)(ACM SIGKDD 2018)
-1. [Watch your step: Learning node embeddings via graph attention](https://arxiv.org/abs/1710.09599)(NIPS 2018)
+1. [Watch your step: Learning node embeddings via graph attention](https://arxiv.org/abs/1710.09599)(NeurIPS 2018)
 
 
 ## Gated graph neural network 
@@ -189,14 +189,14 @@ proposed a control-variate based stochastic approximation algorithms for GCN by 
 - **by "Deep Learning on Graphs: A Survey"** 
 1. Graphrnn: Generating realistic graphs with deep auto-regressive models  (ICML 2018)
 1. Dynamic graph neural networks (arXiv preprint 2018)
-1. Geometric matrix completion with recurrent multi-graph neural networks (NIPS 2017)
+1. Geometric matrix completion with recurrent multi-graph neural networks (NeurIPS 2017)
 1. Dynamic graph convolutional networks (arXiv preprint 2017)</br>
 Dynamic GCN applies LSTM to gather results of GCNs of different time slices in dynamic networks, aiming to capture both spatio and temporal graph information.
 
 
 ## Graph Reinforcement Learning
 - **by "Deep Learning on Graphs: A Survey"** 
-1. Graph convolutional policy network for goal-directed molecular graph generation (NIPS 2018)
+1. Graph convolutional policy network for goal-directed molecular graph generation (NeurIPS 2018)
 1. Molgan: An implicit generative model for small molecular graphs (arXiv preprint 2018)
 
 
@@ -239,10 +239,10 @@ of nodes, i.e. if we change the indices of nodes and edges using a bijective fun
 
 **三. Graph Pooling Modules** 
 - **by "A Comprehensive Survey on Graph Neural Networks"**
-1. [Convolutional neural networks on graphs with fast localized spectral filtering](https://arxiv.org/abs/1606.09375) (NIPS 2016)
+1. [Convolutional neural networks on graphs with fast localized spectral filtering](https://arxiv.org/abs/1606.09375) (NeurIPS 2016)
 1. [Deep convolutional networks on graph-structured data](https://arxiv.org/abs/1506.05163)
 1. [An end-to-end deep learning architecture for graph classification](https://www.cse.wustl.edu/~muhan/papers/AAAI_2018_DGCNN.pdf) (AAAI 2018) [[code]](https://github.com/muhanzhang/DGCNN)  [[pytorch code]](https://github.com/muhanzhang/pytorch_DGCNN)
-1. [Hierarchical graph representation learning with differentiable pooling](https://arxiv.org/abs/1806.08804) (NIPS 2018) [[code]](https://github.com/RexYing/diffpool)
+1. [Hierarchical graph representation learning with differentiable pooling](https://arxiv.org/abs/1806.08804) (NeurIPS 2018) [[code]](https://github.com/RexYing/diffpool)
 
 # GCN的应用
 
@@ -332,11 +332,11 @@ of nodes, i.e. if we change the indices of nodes and edges using a bijective fun
 ### Visual question answer
 - **by "Graph Neural Networks: A Review of Methods and Applications"**
 1. **A simple neural network module for relational reasoning.**
-*Adam Santoro, David Raposo, David G.T. Barrett, Mateusz Malinowski, Razvan Pascanu, Peter Battaglia, Timothy Lillicrap.* NIPS 2017. [paper](https://arxiv.org/pdf/1706.01427.pdf)
+*Adam Santoro, David Raposo, David G.T. Barrett, Mateusz Malinowski, Razvan Pascanu, Peter Battaglia, Timothy Lillicrap.* NeurIPS 2017. [paper](https://arxiv.org/pdf/1706.01427.pdf)
 1. **Graph-Structured Representations for Visual Question Answering.**
 *Damien Teney, Lingqiao Liu, Anton van den Hengel.* CVPR 2017. [paper](https://arxiv.org/pdf/1609.05600.pdf)
 1. **Out of the Box: Reasoning with Graph Convolution Nets for Factual Visual Question Answering.**
-*Medhini Narasimhan, Svetlana Lazebnik, Alexander Schwing.* NeurIPS 2018. [paper](http://papers.nips.cc/paper/7531-out-of-the-box-reasoning-with-graph-convolution-nets-for-factual-visual-question-answering.pdf)
+*Medhini Narasimhan, Svetlana Lazebnik, Alexander Schwing.* NeurIPS 2018. [paper](http://papers.NeurIPS.cc/paper/7531-out-of-the-box-reasoning-with-graph-convolution-nets-for-factual-visual-question-answering.pdf)
 1. **Learning Conditioned Graph Structures for Interpretable Visual Question Answering.**
 *Will Norcliffe-Brown, Efstathios Vafeias, Sarah Parisot.* NeurIPS 2018. [paper](https://arxiv.org/pdf/1806.07243)  [[code]](https://github.com/aimbrain/vqa-project)
 1. **Deep reasoning with knowledge graph for social relationship understanding.**
@@ -425,7 +425,7 @@ Scaling up GNN is difficult because many of the core steps are computational con
 1. [Fastgcn: fast learning with graph convolutional networks via importance sampling (ICLR 2018)](https://arxiv.org/abs/1801.10247)</br> 
 1. [Stochastic training of graph convolutional networks with variance reduction (ICML 2018)](https://arxiv.org/abs/1710.10568)</br> 
 **sub-graph training**</br>
-1. [Inductive representation learning on large graphs (NIPS 2017)](https://arxiv.org/abs/1706.02216)</br>
+1. [Inductive representation learning on large graphs (NeurIPS 2017)](https://arxiv.org/abs/1706.02216)</br>
 1. [Large-scale learnable graph convolutional networks](https://arxiv.org/abs/1808.03965) (ACM 2018)
 
 - **by yaya：**我觉得这样说，是从deep gnn的角度来说，这样就没有讲清shallow gnn是否可以应用于large graph
@@ -437,7 +437,7 @@ Scaling up GNN is difficult because many of the core steps are computational con
 - 这里的Receptive Field是参考了论文"Deep Learning on Graphs: A Survey"中的Accelerating by Sampling这一节, 目的也是在于加速训练
 - 一个node的可接受域是指它本身以及its neighbors, But the number of neighbors is very different, from one to thousands. 遵循power law
 distribution. 因此采样策略被提出来, 如何选择节点的有代表性的接收域仍有待探索
-1. Inductive representation learning on large graphs (NIPS 2017)
+1. Inductive representation learning on large graphs (NeurIPS 2017)
 1. Learning convolutional neural networks for graphs (ICML 2016)
 1. Large-scale learnable graph convolutional networks (ACM　SIGKDD 2018)
 
