@@ -29,7 +29,8 @@ in PyTorch named PyTorch Geometric, which implements serveral graph neural netwo
 - **Deep Graph Library (DGL) [[website]](https://www.dgl.ai/) [[github]](https://github.com/dmlc/dgl)**
 provides a fast implementation of many graph neural networks with a set of functions on top of popular deep learning platforms such as PyTorch and MXNet
 - **graph_nets [[github]](https://github.com/deepmind/graph_nets)**
-
+- **pytorch_geometric**速度快
+https://github.com/rusty1s/pytorch_geometric
 
 ## 谱上的图卷积发展:Spectral-Based Graph Convolutional Networks
 
