@@ -254,6 +254,10 @@ of nodes, i.e. if we change the indices of nodes and edges using a bijective fun
 1. [An end-to-end deep learning architecture for graph classification](https://www.cse.wustl.edu/~muhan/papers/AAAI_2018_DGCNN.pdf) (AAAI 2018) [[code]](https://github.com/muhanzhang/DGCNN)  [[pytorch code]](https://github.com/muhanzhang/pytorch_DGCNN)
 1. [Hierarchical graph representation learning with differentiable pooling](https://arxiv.org/abs/1806.08804) (NeurIPS 2018) [[code]](https://github.com/RexYing/diffpool)
 
+## 深度层次化图卷积神经网络
+1. [SFFAI分享 | 呼奋宇：深度层次化图卷积神经网络](https://mp.weixin.qq.com/s/c3SBGlxzJOYhQBrJ2h3j0g)
+1. [Hierarchical graph representation learning with differentiable pooling](https://arxiv.org/abs/1806.08804) (NeurIPS 2018) [[code]](https://github.com/RexYing/diffpool)
+
 # GCN的应用
 
 ## 计算机视觉  ★
