@@ -366,6 +366,8 @@ of nodes, i.e. if we change the indices of nodes and edges using a bijective fun
 - **by "Graph Neural Networks: A Review of Methods and Applications"**
 <div align=center><img src="https://github.com/ShiYaya/graph/blob/master/images/gcn-in-test-application.png"/></div>
 
+
+1. Graph Convolutional Encoders for Syntax-aware Neural Machine Translation
 1. [Encoding Sentences with Graph Convolutional Networks for Semantic Role Labeling](https://arxiv.org/abs/1703.04826)</br>
 * [[官方code(theano 0.8.2,lasagne 0.1)]](https://github.com/diegma/neural-dep-srl)  [[复现pytorch]](https://github.com/kervyRivas/Graph-convolutional)   ★
 * [专知讲解](https://mp.weixin.qq.com/s/c6ZhSk4r3pvnjHsvpwkkSw)
@@ -397,6 +399,7 @@ of nodes, i.e. if we change the indices of nodes and edges using a bijective fun
 Exploring Visual Relationship for Image Captioning
 - Semantic role labeling
 1. Encoding Sentences with Graph Convolutional Networks for Semantic Role Labeling
+
 
 
 ## Open problems and future direction  ★
