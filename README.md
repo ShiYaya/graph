@@ -292,7 +292,10 @@ of nodes, i.e. if we change the indices of nodes and edges using a bijective fun
 1. [Structural-rnn:Deep learning on spatio-temporal graphs (Structural-RNN)](https://arxiv.org/abs/1511.05298)  (CVPR 2016) [[theano code]](https://github.com/asheshjain399/RNNexp)
 - **by yaya**
 1. [Skeleton-Based Action Recognition with Spatial Reasoning and Temporal Stack Learning](https://arxiv.org/abs/1805.02335) (ECCV 2018)
-
+- not use skeleton
+1. Deep learning on spatio-temporal graphs (CVPR 2016)
+1. Videos as Space-Time Region Graph (ECCV 2018)
+1. VideoGraph: Recognizing Minutes-Long Human Activities in Videos (arxiv 2019)
 
 ### Image classification  ★
 - **by "Graph Neural Networks: A Review of Methods and Applications"**
