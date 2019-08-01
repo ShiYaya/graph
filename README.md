@@ -227,7 +227,9 @@ Dynamic GCN applies LSTM to gather results of GCNs of different time slices in d
 - **by yaya**  ★
 1. [Encoding Sentences with Graph Convolutional Networks for Semantic Role Labeling](https://arxiv.org/abs/1703.04826)</br>
 1. [Exploring Visual Relationship for Image Captioning](https://arxiv.org/abs/1809.07041)
-
+1. edge-labeling graoh neural network for few-shot learning (CVPR 2019)
+1. GCN-LASE: Towards Adequately Incorporating Link Attributes in Graph Convolutional Networks (IJCAI 2019)
+1. Representation Learning for Attributed Multiplex Heterogeneous Network (KDD 20196)
 
 ## dynamic edges
 - Dynamic edgeconditioned filters in convolutional neural networks on graphs. (CVPR 2017)
