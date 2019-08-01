@@ -149,7 +149,8 @@ proposed a control-variate based stochastic approximation algorithms for GCN by 
 - **by "Graph Neural Networks: A Review of Methods and Applications"** -- P9 Skip Connections
 1. Semi-supervised user geolocation via graph convolutional networks (ACL 2018)
 1. Representation learning on graphs with jumping knowledge networks (ICML 2018)
-
+- **by yaya**
+1. Can GCNs Go as Deep as CNNs? (CVPR 2019) *
 
 ## Graph Auto-encoders
 <div align=center><img width="400" height="200" src="https://github.com/ShiYaya/graph/blob/master/images/graph-auto-encoder.png"/></div>
@@ -227,6 +228,10 @@ Dynamic GCN applies LSTM to gather results of GCNs of different time slices in d
 1. [Encoding Sentences with Graph Convolutional Networks for Semantic Role Labeling](https://arxiv.org/abs/1703.04826)</br>
 1. [Exploring Visual Relationship for Image Captioning](https://arxiv.org/abs/1809.07041)
 
+
+## dynamic edges
+- Dynamic edgeconditioned filters in convolutional neural networks on graphs. (CVPR 2017)
+- Dynamic graph cnn for learning on point clouds
 
 ## 图表达：Graph Level Representation/Readout Operations  ★
 **Order invariance**  A critical requirement for the graph readout operation is that the operation should be invariant to the order
